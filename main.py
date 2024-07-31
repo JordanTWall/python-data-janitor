@@ -1,43 +1,57 @@
+# main.py
+
 import os
-from pymongo import MongoClient
+import argparse
 from dotenv import load_dotenv
+from functions.download_pfc import download_pfc_data
 
 # Load environment variables from .env file
 load_dotenv()
 
-# Get MongoDB connection string from environment variables
-MONGO_DB_CONNECTION_STRING = os.getenv("MONGO_DB_CONNECTION_STRING")
+# Initialize the argument parser
+parser = argparse.ArgumentParser(description="Check for missing data in the NFL games database or download game data.")
+parser.add_argument("action", choices=["check", "download"], help="The action to perform.")
+parser.add_argument("--team", help="The specific team to check, use 'all' to check all teams.")
+parser.add_argument("--year", help="The specific year to check, use 'all' to check all years.")
 
-# Connect to MongoDB
-client = MongoClient(MONGO_DB_CONNECTION_STRING)
-db = client["nfl_games_by_year"]
+args = parser.parse_args()
 
-# Initialize a total missing data counter
-total_missing = 0
+if args.action == "check":
+    from functions.data_check import check_missing_data_by_year
+    from modules import get_mongo_client, get_database_and_collection
 
-# Function to check missing data for a given team collection by year
-def check_missing_data_by_year(collection_name):
-    collection = db[collection_name]
-    missing_data_by_year = {}
+    # Connect to MongoDB
+    client = get_mongo_client()
+    db, _ = get_database_and_collection(client)
 
-    for doc in collection.find({"$or": [{"games.game.stage": None}, {"games.game.week": None}]}):
-        for game in doc.get("games", []):
-            year = int(game["league"]["season"])
-            if game["game"].get("stage") is None or game["game"].get("week") is None:
-                if year not in missing_data_by_year:
-                    missing_data_by_year[year] = 0
-                missing_data_by_year[year] += 1
+    total_missing = 0
+    if args.team == "all":
+        collections = db.list_collection_names()
+    else:
+        collections = [args.team]
 
-    return missing_data_by_year
+    for collection_name in collections:
+        missing_data = check_missing_data_by_year(db, collection_name)
+        if missing_data:
+            if args.year == "all":
+                print(f"{collection_name.replace('_', ' ')} missing data:")
+                for year, count in sorted(missing_data.items()):
+                    print(f"  {year}: missing data for {count} games")
+                total_missing += sum(missing_data.values())
+            elif int(args.year) in missing_data:
+                print(f"{collection_name.replace('_', ' ')} missing data in {args.year}: {missing_data[int(args.year)]} games")
+                total_missing += missing_data[int(args.year)]
 
-# Iterate over each collection in the database
-for collection_name in db.list_collection_names():
-    missing_data = check_missing_data_by_year(collection_name)
-    if missing_data:
-        print(f"{collection_name.replace('_', ' ')} missing data:")
-        for year, count in sorted(missing_data.items()):
-            print(f"  {year}: missing data for {count} games")
-        total_missing += sum(missing_data.values())
+    # Print the total number of missing data points
+    print(f"\nTotal missing data points: {total_missing}")
 
-# Print the total number of missing data points
-print(f"\nTotal missing data points: {total_missing}")
+    # Close the MongoDB client
+    client.close()
+
+elif args.action == "download":
+    if args.year == "all":
+        years = list(range(2016, 2023))  # Example range
+    else:
+        years = [int(args.year)]
+    
+    download_pfc_data(years)
