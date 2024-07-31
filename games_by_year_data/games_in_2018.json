@@ -1,5 +1,720 @@
 [
     {
+        "week_num": "Hall of Fame Game",
+        "game_day_of_week": "Thu",
+        "game_date": "2018-08-02",
+        "visitor_team": "Chicago Bears",
+        "points": "16",
+        "game_location": "@",
+        "home_team": "Baltimore Ravens",
+        "points_opp": "17",
+        "stage": "Pre Season"
+    },
+    {
+        "week_num": "1",
+        "game_day_of_week": "Thu",
+        "game_date": "2018-08-09",
+        "visitor_team": "New Orleans Saints",
+        "points": "24",
+        "game_location": "@",
+        "home_team": "Jacksonville Jaguars",
+        "points_opp": "20",
+        "stage": "Pre Season"
+    },
+    {
+        "week_num": "1",
+        "game_day_of_week": "Thu",
+        "game_date": "2018-08-09",
+        "visitor_team": "Chicago Bears",
+        "points": "27",
+        "game_location": "@",
+        "home_team": "Cincinnati Bengals",
+        "points_opp": "30",
+        "stage": "Pre Season"
+    },
+    {
+        "week_num": "1",
+        "game_day_of_week": "Thu",
+        "game_date": "2018-08-09",
+        "visitor_team": "Houston Texans",
+        "points": "17",
+        "game_location": "@",
+        "home_team": "Kansas City Chiefs",
+        "points_opp": "10",
+        "stage": "Pre Season"
+    },
+    {
+        "week_num": "1",
+        "game_day_of_week": "Thu",
+        "game_date": "2018-08-09",
+        "visitor_team": "Washington Redskins",
+        "points": "17",
+        "game_location": "@",
+        "home_team": "New England Patriots",
+        "points_opp": "26",
+        "stage": "Pre Season"
+    },
+    {
+        "week_num": "1",
+        "game_day_of_week": "Thu",
+        "game_date": "2018-08-09",
+        "visitor_team": "Pittsburgh Steelers",
+        "points": "31",
+        "game_location": "@",
+        "home_team": "Philadelphia Eagles",
+        "points_opp": "14",
+        "stage": "Pre Season"
+    },
+    {
+        "week_num": "1",
+        "game_day_of_week": "Thu",
+        "game_date": "2018-08-09",
+        "visitor_team": "Los Angeles Rams",
+        "points": "7",
+        "game_location": "@",
+        "home_team": "Baltimore Ravens",
+        "points_opp": "33",
+        "stage": "Pre Season"
+    },
+    {
+        "week_num": "1",
+        "game_day_of_week": "Thu",
+        "game_date": "2018-08-09",
+        "visitor_team": "Dallas Cowboys",
+        "points": "21",
+        "game_location": "@",
+        "home_team": "San Francisco 49ers",
+        "points_opp": "24",
+        "stage": "Pre Season"
+    },
+    {
+        "week_num": "1",
+        "game_day_of_week": "Thu",
+        "game_date": "2018-08-09",
+        "visitor_team": "Tennessee Titans",
+        "points": "17",
+        "game_location": "@",
+        "home_team": "Green Bay Packers",
+        "points_opp": "31",
+        "stage": "Pre Season"
+    },
+    {
+        "week_num": "1",
+        "game_day_of_week": "Thu",
+        "game_date": "2018-08-09",
+        "visitor_team": "Tampa Bay Buccaneers",
+        "points": "26",
+        "game_location": "@",
+        "home_team": "Miami Dolphins",
+        "points_opp": "24",
+        "stage": "Pre Season"
+    },
+    {
+        "week_num": "1",
+        "game_day_of_week": "Thu",
+        "game_date": "2018-08-09",
+        "visitor_team": "Carolina Panthers",
+        "points": "28",
+        "game_location": "@",
+        "home_team": "Buffalo Bills",
+        "points_opp": "23",
+        "stage": "Pre Season"
+    },
+    {
+        "week_num": "1",
+        "game_day_of_week": "Thu",
+        "game_date": "2018-08-09",
+        "visitor_team": "Cleveland Browns",
+        "points": "20",
+        "game_location": "@",
+        "home_team": "New York Giants",
+        "points_opp": "10",
+        "stage": "Pre Season"
+    },
+    {
+        "week_num": "1",
+        "game_day_of_week": "Thu",
+        "game_date": "2018-08-09",
+        "visitor_team": "Indianapolis Colts",
+        "points": "19",
+        "game_location": "@",
+        "home_team": "Seattle Seahawks",
+        "points_opp": "17",
+        "stage": "Pre Season"
+    },
+    {
+        "week_num": "1",
+        "game_day_of_week": "Fri",
+        "game_date": "2018-08-10",
+        "visitor_team": "Detroit Lions",
+        "points": "10",
+        "game_location": "@",
+        "home_team": "Oakland Raiders",
+        "points_opp": "16",
+        "stage": "Pre Season"
+    },
+    {
+        "week_num": "1",
+        "game_day_of_week": "Fri",
+        "game_date": "2018-08-10",
+        "visitor_team": "Atlanta Falcons",
+        "points": "0",
+        "game_location": "@",
+        "home_team": "New York Jets",
+        "points_opp": "17",
+        "stage": "Pre Season"
+    },
+    {
+        "week_num": "1",
+        "game_day_of_week": "Sat",
+        "game_date": "2018-08-11",
+        "visitor_team": "Los Angeles Chargers",
+        "points": "17",
+        "game_location": "@",
+        "home_team": "Arizona Cardinals",
+        "points_opp": "24",
+        "stage": "Pre Season"
+    },
+    {
+        "week_num": "1",
+        "game_day_of_week": "Sat",
+        "game_date": "2018-08-11",
+        "visitor_team": "Minnesota Vikings",
+        "points": "42",
+        "game_location": "@",
+        "home_team": "Denver Broncos",
+        "points_opp": "28",
+        "stage": "Pre Season"
+    },
+    {
+        "week_num": "2",
+        "game_day_of_week": "Thu",
+        "game_date": "2018-08-16",
+        "visitor_team": "Pittsburgh Steelers",
+        "points": "34",
+        "game_location": "@",
+        "home_team": "Green Bay Packers",
+        "points_opp": "51",
+        "stage": "Pre Season"
+    },
+    {
+        "week_num": "2",
+        "game_day_of_week": "Thu",
+        "game_date": "2018-08-16",
+        "visitor_team": "Philadelphia Eagles",
+        "points": "20",
+        "game_location": "@",
+        "home_team": "New England Patriots",
+        "points_opp": "37",
+        "stage": "Pre Season"
+    },
+    {
+        "week_num": "2",
+        "game_day_of_week": "Thu",
+        "game_date": "2018-08-16",
+        "visitor_team": "New York Jets",
+        "points": "13",
+        "game_location": "@",
+        "home_team": "Washington Redskins",
+        "points_opp": "15",
+        "stage": "Pre Season"
+    },
+    {
+        "week_num": "2",
+        "game_day_of_week": "Fri",
+        "game_date": "2018-08-17",
+        "visitor_team": "Miami Dolphins",
+        "points": "20",
+        "game_location": "@",
+        "home_team": "Carolina Panthers",
+        "points_opp": "27",
+        "stage": "Pre Season"
+    },
+    {
+        "week_num": "2",
+        "game_day_of_week": "Fri",
+        "game_date": "2018-08-17",
+        "visitor_team": "Kansas City Chiefs",
+        "points": "28",
+        "game_location": "@",
+        "home_team": "Atlanta Falcons",
+        "points_opp": "14",
+        "stage": "Pre Season"
+    },
+    {
+        "week_num": "2",
+        "game_day_of_week": "Fri",
+        "game_date": "2018-08-17",
+        "visitor_team": "New York Giants",
+        "points": "30",
+        "game_location": "@",
+        "home_team": "Detroit Lions",
+        "points_opp": "17",
+        "stage": "Pre Season"
+    },
+    {
+        "week_num": "2",
+        "game_day_of_week": "Fri",
+        "game_date": "2018-08-17",
+        "visitor_team": "Buffalo Bills",
+        "points": "19",
+        "game_location": "@",
+        "home_team": "Cleveland Browns",
+        "points_opp": "17",
+        "stage": "Pre Season"
+    },
+    {
+        "week_num": "2",
+        "game_day_of_week": "Fri",
+        "game_date": "2018-08-17",
+        "visitor_team": "Arizona Cardinals",
+        "points": "20",
+        "game_location": "@",
+        "home_team": "New Orleans Saints",
+        "points_opp": "15",
+        "stage": "Pre Season"
+    },
+    {
+        "week_num": "2",
+        "game_day_of_week": "Sat",
+        "game_date": "2018-08-18",
+        "visitor_team": "Chicago Bears",
+        "points": "24",
+        "game_location": "@",
+        "home_team": "Denver Broncos",
+        "points_opp": "23",
+        "stage": "Pre Season"
+    },
+    {
+        "week_num": "2",
+        "game_day_of_week": "Sat",
+        "game_date": "2018-08-18",
+        "visitor_team": "Jacksonville Jaguars",
+        "points": "14",
+        "game_location": "@",
+        "home_team": "Minnesota Vikings",
+        "points_opp": "10",
+        "stage": "Pre Season"
+    },
+    {
+        "week_num": "2",
+        "game_day_of_week": "Sat",
+        "game_date": "2018-08-18",
+        "visitor_team": "Oakland Raiders",
+        "points": "15",
+        "game_location": "@",
+        "home_team": "Los Angeles Rams",
+        "points_opp": "19",
+        "stage": "Pre Season"
+    },
+    {
+        "week_num": "2",
+        "game_day_of_week": "Sat",
+        "game_date": "2018-08-18",
+        "visitor_team": "San Francisco 49ers",
+        "points": "13",
+        "game_location": "@",
+        "home_team": "Houston Texans",
+        "points_opp": "16",
+        "stage": "Pre Season"
+    },
+    {
+        "week_num": "2",
+        "game_day_of_week": "Sat",
+        "game_date": "2018-08-18",
+        "visitor_team": "Cincinnati Bengals",
+        "points": "21",
+        "game_location": "@",
+        "home_team": "Dallas Cowboys",
+        "points_opp": "13",
+        "stage": "Pre Season"
+    },
+    {
+        "week_num": "2",
+        "game_day_of_week": "Sat",
+        "game_date": "2018-08-18",
+        "visitor_team": "Tampa Bay Buccaneers",
+        "points": "30",
+        "game_location": "@",
+        "home_team": "Tennessee Titans",
+        "points_opp": "14",
+        "stage": "Pre Season"
+    },
+    {
+        "week_num": "2",
+        "game_day_of_week": "Sat",
+        "game_date": "2018-08-18",
+        "visitor_team": "Seattle Seahawks",
+        "points": "14",
+        "game_location": "@",
+        "home_team": "Los Angeles Chargers",
+        "points_opp": "24",
+        "stage": "Pre Season"
+    },
+    {
+        "week_num": "2",
+        "game_day_of_week": "Mon",
+        "game_date": "2018-08-20",
+        "visitor_team": "Baltimore Ravens",
+        "points": "20",
+        "game_location": "@",
+        "home_team": "Indianapolis Colts",
+        "points_opp": "19",
+        "stage": "Pre Season"
+    },
+    {
+        "week_num": "3",
+        "game_day_of_week": "Thu",
+        "game_date": "2018-08-23",
+        "visitor_team": "Philadelphia Eagles",
+        "points": "0",
+        "game_location": "@",
+        "home_team": "Cleveland Browns",
+        "points_opp": "5",
+        "stage": "Pre Season"
+    },
+    {
+        "week_num": "3",
+        "game_day_of_week": "Fri",
+        "game_date": "2018-08-24",
+        "visitor_team": "Detroit Lions",
+        "points": "33",
+        "game_location": "@",
+        "home_team": "Tampa Bay Buccaneers",
+        "points_opp": "30",
+        "stage": "Pre Season"
+    },
+    {
+        "week_num": "3",
+        "game_day_of_week": "Fri",
+        "game_date": "2018-08-24",
+        "visitor_team": "Green Bay Packers",
+        "points": "6",
+        "game_location": "@",
+        "home_team": "Oakland Raiders",
+        "points_opp": "13",
+        "stage": "Pre Season"
+    },
+    {
+        "week_num": "3",
+        "game_day_of_week": "Fri",
+        "game_date": "2018-08-24",
+        "visitor_team": "Seattle Seahawks",
+        "points": "20",
+        "game_location": "@",
+        "home_team": "Minnesota Vikings",
+        "points_opp": "21",
+        "stage": "Pre Season"
+    },
+    {
+        "week_num": "3",
+        "game_day_of_week": "Fri",
+        "game_date": "2018-08-24",
+        "visitor_team": "New York Giants",
+        "points": "22",
+        "game_location": "@",
+        "home_team": "New York Jets",
+        "points_opp": "16",
+        "stage": "Pre Season"
+    },
+    {
+        "week_num": "3",
+        "game_day_of_week": "Fri",
+        "game_date": "2018-08-24",
+        "visitor_team": "New England Patriots",
+        "points": "14",
+        "game_location": "@",
+        "home_team": "Carolina Panthers",
+        "points_opp": "25",
+        "stage": "Pre Season"
+    },
+    {
+        "week_num": "3",
+        "game_day_of_week": "Fri",
+        "game_date": "2018-08-24",
+        "visitor_team": "Denver Broncos",
+        "points": "29",
+        "game_location": "@",
+        "home_team": "Washington Redskins",
+        "points_opp": "17",
+        "stage": "Pre Season"
+    },
+    {
+        "week_num": "3",
+        "game_day_of_week": "Sat",
+        "game_date": "2018-08-25",
+        "visitor_team": "Houston Texans",
+        "points": "20",
+        "game_location": "@",
+        "home_team": "Los Angeles Rams",
+        "points_opp": "21",
+        "stage": "Pre Season"
+    },
+    {
+        "week_num": "3",
+        "game_day_of_week": "Sat",
+        "game_date": "2018-08-25",
+        "visitor_team": "Atlanta Falcons",
+        "points": "6",
+        "game_location": "@",
+        "home_team": "Jacksonville Jaguars",
+        "points_opp": "17",
+        "stage": "Pre Season"
+    },
+    {
+        "week_num": "3",
+        "game_day_of_week": "Sat",
+        "game_date": "2018-08-25",
+        "visitor_team": "Tennessee Titans",
+        "points": "6",
+        "game_location": "@",
+        "home_team": "Pittsburgh Steelers",
+        "points_opp": "16",
+        "stage": "Pre Season"
+    },
+    {
+        "week_num": "3",
+        "game_day_of_week": "Sat",
+        "game_date": "2018-08-25",
+        "visitor_team": "Kansas City Chiefs",
+        "points": "20",
+        "game_location": "@",
+        "home_team": "Chicago Bears",
+        "points_opp": "27",
+        "stage": "Pre Season"
+    },
+    {
+        "week_num": "3",
+        "game_day_of_week": "Sat",
+        "game_date": "2018-08-25",
+        "visitor_team": "Baltimore Ravens",
+        "points": "27",
+        "game_location": "@",
+        "home_team": "Miami Dolphins",
+        "points_opp": "10",
+        "stage": "Pre Season"
+    },
+    {
+        "week_num": "3",
+        "game_day_of_week": "Sat",
+        "game_date": "2018-08-25",
+        "visitor_team": "New Orleans Saints",
+        "points": "36",
+        "game_location": "@",
+        "home_team": "Los Angeles Chargers",
+        "points_opp": "7",
+        "stage": "Pre Season"
+    },
+    {
+        "week_num": "3",
+        "game_day_of_week": "Sat",
+        "game_date": "2018-08-25",
+        "visitor_team": "San Francisco 49ers",
+        "points": "17",
+        "game_location": "@",
+        "home_team": "Indianapolis Colts",
+        "points_opp": "23",
+        "stage": "Pre Season"
+    },
+    {
+        "week_num": "3",
+        "game_day_of_week": "Sun",
+        "game_date": "2018-08-26",
+        "visitor_team": "Arizona Cardinals",
+        "points": "27",
+        "game_location": "@",
+        "home_team": "Dallas Cowboys",
+        "points_opp": "3",
+        "stage": "Pre Season"
+    },
+    {
+        "week_num": "3",
+        "game_day_of_week": "Sun",
+        "game_date": "2018-08-26",
+        "visitor_team": "Cincinnati Bengals",
+        "points": "26",
+        "game_location": "@",
+        "home_team": "Buffalo Bills",
+        "points_opp": "13",
+        "stage": "Pre Season"
+    },
+    {
+        "week_num": "4",
+        "game_day_of_week": "Thu",
+        "game_date": "2018-08-30",
+        "visitor_team": "Dallas Cowboys",
+        "points": "6",
+        "game_location": "@",
+        "home_team": "Houston Texans",
+        "points_opp": "14",
+        "stage": "Pre Season"
+    },
+    {
+        "week_num": "4",
+        "game_day_of_week": "Thu",
+        "game_date": "2018-08-30",
+        "visitor_team": "Buffalo Bills",
+        "points": "28",
+        "game_location": "@",
+        "home_team": "Chicago Bears",
+        "points_opp": "27",
+        "stage": "Pre Season"
+    },
+    {
+        "week_num": "4",
+        "game_day_of_week": "Thu",
+        "game_date": "2018-08-30",
+        "visitor_team": "New York Jets",
+        "points": "9",
+        "game_location": "@",
+        "home_team": "Philadelphia Eagles",
+        "points_opp": "10",
+        "stage": "Pre Season"
+    },
+    {
+        "week_num": "4",
+        "game_day_of_week": "Thu",
+        "game_date": "2018-08-30",
+        "visitor_team": "Los Angeles Rams",
+        "points": "0",
+        "game_location": "@",
+        "home_team": "New Orleans Saints",
+        "points_opp": "28",
+        "stage": "Pre Season"
+    },
+    {
+        "week_num": "4",
+        "game_day_of_week": "Thu",
+        "game_date": "2018-08-30",
+        "visitor_team": "Los Angeles Chargers",
+        "points": "23",
+        "game_location": "@",
+        "home_team": "San Francisco 49ers",
+        "points_opp": "21",
+        "stage": "Pre Season"
+    },
+    {
+        "week_num": "4",
+        "game_day_of_week": "Thu",
+        "game_date": "2018-08-30",
+        "visitor_team": "New England Patriots",
+        "points": "17",
+        "game_location": "@",
+        "home_team": "New York Giants",
+        "points_opp": "12",
+        "stage": "Pre Season"
+    },
+    {
+        "week_num": "4",
+        "game_day_of_week": "Thu",
+        "game_date": "2018-08-30",
+        "visitor_team": "Indianapolis Colts",
+        "points": "27",
+        "game_location": "@",
+        "home_team": "Cincinnati Bengals",
+        "points_opp": "26",
+        "stage": "Pre Season"
+    },
+    {
+        "week_num": "4",
+        "game_day_of_week": "Thu",
+        "game_date": "2018-08-30",
+        "visitor_team": "Jacksonville Jaguars",
+        "points": "25",
+        "game_location": "@",
+        "home_team": "Tampa Bay Buccaneers",
+        "points_opp": "10",
+        "stage": "Pre Season"
+    },
+    {
+        "week_num": "4",
+        "game_day_of_week": "Thu",
+        "game_date": "2018-08-30",
+        "visitor_team": "Denver Broncos",
+        "points": "21",
+        "game_location": "@",
+        "home_team": "Arizona Cardinals",
+        "points_opp": "10",
+        "stage": "Pre Season"
+    },
+    {
+        "week_num": "4",
+        "game_day_of_week": "Thu",
+        "game_date": "2018-08-30",
+        "visitor_team": "Miami Dolphins",
+        "points": "34",
+        "game_location": "@",
+        "home_team": "Atlanta Falcons",
+        "points_opp": "7",
+        "stage": "Pre Season"
+    },
+    {
+        "week_num": "4",
+        "game_day_of_week": "Thu",
+        "game_date": "2018-08-30",
+        "visitor_team": "Minnesota Vikings",
+        "points": "13",
+        "game_location": "@",
+        "home_team": "Tennessee Titans",
+        "points_opp": "3",
+        "stage": "Pre Season"
+    },
+    {
+        "week_num": "4",
+        "game_day_of_week": "Thu",
+        "game_date": "2018-08-30",
+        "visitor_team": "Oakland Raiders",
+        "points": "30",
+        "game_location": "@",
+        "home_team": "Seattle Seahawks",
+        "points_opp": "19",
+        "stage": "Pre Season"
+    },
+    {
+        "week_num": "4",
+        "game_day_of_week": "Thu",
+        "game_date": "2018-08-30",
+        "visitor_team": "Washington Redskins",
+        "points": "20",
+        "game_location": "@",
+        "home_team": "Baltimore Ravens",
+        "points_opp": "30",
+        "stage": "Pre Season"
+    },
+    {
+        "week_num": "4",
+        "game_day_of_week": "Thu",
+        "game_date": "2018-08-30",
+        "visitor_team": "Cleveland Browns",
+        "points": "35",
+        "game_location": "@",
+        "home_team": "Detroit Lions",
+        "points_opp": "17",
+        "stage": "Pre Season"
+    },
+    {
+        "week_num": "4",
+        "game_day_of_week": "Thu",
+        "game_date": "2018-08-30",
+        "visitor_team": "Carolina Panthers",
+        "points": "24",
+        "game_location": "@",
+        "home_team": "Pittsburgh Steelers",
+        "points_opp": "39",
+        "stage": "Pre Season"
+    },
+    {
+        "week_num": "4",
+        "game_day_of_week": "Thu",
+        "game_date": "2018-08-30",
+        "visitor_team": "Green Bay Packers",
+        "points": "21",
+        "game_location": "@",
+        "home_team": "Kansas City Chiefs",
+        "points_opp": "33",
+        "stage": "Pre Season"
+    },
+    {
         "week_num": "1",
         "game_day_of_week": "Thu",
         "game_date": "2018-09-06",
@@ -9,7 +724,8 @@
         "pts_win": "18",
         "pts_lose": "12",
         "yards_win": "232",
-        "yards_lose": "299"
+        "yards_lose": "299",
+        "stage": "Pre Season"
     },
     {
         "week_num": "1",
@@ -21,7 +737,8 @@
         "pts_win": "47",
         "pts_lose": "3",
         "yards_win": "369",
-        "yards_lose": "153"
+        "yards_lose": "153",
+        "stage": "Pre Season"
     },
     {
         "week_num": "1",
@@ -33,7 +750,8 @@
         "pts_win": "34",
         "pts_lose": "23",
         "yards_win": "330",
-        "yards_lose": "380"
+        "yards_lose": "380",
+        "stage": "Pre Season"
     },
     {
         "week_num": "1",
@@ -45,7 +763,8 @@
         "pts_win": "21",
         "pts_lose": "21",
         "yards_win": "472",
-        "yards_lose": "327"
+        "yards_lose": "327",
+        "stage": "Pre Season"
     },
     {
         "week_num": "1",
@@ -57,7 +776,8 @@
         "pts_win": "27",
         "pts_lose": "20",
         "yards_win": "389",
-        "yards_lose": "325"
+        "yards_lose": "325",
+        "stage": "Pre Season"
     },
     {
         "week_num": "1",
@@ -69,7 +789,8 @@
         "pts_win": "20",
         "pts_lose": "15",
         "yards_win": "305",
-        "yards_lose": "324"
+        "yards_lose": "324",
+        "stage": "Pre Season"
     },
     {
         "week_num": "1",
@@ -81,7 +802,8 @@
         "pts_win": "27",
         "pts_lose": "20",
         "yards_win": "342",
-        "yards_lose": "336"
+        "yards_lose": "336",
+        "stage": "Pre Season"
     },
     {
         "week_num": "1",
@@ -93,7 +815,8 @@
         "pts_win": "24",
         "pts_lose": "16",
         "yards_win": "343",
-        "yards_lose": "327"
+        "yards_lose": "327",
+        "stage": "Pre Season"
     },
     {
         "week_num": "1",
@@ -105,7 +828,8 @@
         "pts_win": "48",
         "pts_lose": "40",
         "yards_win": "529",
-        "yards_lose": "475"
+        "yards_lose": "475",
+        "stage": "Pre Season"
     },
     {
         "week_num": "1",
@@ -117,7 +841,8 @@
         "pts_win": "38",
         "pts_lose": "28",
         "yards_win": "362",
-        "yards_lose": "541"
+        "yards_lose": "541",
+        "stage": "Pre Season"
     },
     {
         "week_num": "1",
@@ -129,7 +854,8 @@
         "pts_win": "16",
         "pts_lose": "8",
         "yards_win": "293",
-        "yards_lose": "232"
+        "yards_lose": "232",
+        "stage": "Pre Season"
     },
     {
         "week_num": "1",
@@ -141,7 +867,8 @@
         "pts_win": "24",
         "pts_lose": "6",
         "yards_win": "429",
-        "yards_lose": "213"
+        "yards_lose": "213",
+        "stage": "Pre Season"
     },
     {
         "week_num": "1",
@@ -153,7 +880,8 @@
         "pts_win": "27",
         "pts_lose": "24",
         "yards_win": "470",
-        "yards_lose": "306"
+        "yards_lose": "306",
+        "stage": "Pre Season"
     },
     {
         "week_num": "1",
@@ -165,7 +893,8 @@
         "pts_win": "24",
         "pts_lose": "23",
         "yards_win": "370",
-        "yards_lose": "294"
+        "yards_lose": "294",
+        "stage": "Pre Season"
     },
     {
         "week_num": "1",
@@ -177,7 +906,8 @@
         "pts_win": "48",
         "pts_lose": "17",
         "yards_win": "349",
-        "yards_lose": "339"
+        "yards_lose": "339",
+        "stage": "Pre Season"
     },
     {
         "week_num": "1",
@@ -189,19 +919,8 @@
         "pts_win": "33",
         "pts_lose": "13",
         "yards_win": "365",
-        "yards_lose": "395"
-    },
-    {
-        "week_num": "Week",
-        "game_day_of_week": null,
-        "game_date": null,
-        "gametime": null,
-        "winner": null,
-        "loser": null,
-        "pts_win": null,
-        "pts_lose": null,
-        "yards_win": null,
-        "yards_lose": null
+        "yards_lose": "395",
+        "stage": "Pre Season"
     },
     {
         "week_num": "2",
@@ -213,7 +932,8 @@
         "pts_win": "34",
         "pts_lose": "23",
         "yards_win": "373",
-        "yards_lose": "425"
+        "yards_lose": "425",
+        "stage": "Pre Season"
     },
     {
         "week_num": "2",
@@ -225,7 +945,8 @@
         "pts_win": "31",
         "pts_lose": "24",
         "yards_win": "442",
-        "yards_lose": "439"
+        "yards_lose": "439",
+        "stage": "Pre Season"
     },
     {
         "week_num": "2",
@@ -237,7 +958,8 @@
         "pts_win": "31",
         "pts_lose": "20",
         "yards_win": "349",
-        "yards_lose": "293"
+        "yards_lose": "293",
+        "stage": "Pre Season"
     },
     {
         "week_num": "2",
@@ -249,7 +971,8 @@
         "pts_win": "21",
         "pts_lose": "18",
         "yards_win": "275",
-        "yards_lose": "327"
+        "yards_lose": "327",
+        "stage": "Pre Season"
     },
     {
         "week_num": "2",
@@ -261,7 +984,8 @@
         "pts_win": "21",
         "pts_lose": "9",
         "yards_win": "281",
-        "yards_lose": "334"
+        "yards_lose": "334",
+        "stage": "Pre Season"
     },
     {
         "week_num": "2",
@@ -273,7 +997,8 @@
         "pts_win": "29",
         "pts_lose": "29",
         "yards_win": "480",
-        "yards_lose": "351"
+        "yards_lose": "351",
+        "stage": "Pre Season"
     },
     {
         "week_num": "2",
@@ -285,7 +1010,8 @@
         "pts_win": "20",
         "pts_lose": "17",
         "yards_win": "283",
-        "yards_lose": "437"
+        "yards_lose": "437",
+        "stage": "Pre Season"
     },
     {
         "week_num": "2",
@@ -297,7 +1023,8 @@
         "pts_win": "42",
         "pts_lose": "37",
         "yards_win": "449",
-        "yards_lose": "475"
+        "yards_lose": "475",
+        "stage": "Pre Season"
     },
     {
         "week_num": "2",
@@ -309,7 +1036,8 @@
         "pts_win": "20",
         "pts_lose": "12",
         "yards_win": "257",
-        "yards_lose": "362"
+        "yards_lose": "362",
+        "stage": "Pre Season"
     },
     {
         "week_num": "2",
@@ -321,7 +1049,8 @@
         "pts_win": "27",
         "pts_lose": "21",
         "yards_win": "436",
-        "yards_lose": "412"
+        "yards_lose": "412",
+        "stage": "Pre Season"
     },
     {
         "week_num": "2",
@@ -333,7 +1062,8 @@
         "pts_win": "34",
         "pts_lose": "0",
         "yards_win": "432",
-        "yards_lose": "137"
+        "yards_lose": "137",
+        "stage": "Pre Season"
     },
     {
         "week_num": "2",
@@ -345,7 +1075,8 @@
         "pts_win": "30",
         "pts_lose": "27",
         "yards_win": "346",
-        "yards_lose": "427"
+        "yards_lose": "427",
+        "stage": "Pre Season"
     },
     {
         "week_num": "2",
@@ -357,7 +1088,8 @@
         "pts_win": "20",
         "pts_lose": "19",
         "yards_win": "385",
-        "yards_lose": "373"
+        "yards_lose": "373",
+        "stage": "Pre Season"
     },
     {
         "week_num": "2",
@@ -369,7 +1101,8 @@
         "pts_win": "31",
         "pts_lose": "20",
         "yards_win": "480",
-        "yards_lose": "302"
+        "yards_lose": "302",
+        "stage": "Pre Season"
     },
     {
         "week_num": "2",
@@ -381,7 +1114,8 @@
         "pts_win": "20",
         "pts_lose": "13",
         "yards_win": "298",
-        "yards_lose": "255"
+        "yards_lose": "255",
+        "stage": "Pre Season"
     },
     {
         "week_num": "2",
@@ -393,19 +1127,8 @@
         "pts_win": "24",
         "pts_lose": "17",
         "yards_win": "271",
-        "yards_lose": "276"
-    },
-    {
-        "week_num": "Week",
-        "game_day_of_week": null,
-        "game_date": null,
-        "gametime": null,
-        "winner": null,
-        "loser": null,
-        "pts_win": null,
-        "pts_lose": null,
-        "yards_win": null,
-        "yards_lose": null
+        "yards_lose": "276",
+        "stage": "Pre Season"
     },
     {
         "week_num": "3",
@@ -417,7 +1140,8 @@
         "pts_win": "21",
         "pts_lose": "17",
         "yards_win": "323",
-        "yards_lose": "268"
+        "yards_lose": "268",
+        "stage": "Pre Season"
     },
     {
         "week_num": "3",
@@ -429,7 +1153,8 @@
         "pts_win": "43",
         "pts_lose": "37",
         "yards_win": "534",
-        "yards_lose": "407"
+        "yards_lose": "407",
+        "stage": "Pre Season"
     },
     {
         "week_num": "3",
@@ -441,7 +1166,8 @@
         "pts_win": "27",
         "pts_lose": "6",
         "yards_win": "292",
-        "yards_lose": "292"
+        "yards_lose": "292",
+        "stage": "Pre Season"
     },
     {
         "week_num": "3",
@@ -453,7 +1179,8 @@
         "pts_win": "31",
         "pts_lose": "21",
         "yards_win": "377",
-        "yards_lose": "396"
+        "yards_lose": "396",
+        "stage": "Pre Season"
     },
     {
         "week_num": "3",
@@ -465,7 +1192,8 @@
         "pts_win": "20",
         "pts_lose": "16",
         "yards_win": "379",
-        "yards_lose": "209"
+        "yards_lose": "209",
+        "stage": "Pre Season"
     },
     {
         "week_num": "3",
@@ -477,7 +1205,8 @@
         "pts_win": "27",
         "pts_lose": "14",
         "yards_win": "342",
-        "yards_lose": "293"
+        "yards_lose": "293",
+        "stage": "Pre Season"
     },
     {
         "week_num": "3",
@@ -489,7 +1218,8 @@
         "pts_win": "31",
         "pts_lose": "17",
         "yards_win": "386",
-        "yards_lose": "340"
+        "yards_lose": "340",
+        "stage": "Pre Season"
     },
     {
         "week_num": "3",
@@ -501,7 +1231,8 @@
         "pts_win": "27",
         "pts_lose": "22",
         "yards_win": "379",
-        "yards_lose": "427"
+        "yards_lose": "427",
+        "stage": "Pre Season"
     },
     {
         "week_num": "3",
@@ -513,7 +1244,8 @@
         "pts_win": "9",
         "pts_lose": "6",
         "yards_win": "233",
-        "yards_lose": "232"
+        "yards_lose": "232",
+        "stage": "Pre Season"
     },
     {
         "week_num": "3",
@@ -525,7 +1257,8 @@
         "pts_win": "38",
         "pts_lose": "27",
         "yards_win": "384",
-        "yards_lose": "406"
+        "yards_lose": "406",
+        "stage": "Pre Season"
     },
     {
         "week_num": "3",
@@ -537,7 +1270,8 @@
         "pts_win": "28",
         "pts_lose": "20",
         "yards_win": "373",
-        "yards_lose": "434"
+        "yards_lose": "434",
+        "stage": "Pre Season"
     },
     {
         "week_num": "3",
@@ -549,7 +1283,8 @@
         "pts_win": "35",
         "pts_lose": "23",
         "yards_win": "521",
-        "yards_lose": "356"
+        "yards_lose": "356",
+        "stage": "Pre Season"
     },
     {
         "week_num": "3",
@@ -561,7 +1296,8 @@
         "pts_win": "16",
         "pts_lose": "14",
         "yards_win": "316",
-        "yards_lose": "221"
+        "yards_lose": "221",
+        "stage": "Pre Season"
     },
     {
         "week_num": "3",
@@ -573,7 +1309,8 @@
         "pts_win": "24",
         "pts_lose": "13",
         "yards_win": "295",
-        "yards_lose": "303"
+        "yards_lose": "303",
+        "stage": "Pre Season"
     },
     {
         "week_num": "3",
@@ -585,7 +1322,8 @@
         "pts_win": "26",
         "pts_lose": "10",
         "yards_win": "414",
-        "yards_lose": "209"
+        "yards_lose": "209",
+        "stage": "Pre Season"
     },
     {
         "week_num": "3",
@@ -597,19 +1335,8 @@
         "pts_win": "30",
         "pts_lose": "27",
         "yards_win": "413",
-        "yards_lose": "455"
-    },
-    {
-        "week_num": "Week",
-        "game_day_of_week": null,
-        "game_date": null,
-        "gametime": null,
-        "winner": null,
-        "loser": null,
-        "pts_win": null,
-        "pts_lose": null,
-        "yards_win": null,
-        "yards_lose": null
+        "yards_lose": "455",
+        "stage": "Pre Season"
     },
     {
         "week_num": "4",
@@ -621,7 +1348,8 @@
         "pts_win": "38",
         "pts_lose": "31",
         "yards_win": "556",
-        "yards_lose": "446"
+        "yards_lose": "446",
+        "stage": "Pre Season"
     },
     {
         "week_num": "4",
@@ -633,7 +1361,8 @@
         "pts_win": "37",
         "pts_lose": "36",
         "yards_win": "407",
-        "yards_lose": "495"
+        "yards_lose": "495",
+        "stage": "Pre Season"
     },
     {
         "week_num": "4",
@@ -645,7 +1374,8 @@
         "pts_win": "22",
         "pts_lose": "0",
         "yards_win": "423",
-        "yards_lose": "145"
+        "yards_lose": "145",
+        "stage": "Pre Season"
     },
     {
         "week_num": "4",
@@ -657,7 +1387,8 @@
         "pts_win": "48",
         "pts_lose": "10",
         "yards_win": "483",
-        "yards_lose": "311"
+        "yards_lose": "311",
+        "stage": "Pre Season"
     },
     {
         "week_num": "4",
@@ -669,7 +1400,8 @@
         "pts_win": "37",
         "pts_lose": "34",
         "yards_win": "466",
-        "yards_lose": "478"
+        "yards_lose": "478",
+        "stage": "Pre Season"
     },
     {
         "week_num": "4",
@@ -681,7 +1413,8 @@
         "pts_win": "26",
         "pts_lose": "24",
         "yards_win": "414",
-        "yards_lose": "382"
+        "yards_lose": "382",
+        "stage": "Pre Season"
     },
     {
         "week_num": "4",
@@ -693,7 +1426,8 @@
         "pts_win": "31",
         "pts_lose": "12",
         "yards_win": "503",
-        "yards_lose": "178"
+        "yards_lose": "178",
+        "stage": "Pre Season"
     },
     {
         "week_num": "4",
@@ -705,7 +1439,8 @@
         "pts_win": "38",
         "pts_lose": "7",
         "yards_win": "449",
-        "yards_lose": "172"
+        "yards_lose": "172",
+        "stage": "Pre Season"
     },
     {
         "week_num": "4",
@@ -717,7 +1452,8 @@
         "pts_win": "26",
         "pts_lose": "23",
         "yards_win": "397",
-        "yards_lose": "432"
+        "yards_lose": "432",
+        "stage": "Pre Season"
     },
     {
         "week_num": "4",
@@ -729,7 +1465,8 @@
         "pts_win": "45",
         "pts_lose": "42",
         "yards_win": "565",
-        "yards_lose": "487"
+        "yards_lose": "487",
+        "stage": "Pre Season"
     },
     {
         "week_num": "4",
@@ -741,7 +1478,8 @@
         "pts_win": "20",
         "pts_lose": "17",
         "yards_win": "331",
-        "yards_lose": "263"
+        "yards_lose": "263",
+        "stage": "Pre Season"
     },
     {
         "week_num": "4",
@@ -753,7 +1491,8 @@
         "pts_win": "33",
         "pts_lose": "18",
         "yards_win": "389",
-        "yards_lose": "299"
+        "yards_lose": "299",
+        "stage": "Pre Season"
     },
     {
         "week_num": "4",
@@ -765,7 +1504,8 @@
         "pts_win": "29",
         "pts_lose": "27",
         "yards_win": "368",
-        "yards_lose": "364"
+        "yards_lose": "364",
+        "stage": "Pre Season"
     },
     {
         "week_num": "4",
@@ -777,7 +1517,8 @@
         "pts_win": "26",
         "pts_lose": "14",
         "yards_win": "451",
-        "yards_lose": "284"
+        "yards_lose": "284",
+        "stage": "Pre Season"
     },
     {
         "week_num": "4",
@@ -789,19 +1530,8 @@
         "pts_win": "27",
         "pts_lose": "23",
         "yards_win": "446",
-        "yards_lose": "385"
-    },
-    {
-        "week_num": "Week",
-        "game_day_of_week": null,
-        "game_date": null,
-        "gametime": null,
-        "winner": null,
-        "loser": null,
-        "pts_win": null,
-        "pts_lose": null,
-        "yards_win": null,
-        "yards_lose": null
+        "yards_lose": "385",
+        "stage": "Pre Season"
     },
     {
         "week_num": "5",
@@ -813,7 +1543,8 @@
         "pts_win": "38",
         "pts_lose": "24",
         "yards_win": "438",
-        "yards_lose": "439"
+        "yards_lose": "439",
+        "stage": "Regular Season"
     },
     {
         "week_num": "5",
@@ -825,7 +1556,8 @@
         "pts_win": "33",
         "pts_lose": "31",
         "yards_win": "350",
-        "yards_lose": "432"
+        "yards_lose": "432",
+        "stage": "Regular Season"
     },
     {
         "week_num": "5",
@@ -837,7 +1569,8 @@
         "pts_win": "41",
         "pts_lose": "17",
         "yards_win": "381",
-        "yards_lose": "324"
+        "yards_lose": "324",
+        "stage": "Regular Season"
     },
     {
         "week_num": "5",
@@ -849,7 +1582,8 @@
         "pts_win": "13",
         "pts_lose": "12",
         "yards_win": "223",
-        "yards_lose": "221"
+        "yards_lose": "221",
+        "stage": "Regular Season"
     },
     {
         "week_num": "5",
@@ -861,7 +1595,8 @@
         "pts_win": "27",
         "pts_lose": "17",
         "yards_win": "332",
-        "yards_lose": "297"
+        "yards_lose": "297",
+        "stage": "Regular Season"
     },
     {
         "week_num": "5",
@@ -873,7 +1608,8 @@
         "pts_win": "12",
         "pts_lose": "9",
         "yards_win": "416",
-        "yards_lose": "410"
+        "yards_lose": "410",
+        "stage": "Regular Season"
     },
     {
         "week_num": "5",
@@ -885,7 +1621,8 @@
         "pts_win": "34",
         "pts_lose": "16",
         "yards_win": "512",
-        "yards_lose": "436"
+        "yards_lose": "436",
+        "stage": "Regular Season"
     },
     {
         "week_num": "5",
@@ -897,7 +1634,8 @@
         "pts_win": "31",
         "pts_lose": "23",
         "yards_win": "264",
-        "yards_lose": "521"
+        "yards_lose": "521",
+        "stage": "Regular Season"
     },
     {
         "week_num": "5",
@@ -909,7 +1647,8 @@
         "pts_win": "30",
         "pts_lose": "14",
         "yards_win": "424",
-        "yards_lose": "502"
+        "yards_lose": "502",
+        "stage": "Regular Season"
     },
     {
         "week_num": "5",
@@ -921,7 +1660,8 @@
         "pts_win": "26",
         "pts_lose": "10",
         "yards_win": "412",
-        "yards_lose": "289"
+        "yards_lose": "289",
+        "stage": "Regular Season"
     },
     {
         "week_num": "5",
@@ -933,7 +1673,8 @@
         "pts_win": "28",
         "pts_lose": "18",
         "yards_win": "220",
-        "yards_lose": "447"
+        "yards_lose": "447",
+        "stage": "Regular Season"
     },
     {
         "week_num": "5",
@@ -945,7 +1686,8 @@
         "pts_win": "23",
         "pts_lose": "21",
         "yards_win": "375",
-        "yards_lose": "364"
+        "yards_lose": "364",
+        "stage": "Regular Season"
     },
     {
         "week_num": "5",
@@ -957,7 +1699,8 @@
         "pts_win": "33",
         "pts_lose": "31",
         "yards_win": "468",
-        "yards_lose": "373"
+        "yards_lose": "373",
+        "stage": "Regular Season"
     },
     {
         "week_num": "5",
@@ -969,7 +1712,8 @@
         "pts_win": "19",
         "pts_lose": "16",
         "yards_win": "462",
-        "yards_lose": "292"
+        "yards_lose": "292",
+        "stage": "Regular Season"
     },
     {
         "week_num": "5",
@@ -981,19 +1725,8 @@
         "pts_win": "43",
         "pts_lose": "19",
         "yards_win": "447",
-        "yards_lose": "283"
-    },
-    {
-        "week_num": "Week",
-        "game_day_of_week": null,
-        "game_date": null,
-        "gametime": null,
-        "winner": null,
-        "loser": null,
-        "pts_win": null,
-        "pts_lose": null,
-        "yards_win": null,
-        "yards_lose": null
+        "yards_lose": "283",
+        "stage": "Regular Season"
     },
     {
         "week_num": "6",
@@ -1005,7 +1738,8 @@
         "pts_win": "34",
         "pts_lose": "13",
         "yards_win": "379",
-        "yards_lose": "401"
+        "yards_lose": "401",
+        "stage": "Regular Season"
     },
     {
         "week_num": "6",
@@ -1017,7 +1751,8 @@
         "pts_win": "23",
         "pts_lose": "17",
         "yards_win": "288",
-        "yards_lose": "350"
+        "yards_lose": "350",
+        "stage": "Regular Season"
     },
     {
         "week_num": "6",
@@ -1029,7 +1764,8 @@
         "pts_win": "31",
         "pts_lose": "28",
         "yards_win": "541",
-        "yards_lose": "467"
+        "yards_lose": "467",
+        "stage": "Regular Season"
     },
     {
         "week_num": "6",
@@ -1041,7 +1777,8 @@
         "pts_win": "34",
         "pts_lose": "29",
         "yards_win": "417",
-        "yards_lose": "510"
+        "yards_lose": "510",
+        "stage": "Regular Season"
     },
     {
         "week_num": "6",
@@ -1053,7 +1790,8 @@
         "pts_win": "20",
         "pts_lose": "13",
         "yards_win": "216",
-        "yards_lose": "229"
+        "yards_lose": "229",
+        "stage": "Regular Season"
     },
     {
         "week_num": "6",
@@ -1065,7 +1803,8 @@
         "pts_win": "28",
         "pts_lose": "21",
         "yards_win": "481",
-        "yards_lose": "275"
+        "yards_lose": "275",
+        "stage": "Regular Season"
     },
     {
         "week_num": "6",
@@ -1077,7 +1816,8 @@
         "pts_win": "38",
         "pts_lose": "14",
         "yards_win": "449",
-        "yards_lose": "317"
+        "yards_lose": "317",
+        "stage": "Regular Season"
     },
     {
         "week_num": "6",
@@ -1089,7 +1829,8 @@
         "pts_win": "42",
         "pts_lose": "34",
         "yards_win": "374",
-        "yards_lose": "428"
+        "yards_lose": "428",
+        "stage": "Regular Season"
     },
     {
         "week_num": "6",
@@ -1101,7 +1842,8 @@
         "pts_win": "27",
         "pts_lose": "17",
         "yards_win": "411",
-        "yards_lose": "268"
+        "yards_lose": "268",
+        "stage": "Regular Season"
     },
     {
         "week_num": "6",
@@ -1113,7 +1855,8 @@
         "pts_win": "27",
         "pts_lose": "3",
         "yards_win": "369",
-        "yards_lose": "185"
+        "yards_lose": "185",
+        "stage": "Regular Season"
     },
     {
         "week_num": "6",
@@ -1125,7 +1868,8 @@
         "pts_win": "23",
         "pts_lose": "20",
         "yards_win": "444",
-        "yards_lose": "357"
+        "yards_lose": "357",
+        "stage": "Regular Season"
     },
     {
         "week_num": "6",
@@ -1137,7 +1881,8 @@
         "pts_win": "40",
         "pts_lose": "7",
         "yards_win": "378",
-        "yards_lose": "204"
+        "yards_lose": "204",
+        "stage": "Regular Season"
     },
     {
         "week_num": "6",
@@ -1149,7 +1894,8 @@
         "pts_win": "21",
         "pts_lose": "0",
         "yards_win": "361",
-        "yards_lose": "106"
+        "yards_lose": "106",
+        "stage": "Regular Season"
     },
     {
         "week_num": "6",
@@ -1161,7 +1907,8 @@
         "pts_win": "43",
         "pts_lose": "40",
         "yards_win": "500",
-        "yards_lose": "446"
+        "yards_lose": "446",
+        "stage": "Regular Season"
     },
     {
         "week_num": "6",
@@ -1173,19 +1920,8 @@
         "pts_win": "33",
         "pts_lose": "30",
         "yards_win": "521",
-        "yards_lose": "401"
-    },
-    {
-        "week_num": "Week",
-        "game_day_of_week": null,
-        "game_date": null,
-        "gametime": null,
-        "winner": null,
-        "loser": null,
-        "pts_win": null,
-        "pts_lose": null,
-        "yards_win": null,
-        "yards_lose": null
+        "yards_lose": "401",
+        "stage": "Regular Season"
     },
     {
         "week_num": "7",
@@ -1197,7 +1933,8 @@
         "pts_win": "45",
         "pts_lose": "10",
         "yards_win": "309",
-        "yards_lose": "223"
+        "yards_lose": "223",
+        "stage": "Regular Season"
     },
     {
         "week_num": "7",
@@ -1209,7 +1946,8 @@
         "pts_win": "20",
         "pts_lose": "19",
         "yards_win": "344",
-        "yards_lose": "390"
+        "yards_lose": "390",
+        "stage": "Regular Season"
     },
     {
         "week_num": "7",
@@ -1221,7 +1959,8 @@
         "pts_win": "21",
         "pts_lose": "17",
         "yards_win": "371",
-        "yards_lose": "342"
+        "yards_lose": "342",
+        "stage": "Regular Season"
     },
     {
         "week_num": "7",
@@ -1233,7 +1972,8 @@
         "pts_win": "38",
         "pts_lose": "31",
         "yards_win": "381",
-        "yards_lose": "453"
+        "yards_lose": "453",
+        "stage": "Regular Season"
     },
     {
         "week_num": "7",
@@ -1245,7 +1985,8 @@
         "pts_win": "32",
         "pts_lose": "21",
         "yards_win": "457",
-        "yards_lose": "322"
+        "yards_lose": "322",
+        "stage": "Regular Season"
     },
     {
         "week_num": "7",
@@ -1257,7 +1998,8 @@
         "pts_win": "37",
         "pts_lose": "5",
         "yards_win": "376",
-        "yards_lose": "303"
+        "yards_lose": "303",
+        "stage": "Regular Season"
     },
     {
         "week_num": "7",
@@ -1269,7 +2011,8 @@
         "pts_win": "26",
         "pts_lose": "23",
         "yards_win": "456",
-        "yards_lose": "305"
+        "yards_lose": "305",
+        "stage": "Regular Season"
     },
     {
         "week_num": "7",
@@ -1281,7 +2024,8 @@
         "pts_win": "20",
         "pts_lose": "7",
         "yards_win": "272",
-        "yards_lose": "259"
+        "yards_lose": "259",
+        "stage": "Regular Season"
     },
     {
         "week_num": "7",
@@ -1293,7 +2037,8 @@
         "pts_win": "37",
         "pts_lose": "17",
         "yards_win": "316",
-        "yards_lose": "263"
+        "yards_lose": "263",
+        "stage": "Regular Season"
     },
     {
         "week_num": "7",
@@ -1305,7 +2050,8 @@
         "pts_win": "24",
         "pts_lose": "23",
         "yards_win": "339",
-        "yards_lose": "351"
+        "yards_lose": "351",
+        "stage": "Regular Season"
     },
     {
         "week_num": "7",
@@ -1317,7 +2063,8 @@
         "pts_win": "20",
         "pts_lose": "17",
         "yards_win": "305",
-        "yards_lose": "323"
+        "yards_lose": "323",
+        "stage": "Regular Season"
     },
     {
         "week_num": "7",
@@ -1329,7 +2076,8 @@
         "pts_win": "39",
         "pts_lose": "10",
         "yards_win": "339",
-        "yards_lose": "228"
+        "yards_lose": "228",
+        "stage": "Regular Season"
     },
     {
         "week_num": "7",
@@ -1341,7 +2089,8 @@
         "pts_win": "45",
         "pts_lose": "10",
         "yards_win": "551",
-        "yards_lose": "239"
+        "yards_lose": "239",
+        "stage": "Regular Season"
     },
     {
         "week_num": "7",
@@ -1353,19 +2102,8 @@
         "pts_win": "23",
         "pts_lose": "20",
         "yards_win": "423",
-        "yards_lose": "433"
-    },
-    {
-        "week_num": "Week",
-        "game_day_of_week": null,
-        "game_date": null,
-        "gametime": null,
-        "winner": null,
-        "loser": null,
-        "pts_win": null,
-        "pts_lose": null,
-        "yards_win": null,
-        "yards_lose": null
+        "yards_lose": "433",
+        "stage": "Regular Season"
     },
     {
         "week_num": "8",
@@ -1377,7 +2115,8 @@
         "pts_win": "42",
         "pts_lose": "23",
         "yards_win": "427",
-        "yards_lose": "370"
+        "yards_lose": "370",
+        "stage": "Regular Season"
     },
     {
         "week_num": "8",
@@ -1389,7 +2128,8 @@
         "pts_win": "24",
         "pts_lose": "18",
         "yards_win": "395",
-        "yards_lose": "335"
+        "yards_lose": "335",
+        "stage": "Regular Season"
     },
     {
         "week_num": "8",
@@ -1401,7 +2141,8 @@
         "pts_win": "36",
         "pts_lose": "21",
         "yards_win": "386",
-        "yards_lose": "325"
+        "yards_lose": "325",
+        "stage": "Regular Season"
     },
     {
         "week_num": "8",
@@ -1413,7 +2154,8 @@
         "pts_win": "24",
         "pts_lose": "10",
         "yards_win": "395",
-        "yards_lose": "207"
+        "yards_lose": "207",
+        "stage": "Regular Season"
     },
     {
         "week_num": "8",
@@ -1425,7 +2167,8 @@
         "pts_win": "28",
         "pts_lose": "14",
         "yards_win": "413",
-        "yards_lose": "331"
+        "yards_lose": "331",
+        "stage": "Regular Season"
     },
     {
         "week_num": "8",
@@ -1437,7 +2180,8 @@
         "pts_win": "37",
         "pts_lose": "34",
         "yards_win": "402",
-        "yards_lose": "576"
+        "yards_lose": "576",
+        "stage": "Regular Season"
     },
     {
         "week_num": "8",
@@ -1449,7 +2193,8 @@
         "pts_win": "33",
         "pts_lose": "18",
         "yards_win": "421",
-        "yards_lose": "237"
+        "yards_lose": "237",
+        "stage": "Regular Season"
     },
     {
         "week_num": "8",
@@ -1461,7 +2206,8 @@
         "pts_win": "30",
         "pts_lose": "23",
         "yards_win": "340",
-        "yards_lose": "411"
+        "yards_lose": "411",
+        "stage": "Regular Season"
     },
     {
         "week_num": "8",
@@ -1473,7 +2219,8 @@
         "pts_win": "20",
         "pts_lose": "13",
         "yards_win": "360",
-        "yards_lose": "303"
+        "yards_lose": "303",
+        "stage": "Regular Season"
     },
     {
         "week_num": "8",
@@ -1485,7 +2232,8 @@
         "pts_win": "42",
         "pts_lose": "28",
         "yards_win": "461",
-        "yards_lose": "347"
+        "yards_lose": "347",
+        "stage": "Regular Season"
     },
     {
         "week_num": "8",
@@ -1497,7 +2245,8 @@
         "pts_win": "29",
         "pts_lose": "27",
         "yards_win": "416",
-        "yards_lose": "359"
+        "yards_lose": "359",
+        "stage": "Regular Season"
     },
     {
         "week_num": "8",
@@ -1509,7 +2258,8 @@
         "pts_win": "18",
         "pts_lose": "15",
         "yards_win": "321",
-        "yards_lose": "267"
+        "yards_lose": "267",
+        "stage": "Regular Season"
     },
     {
         "week_num": "8",
@@ -1521,7 +2271,8 @@
         "pts_win": "30",
         "pts_lose": "20",
         "yards_win": "270",
-        "yards_lose": "423"
+        "yards_lose": "423",
+        "stage": "Regular Season"
     },
     {
         "week_num": "8",
@@ -1533,19 +2284,8 @@
         "pts_win": "25",
         "pts_lose": "6",
         "yards_win": "387",
-        "yards_lose": "333"
-    },
-    {
-        "week_num": "Week",
-        "game_day_of_week": null,
-        "game_date": null,
-        "gametime": null,
-        "winner": null,
-        "loser": null,
-        "pts_win": null,
-        "pts_lose": null,
-        "yards_win": null,
-        "yards_lose": null
+        "yards_lose": "333",
+        "stage": "Regular Season"
     },
     {
         "week_num": "9",
@@ -1557,7 +2297,8 @@
         "pts_win": "34",
         "pts_lose": "3",
         "yards_win": "405",
-        "yards_lose": "242"
+        "yards_lose": "242",
+        "stage": "Regular Season"
     },
     {
         "week_num": "9",
@@ -1569,7 +2310,8 @@
         "pts_win": "38",
         "pts_lose": "14",
         "yards_win": "491",
-        "yards_lose": "366"
+        "yards_lose": "366",
+        "stage": "Regular Season"
     },
     {
         "week_num": "9",
@@ -1581,7 +2323,8 @@
         "pts_win": "42",
         "pts_lose": "28",
         "yards_win": "407",
-        "yards_lose": "301"
+        "yards_lose": "301",
+        "stage": "Regular Season"
     },
     {
         "week_num": "9",
@@ -1593,7 +2336,8 @@
         "pts_win": "24",
         "pts_lose": "9",
         "yards_win": "283",
-        "yards_lose": "209"
+        "yards_lose": "209",
+        "stage": "Regular Season"
     },
     {
         "week_num": "9",
@@ -1605,7 +2349,8 @@
         "pts_win": "23",
         "pts_lose": "16",
         "yards_win": "395",
-        "yards_lose": "265"
+        "yards_lose": "265",
+        "stage": "Regular Season"
     },
     {
         "week_num": "9",
@@ -1617,7 +2362,8 @@
         "pts_win": "41",
         "pts_lose": "9",
         "yards_win": "190",
-        "yards_lose": "264"
+        "yards_lose": "264",
+        "stage": "Regular Season"
     },
     {
         "week_num": "9",
@@ -1629,7 +2375,8 @@
         "pts_win": "37",
         "pts_lose": "21",
         "yards_win": "499",
-        "yards_lose": "388"
+        "yards_lose": "388",
+        "stage": "Regular Season"
     },
     {
         "week_num": "9",
@@ -1641,7 +2388,8 @@
         "pts_win": "13",
         "pts_lose": "6",
         "yards_win": "168",
-        "yards_lose": "282"
+        "yards_lose": "282",
+        "stage": "Regular Season"
     },
     {
         "week_num": "9",
@@ -1653,7 +2401,8 @@
         "pts_win": "25",
         "pts_lose": "17",
         "yards_win": "375",
-        "yards_lose": "356"
+        "yards_lose": "356",
+        "stage": "Regular Season"
     },
     {
         "week_num": "9",
@@ -1665,7 +2414,8 @@
         "pts_win": "19",
         "pts_lose": "17",
         "yards_win": "290",
-        "yards_lose": "348"
+        "yards_lose": "348",
+        "stage": "Regular Season"
     },
     {
         "week_num": "9",
@@ -1677,7 +2427,8 @@
         "pts_win": "45",
         "pts_lose": "35",
         "yards_win": "487",
-        "yards_lose": "483"
+        "yards_lose": "483",
+        "stage": "Regular Season"
     },
     {
         "week_num": "9",
@@ -1689,7 +2440,8 @@
         "pts_win": "31",
         "pts_lose": "17",
         "yards_win": "433",
-        "yards_lose": "367"
+        "yards_lose": "367",
+        "stage": "Regular Season"
     },
     {
         "week_num": "9",
@@ -1701,19 +2453,8 @@
         "pts_win": "28",
         "pts_lose": "14",
         "yards_win": "340",
-        "yards_lose": "297"
-    },
-    {
-        "week_num": "Week",
-        "game_day_of_week": null,
-        "game_date": null,
-        "gametime": null,
-        "winner": null,
-        "loser": null,
-        "pts_win": null,
-        "pts_lose": null,
-        "yards_win": null,
-        "yards_lose": null
+        "yards_lose": "297",
+        "stage": "Regular Season"
     },
     {
         "week_num": "10",
@@ -1725,7 +2466,8 @@
         "pts_win": "52",
         "pts_lose": "21",
         "yards_win": "457",
-        "yards_lose": "242"
+        "yards_lose": "242",
+        "stage": "Regular Season"
     },
     {
         "week_num": "10",
@@ -1737,7 +2479,8 @@
         "pts_win": "28",
         "pts_lose": "16",
         "yards_win": "427",
-        "yards_lose": "382"
+        "yards_lose": "382",
+        "stage": "Regular Season"
     },
     {
         "week_num": "10",
@@ -1749,7 +2492,8 @@
         "pts_win": "34",
         "pts_lose": "22",
         "yards_win": "402",
-        "yards_lose": "305"
+        "yards_lose": "305",
+        "stage": "Regular Season"
     },
     {
         "week_num": "10",
@@ -1761,7 +2505,8 @@
         "pts_win": "51",
         "pts_lose": "14",
         "yards_win": "509",
-        "yards_lose": "284"
+        "yards_lose": "284",
+        "stage": "Regular Season"
     },
     {
         "week_num": "10",
@@ -1773,7 +2518,8 @@
         "pts_win": "29",
         "pts_lose": "26",
         "yards_win": "366",
-        "yards_lose": "415"
+        "yards_lose": "415",
+        "stage": "Regular Season"
     },
     {
         "week_num": "10",
@@ -1785,7 +2531,8 @@
         "pts_win": "26",
         "pts_lose": "14",
         "yards_win": "330",
-        "yards_lose": "260"
+        "yards_lose": "260",
+        "stage": "Regular Season"
     },
     {
         "week_num": "10",
@@ -1797,7 +2544,8 @@
         "pts_win": "16",
         "pts_lose": "3",
         "yards_win": "286",
-        "yards_lose": "501"
+        "yards_lose": "501",
+        "stage": "Regular Season"
     },
     {
         "week_num": "10",
@@ -1809,7 +2557,8 @@
         "pts_win": "41",
         "pts_lose": "10",
         "yards_win": "451",
-        "yards_lose": "199"
+        "yards_lose": "199",
+        "stage": "Regular Season"
     },
     {
         "week_num": "10",
@@ -1821,7 +2570,8 @@
         "pts_win": "34",
         "pts_lose": "10",
         "yards_win": "385",
-        "yards_lose": "284"
+        "yards_lose": "284",
+        "stage": "Regular Season"
     },
     {
         "week_num": "10",
@@ -1833,7 +2583,8 @@
         "pts_win": "20",
         "pts_lose": "6",
         "yards_win": "335",
-        "yards_lose": "317"
+        "yards_lose": "317",
+        "stage": "Regular Season"
     },
     {
         "week_num": "10",
@@ -1845,7 +2596,8 @@
         "pts_win": "31",
         "pts_lose": "12",
         "yards_win": "377",
-        "yards_lose": "294"
+        "yards_lose": "294",
+        "stage": "Regular Season"
     },
     {
         "week_num": "10",
@@ -1857,7 +2609,8 @@
         "pts_win": "36",
         "pts_lose": "31",
         "yards_win": "456",
-        "yards_lose": "414"
+        "yards_lose": "414",
+        "stage": "Regular Season"
     },
     {
         "week_num": "10",
@@ -1869,7 +2622,8 @@
         "pts_win": "27",
         "pts_lose": "20",
         "yards_win": "410",
-        "yards_lose": "421"
+        "yards_lose": "421",
+        "stage": "Regular Season"
     },
     {
         "week_num": "10",
@@ -1881,19 +2635,8 @@
         "pts_win": "27",
         "pts_lose": "23",
         "yards_win": "277",
-        "yards_lose": "374"
-    },
-    {
-        "week_num": "Week",
-        "game_day_of_week": null,
-        "game_date": null,
-        "gametime": null,
-        "winner": null,
-        "loser": null,
-        "pts_win": null,
-        "pts_lose": null,
-        "yards_win": null,
-        "yards_lose": null
+        "yards_lose": "374",
+        "stage": "Regular Season"
     },
     {
         "week_num": "11",
@@ -1905,7 +2648,8 @@
         "pts_win": "27",
         "pts_lose": "24",
         "yards_win": "378",
-        "yards_lose": "359"
+        "yards_lose": "359",
+        "stage": "Regular Season"
     },
     {
         "week_num": "11",
@@ -1917,7 +2661,8 @@
         "pts_win": "22",
         "pts_lose": "19",
         "yards_win": "323",
-        "yards_lose": "354"
+        "yards_lose": "354",
+        "stage": "Regular Season"
     },
     {
         "week_num": "11",
@@ -1929,7 +2674,8 @@
         "pts_win": "20",
         "pts_lose": "19",
         "yards_win": "309",
-        "yards_lose": "387"
+        "yards_lose": "387",
+        "stage": "Regular Season"
     },
     {
         "week_num": "11",
@@ -1941,7 +2687,8 @@
         "pts_win": "24",
         "pts_lose": "21",
         "yards_win": "403",
-        "yards_lose": "255"
+        "yards_lose": "255",
+        "stage": "Regular Season"
     },
     {
         "week_num": "11",
@@ -1953,7 +2700,8 @@
         "pts_win": "38",
         "pts_lose": "10",
         "yards_win": "397",
-        "yards_lose": "267"
+        "yards_lose": "267",
+        "stage": "Regular Season"
     },
     {
         "week_num": "11",
@@ -1965,7 +2713,8 @@
         "pts_win": "23",
         "pts_lose": "21",
         "yards_win": "320",
-        "yards_lose": "278"
+        "yards_lose": "278",
+        "stage": "Regular Season"
     },
     {
         "week_num": "11",
@@ -1977,7 +2726,8 @@
         "pts_win": "20",
         "pts_lose": "16",
         "yards_win": "323",
-        "yards_lose": "243"
+        "yards_lose": "243",
+        "stage": "Regular Season"
     },
     {
         "week_num": "11",
@@ -1989,7 +2739,8 @@
         "pts_win": "38",
         "pts_lose": "35",
         "yards_win": "359",
-        "yards_lose": "510"
+        "yards_lose": "510",
+        "stage": "Regular Season"
     },
     {
         "week_num": "11",
@@ -2001,7 +2752,8 @@
         "pts_win": "23",
         "pts_lose": "21",
         "yards_win": "325",
-        "yards_lose": "282"
+        "yards_lose": "282",
+        "stage": "Regular Season"
     },
     {
         "week_num": "11",
@@ -2013,7 +2765,8 @@
         "pts_win": "23",
         "pts_lose": "22",
         "yards_win": "325",
-        "yards_lose": "479"
+        "yards_lose": "479",
+        "stage": "Regular Season"
     },
     {
         "week_num": "11",
@@ -2025,7 +2778,8 @@
         "pts_win": "48",
         "pts_lose": "7",
         "yards_win": "546",
-        "yards_lose": "196"
+        "yards_lose": "196",
+        "stage": "Regular Season"
     },
     {
         "week_num": "11",
@@ -2037,7 +2791,8 @@
         "pts_win": "25",
         "pts_lose": "20",
         "yards_win": "308",
-        "yards_lose": "268"
+        "yards_lose": "268",
+        "stage": "Regular Season"
     },
     {
         "week_num": "11",
@@ -2049,19 +2804,8 @@
         "pts_win": "54",
         "pts_lose": "51",
         "yards_win": "455",
-        "yards_lose": "546"
-    },
-    {
-        "week_num": "Week",
-        "game_day_of_week": null,
-        "game_date": null,
-        "gametime": null,
-        "winner": null,
-        "loser": null,
-        "pts_win": null,
-        "pts_lose": null,
-        "yards_win": null,
-        "yards_lose": null
+        "yards_lose": "546",
+        "stage": "Regular Season"
     },
     {
         "week_num": "12",
@@ -2073,7 +2817,8 @@
         "pts_win": "23",
         "pts_lose": "16",
         "yards_win": "264",
-        "yards_lose": "333"
+        "yards_lose": "333",
+        "stage": "Regular Season"
     },
     {
         "week_num": "12",
@@ -2085,7 +2830,8 @@
         "pts_win": "31",
         "pts_lose": "23",
         "yards_win": "404",
-        "yards_lose": "331"
+        "yards_lose": "331",
+        "stage": "Regular Season"
     },
     {
         "week_num": "12",
@@ -2097,7 +2843,8 @@
         "pts_win": "31",
         "pts_lose": "17",
         "yards_win": "312",
-        "yards_lose": "366"
+        "yards_lose": "366",
+        "stage": "Regular Season"
     },
     {
         "week_num": "12",
@@ -2109,7 +2856,8 @@
         "pts_win": "24",
         "pts_lose": "21",
         "yards_win": "327",
-        "yards_lose": "333"
+        "yards_lose": "333",
+        "stage": "Regular Season"
     },
     {
         "week_num": "12",
@@ -2121,7 +2869,8 @@
         "pts_win": "30",
         "pts_lose": "27",
         "yards_win": "397",
-        "yards_lose": "476"
+        "yards_lose": "476",
+        "stage": "Regular Season"
     },
     {
         "week_num": "12",
@@ -2133,7 +2882,8 @@
         "pts_win": "35",
         "pts_lose": "20",
         "yards_win": "342",
-        "yards_lose": "372"
+        "yards_lose": "372",
+        "stage": "Regular Season"
     },
     {
         "week_num": "12",
@@ -2145,7 +2895,8 @@
         "pts_win": "27",
         "pts_lose": "13",
         "yards_win": "498",
-        "yards_lose": "338"
+        "yards_lose": "338",
+        "stage": "Regular Season"
     },
     {
         "week_num": "12",
@@ -2157,7 +2908,8 @@
         "pts_win": "25",
         "pts_lose": "22",
         "yards_win": "341",
-        "yards_lose": "402"
+        "yards_lose": "402",
+        "stage": "Regular Season"
     },
     {
         "week_num": "12",
@@ -2169,7 +2921,8 @@
         "pts_win": "34",
         "pts_lose": "17",
         "yards_win": "416",
-        "yards_lose": "249"
+        "yards_lose": "249",
+        "stage": "Regular Season"
     },
     {
         "week_num": "12",
@@ -2181,7 +2934,8 @@
         "pts_win": "27",
         "pts_lose": "9",
         "yards_win": "412",
-        "yards_lose": "342"
+        "yards_lose": "342",
+        "stage": "Regular Season"
     },
     {
         "week_num": "12",
@@ -2193,7 +2947,8 @@
         "pts_win": "45",
         "pts_lose": "10",
         "yards_win": "414",
-        "yards_lose": "149"
+        "yards_lose": "149",
+        "stage": "Regular Season"
     },
     {
         "week_num": "12",
@@ -2205,7 +2960,8 @@
         "pts_win": "27",
         "pts_lose": "24",
         "yards_win": "455",
-        "yards_lose": "314"
+        "yards_lose": "314",
+        "stage": "Regular Season"
     },
     {
         "week_num": "12",
@@ -2217,7 +2973,8 @@
         "pts_win": "24",
         "pts_lose": "17",
         "yards_win": "308",
-        "yards_lose": "527"
+        "yards_lose": "527",
+        "stage": "Regular Season"
     },
     {
         "week_num": "12",
@@ -2229,7 +2986,8 @@
         "pts_win": "24",
         "pts_lose": "17",
         "yards_win": "416",
-        "yards_lose": "254"
+        "yards_lose": "254",
+        "stage": "Regular Season"
     },
     {
         "week_num": "12",
@@ -2241,19 +2999,8 @@
         "pts_win": "34",
         "pts_lose": "17",
         "yards_win": "462",
-        "yards_lose": "365"
-    },
-    {
-        "week_num": "Week",
-        "game_day_of_week": null,
-        "game_date": null,
-        "gametime": null,
-        "winner": null,
-        "loser": null,
-        "pts_win": null,
-        "pts_lose": null,
-        "yards_win": null,
-        "yards_lose": null
+        "yards_lose": "365",
+        "stage": "Regular Season"
     },
     {
         "week_num": "13",
@@ -2265,7 +3012,8 @@
         "pts_win": "13",
         "pts_lose": "10",
         "yards_win": "308",
-        "yards_lose": "176"
+        "yards_lose": "176",
+        "stage": "Regular Season"
     },
     {
         "week_num": "13",
@@ -2277,7 +3025,8 @@
         "pts_win": "26",
         "pts_lose": "16",
         "yards_win": "366",
-        "yards_lose": "131"
+        "yards_lose": "131",
+        "stage": "Regular Season"
     },
     {
         "week_num": "13",
@@ -2289,7 +3038,8 @@
         "pts_win": "21",
         "pts_lose": "17",
         "yards_win": "175",
-        "yards_lose": "415"
+        "yards_lose": "415",
+        "stage": "Regular Season"
     },
     {
         "week_num": "13",
@@ -2301,7 +3051,8 @@
         "pts_win": "24",
         "pts_lose": "17",
         "yards_win": "315",
-        "yards_lose": "444"
+        "yards_lose": "444",
+        "stage": "Regular Season"
     },
     {
         "week_num": "13",
@@ -2313,7 +3064,8 @@
         "pts_win": "30",
         "pts_lose": "27",
         "yards_win": "338",
-        "yards_lose": "376"
+        "yards_lose": "376",
+        "stage": "Regular Season"
     },
     {
         "week_num": "13",
@@ -2325,7 +3077,8 @@
         "pts_win": "24",
         "pts_lose": "10",
         "yards_win": "361",
-        "yards_lose": "313"
+        "yards_lose": "313",
+        "stage": "Regular Season"
     },
     {
         "week_num": "13",
@@ -2337,7 +3090,8 @@
         "pts_win": "29",
         "pts_lose": "13",
         "yards_win": "384",
-        "yards_lose": "428"
+        "yards_lose": "428",
+        "stage": "Regular Season"
     },
     {
         "week_num": "13",
@@ -2349,7 +3103,8 @@
         "pts_win": "6",
         "pts_lose": "0",
         "yards_win": "211",
-        "yards_lose": "265"
+        "yards_lose": "265",
+        "stage": "Regular Season"
     },
     {
         "week_num": "13",
@@ -2361,7 +3116,8 @@
         "pts_win": "20",
         "pts_lose": "17",
         "yards_win": "315",
-        "yards_lose": "325"
+        "yards_lose": "325",
+        "stage": "Regular Season"
     },
     {
         "week_num": "13",
@@ -2373,7 +3129,8 @@
         "pts_win": "30",
         "pts_lose": "16",
         "yards_win": "344",
-        "yards_lose": "310"
+        "yards_lose": "310",
+        "stage": "Regular Season"
     },
     {
         "week_num": "13",
@@ -2385,7 +3142,8 @@
         "pts_win": "40",
         "pts_lose": "33",
         "yards_win": "469",
-        "yards_lose": "442"
+        "yards_lose": "442",
+        "stage": "Regular Season"
     },
     {
         "week_num": "13",
@@ -2397,7 +3155,8 @@
         "pts_win": "26",
         "pts_lose": "22",
         "yards_win": "403",
-        "yards_lose": "280"
+        "yards_lose": "280",
+        "stage": "Regular Season"
     },
     {
         "week_num": "13",
@@ -2409,7 +3168,8 @@
         "pts_win": "24",
         "pts_lose": "10",
         "yards_win": "471",
-        "yards_lose": "278"
+        "yards_lose": "278",
+        "stage": "Regular Season"
     },
     {
         "week_num": "13",
@@ -2421,7 +3181,8 @@
         "pts_win": "43",
         "pts_lose": "16",
         "yards_win": "331",
-        "yards_lose": "452"
+        "yards_lose": "452",
+        "stage": "Regular Season"
     },
     {
         "week_num": "13",
@@ -2433,7 +3194,8 @@
         "pts_win": "33",
         "pts_lose": "30",
         "yards_win": "371",
-        "yards_lose": "336"
+        "yards_lose": "336",
+        "stage": "Regular Season"
     },
     {
         "week_num": "13",
@@ -2445,19 +3207,8 @@
         "pts_win": "28",
         "pts_lose": "13",
         "yards_win": "436",
-        "yards_lose": "235"
-    },
-    {
-        "week_num": "Week",
-        "game_day_of_week": null,
-        "game_date": null,
-        "gametime": null,
-        "winner": null,
-        "loser": null,
-        "pts_win": null,
-        "pts_lose": null,
-        "yards_win": null,
-        "yards_lose": null
+        "yards_lose": "235",
+        "stage": "Regular Season"
     },
     {
         "week_num": "14",
@@ -2469,7 +3220,8 @@
         "pts_win": "30",
         "pts_lose": "9",
         "yards_win": "426",
-        "yards_lose": "255"
+        "yards_lose": "255",
+        "stage": "Regular Season"
     },
     {
         "week_num": "14",
@@ -2481,7 +3233,8 @@
         "pts_win": "34",
         "pts_lose": "20",
         "yards_win": "300",
-        "yards_lose": "344"
+        "yards_lose": "344",
+        "stage": "Regular Season"
     },
     {
         "week_num": "14",
@@ -2493,7 +3246,8 @@
         "pts_win": "27",
         "pts_lose": "23",
         "yards_win": "248",
-        "yards_lose": "368"
+        "yards_lose": "368",
+        "stage": "Regular Season"
     },
     {
         "week_num": "14",
@@ -2505,7 +3259,8 @@
         "pts_win": "26",
         "pts_lose": "20",
         "yards_win": "348",
-        "yards_lose": "393"
+        "yards_lose": "393",
+        "stage": "Regular Season"
     },
     {
         "week_num": "14",
@@ -2517,7 +3272,8 @@
         "pts_win": "24",
         "pts_lose": "21",
         "yards_win": "436",
-        "yards_lose": "315"
+        "yards_lose": "315",
+        "stage": "Regular Season"
     },
     {
         "week_num": "14",
@@ -2529,7 +3285,8 @@
         "pts_win": "27",
         "pts_lose": "24",
         "yards_win": "442",
-        "yards_lose": "321"
+        "yards_lose": "321",
+        "stage": "Regular Season"
     },
     {
         "week_num": "14",
@@ -2541,7 +3298,8 @@
         "pts_win": "34",
         "pts_lose": "33",
         "yards_win": "412",
-        "yards_lose": "421"
+        "yards_lose": "421",
+        "stage": "Regular Season"
     },
     {
         "week_num": "14",
@@ -2553,7 +3311,8 @@
         "pts_win": "28",
         "pts_lose": "14",
         "yards_win": "298",
-        "yards_lose": "279"
+        "yards_lose": "279",
+        "stage": "Regular Season"
     },
     {
         "week_num": "14",
@@ -2565,7 +3324,8 @@
         "pts_win": "40",
         "pts_lose": "16",
         "yards_win": "402",
-        "yards_lose": "288"
+        "yards_lose": "288",
+        "stage": "Regular Season"
     },
     {
         "week_num": "14",
@@ -2577,7 +3337,8 @@
         "pts_win": "26",
         "pts_lose": "21",
         "yards_win": "288",
-        "yards_lose": "295"
+        "yards_lose": "295",
+        "stage": "Regular Season"
     },
     {
         "week_num": "14",
@@ -2589,7 +3350,8 @@
         "pts_win": "20",
         "pts_lose": "14",
         "yards_win": "389",
-        "yards_lose": "274"
+        "yards_lose": "274",
+        "stage": "Regular Season"
     },
     {
         "week_num": "14",
@@ -2601,7 +3363,8 @@
         "pts_win": "17",
         "pts_lose": "3",
         "yards_win": "218",
-        "yards_lose": "279"
+        "yards_lose": "279",
+        "stage": "Regular Season"
     },
     {
         "week_num": "14",
@@ -2613,7 +3376,8 @@
         "pts_win": "29",
         "pts_lose": "23",
         "yards_win": "576",
-        "yards_lose": "256"
+        "yards_lose": "256",
+        "stage": "Regular Season"
     },
     {
         "week_num": "14",
@@ -2625,7 +3389,8 @@
         "pts_win": "24",
         "pts_lose": "21",
         "yards_win": "354",
-        "yards_lose": "340"
+        "yards_lose": "340",
+        "stage": "Regular Season"
     },
     {
         "week_num": "14",
@@ -2637,7 +3402,8 @@
         "pts_win": "15",
         "pts_lose": "6",
         "yards_win": "294",
-        "yards_lose": "214"
+        "yards_lose": "214",
+        "stage": "Regular Season"
     },
     {
         "week_num": "14",
@@ -2649,19 +3415,8 @@
         "pts_win": "21",
         "pts_lose": "7",
         "yards_win": "274",
-        "yards_lose": "276"
-    },
-    {
-        "week_num": "Week",
-        "game_day_of_week": null,
-        "game_date": null,
-        "gametime": null,
-        "winner": null,
-        "loser": null,
-        "pts_win": null,
-        "pts_lose": null,
-        "yards_win": null,
-        "yards_lose": null
+        "yards_lose": "276",
+        "stage": "Regular Season"
     },
     {
         "week_num": "15",
@@ -2673,7 +3428,8 @@
         "pts_win": "29",
         "pts_lose": "28",
         "yards_win": "407",
-        "yards_lose": "294"
+        "yards_lose": "294",
+        "stage": "Regular Season"
     },
     {
         "week_num": "15",
@@ -2685,7 +3441,8 @@
         "pts_win": "29",
         "pts_lose": "22",
         "yards_win": "286",
-        "yards_lose": "318"
+        "yards_lose": "318",
+        "stage": "Regular Season"
     },
     {
         "week_num": "15",
@@ -2697,7 +3454,8 @@
         "pts_win": "17",
         "pts_lose": "16",
         "yards_win": "309",
-        "yards_lose": "270"
+        "yards_lose": "270",
+        "stage": "Regular Season"
     },
     {
         "week_num": "15",
@@ -2709,7 +3467,8 @@
         "pts_win": "40",
         "pts_lose": "14",
         "yards_win": "435",
-        "yards_lose": "253"
+        "yards_lose": "253",
+        "stage": "Regular Season"
     },
     {
         "week_num": "15",
@@ -2721,7 +3480,8 @@
         "pts_win": "14",
         "pts_lose": "13",
         "yards_win": "312",
-        "yards_lose": "313"
+        "yards_lose": "313",
+        "stage": "Regular Season"
     },
     {
         "week_num": "15",
@@ -2733,7 +3493,8 @@
         "pts_win": "24",
         "pts_lose": "17",
         "yards_win": "332",
-        "yards_lose": "323"
+        "yards_lose": "323",
+        "stage": "Regular Season"
     },
     {
         "week_num": "15",
@@ -2745,7 +3506,8 @@
         "pts_win": "30",
         "pts_lose": "16",
         "yards_win": "294",
-        "yards_lose": "297"
+        "yards_lose": "297",
+        "stage": "Regular Season"
     },
     {
         "week_num": "15",
@@ -2757,7 +3519,8 @@
         "pts_win": "23",
         "pts_lose": "0",
         "yards_win": "370",
-        "yards_lose": "292"
+        "yards_lose": "292",
+        "stage": "Regular Season"
     },
     {
         "week_num": "15",
@@ -2769,7 +3532,8 @@
         "pts_win": "16",
         "pts_lose": "13",
         "yards_win": "245",
-        "yards_lose": "192"
+        "yards_lose": "192",
+        "stage": "Regular Season"
     },
     {
         "week_num": "15",
@@ -2781,7 +3545,8 @@
         "pts_win": "41",
         "pts_lose": "17",
         "yards_win": "418",
-        "yards_lose": "193"
+        "yards_lose": "193",
+        "stage": "Regular Season"
     },
     {
         "week_num": "15",
@@ -2793,7 +3558,8 @@
         "pts_win": "17",
         "pts_lose": "0",
         "yards_win": "301",
-        "yards_lose": "260"
+        "yards_lose": "260",
+        "stage": "Regular Season"
     },
     {
         "week_num": "15",
@@ -2805,7 +3571,8 @@
         "pts_win": "20",
         "pts_lose": "12",
         "yards_win": "370",
-        "yards_lose": "241"
+        "yards_lose": "241",
+        "stage": "Regular Season"
     },
     {
         "week_num": "15",
@@ -2817,7 +3584,8 @@
         "pts_win": "26",
         "pts_lose": "23",
         "yards_win": "351",
-        "yards_lose": "385"
+        "yards_lose": "385",
+        "stage": "Regular Season"
     },
     {
         "week_num": "15",
@@ -2829,7 +3597,8 @@
         "pts_win": "17",
         "pts_lose": "10",
         "yards_win": "376",
-        "yards_lose": "368"
+        "yards_lose": "368",
+        "stage": "Regular Season"
     },
     {
         "week_num": "15",
@@ -2841,7 +3610,8 @@
         "pts_win": "30",
         "pts_lose": "23",
         "yards_win": "381",
-        "yards_lose": "407"
+        "yards_lose": "407",
+        "stage": "Regular Season"
     },
     {
         "week_num": "15",
@@ -2853,19 +3623,8 @@
         "pts_win": "12",
         "pts_lose": "9",
         "yards_win": "346",
-        "yards_lose": "247"
-    },
-    {
-        "week_num": "Week",
-        "game_day_of_week": null,
-        "game_date": null,
-        "gametime": null,
-        "winner": null,
-        "loser": null,
-        "pts_win": null,
-        "pts_lose": null,
-        "yards_win": null,
-        "yards_lose": null
+        "yards_lose": "247",
+        "stage": "Regular Season"
     },
     {
         "week_num": "16",
@@ -2877,7 +3636,8 @@
         "pts_win": "25",
         "pts_lose": "16",
         "yards_win": "291",
-        "yards_lose": "292"
+        "yards_lose": "292",
+        "stage": "Regular Season"
     },
     {
         "week_num": "16",
@@ -2889,7 +3649,8 @@
         "pts_win": "22",
         "pts_lose": "10",
         "yards_win": "361",
-        "yards_lose": "198"
+        "yards_lose": "198",
+        "stage": "Regular Season"
     },
     {
         "week_num": "16",
@@ -2901,7 +3662,8 @@
         "pts_win": "24",
         "pts_lose": "10",
         "yards_win": "427",
-        "yards_lose": "436"
+        "yards_lose": "436",
+        "stage": "Regular Season"
     },
     {
         "week_num": "16",
@@ -2913,7 +3675,8 @@
         "pts_win": "24",
         "pts_lose": "12",
         "yards_win": "390",
-        "yards_lose": "289"
+        "yards_lose": "289",
+        "stage": "Regular Season"
     },
     {
         "week_num": "16",
@@ -2925,7 +3688,8 @@
         "pts_win": "26",
         "pts_lose": "18",
         "yards_win": "493",
-        "yards_lose": "209"
+        "yards_lose": "209",
+        "stage": "Regular Season"
     },
     {
         "week_num": "16",
@@ -2937,7 +3701,8 @@
         "pts_win": "28",
         "pts_lose": "27",
         "yards_win": "402",
-        "yards_lose": "392"
+        "yards_lose": "392",
+        "stage": "Regular Season"
     },
     {
         "week_num": "16",
@@ -2949,7 +3714,8 @@
         "pts_win": "27",
         "pts_lose": "20",
         "yards_win": "232",
-        "yards_lose": "383"
+        "yards_lose": "383",
+        "stage": "Regular Season"
     },
     {
         "week_num": "16",
@@ -2961,7 +3727,8 @@
         "pts_win": "27",
         "pts_lose": "9",
         "yards_win": "340",
-        "yards_lose": "223"
+        "yards_lose": "223",
+        "stage": "Regular Season"
     },
     {
         "week_num": "16",
@@ -2973,7 +3740,8 @@
         "pts_win": "44",
         "pts_lose": "38",
         "yards_win": "540",
-        "yards_lose": "370"
+        "yards_lose": "370",
+        "stage": "Regular Season"
     },
     {
         "week_num": "16",
@@ -2985,7 +3753,8 @@
         "pts_win": "32",
         "pts_lose": "30",
         "yards_win": "519",
-        "yards_lose": "371"
+        "yards_lose": "371",
+        "stage": "Regular Season"
     },
     {
         "week_num": "16",
@@ -2997,7 +3766,8 @@
         "pts_win": "17",
         "pts_lose": "7",
         "yards_win": "244",
-        "yards_lose": "183"
+        "yards_lose": "183",
+        "stage": "Regular Season"
     },
     {
         "week_num": "16",
@@ -3009,7 +3779,8 @@
         "pts_win": "14",
         "pts_lose": "9",
         "yards_win": "325",
-        "yards_lose": "279"
+        "yards_lose": "279",
+        "stage": "Regular Season"
     },
     {
         "week_num": "16",
@@ -3021,7 +3792,8 @@
         "pts_win": "31",
         "pts_lose": "9",
         "yards_win": "461",
-        "yards_lose": "263"
+        "yards_lose": "263",
+        "stage": "Regular Season"
     },
     {
         "week_num": "16",
@@ -3033,7 +3805,8 @@
         "pts_win": "31",
         "pts_lose": "28",
         "yards_win": "370",
-        "yards_lose": "429"
+        "yards_lose": "429",
+        "stage": "Regular Season"
     },
     {
         "week_num": "16",
@@ -3045,7 +3818,8 @@
         "pts_win": "38",
         "pts_lose": "31",
         "yards_win": "464",
-        "yards_lose": "419"
+        "yards_lose": "419",
+        "stage": "Regular Season"
     },
     {
         "week_num": "16",
@@ -3057,19 +3831,8 @@
         "pts_win": "27",
         "pts_lose": "14",
         "yards_win": "273",
-        "yards_lose": "300"
-    },
-    {
-        "week_num": "Week",
-        "game_day_of_week": null,
-        "game_date": null,
-        "gametime": null,
-        "winner": null,
-        "loser": null,
-        "pts_win": null,
-        "pts_lose": null,
-        "yards_win": null,
-        "yards_lose": null
+        "yards_lose": "300",
+        "stage": "Regular Season"
     },
     {
         "week_num": "17",
@@ -3081,7 +3844,8 @@
         "pts_win": "34",
         "pts_lose": "32",
         "yards_win": "489",
-        "yards_lose": "433"
+        "yards_lose": "433",
+        "stage": "Regular Season"
     },
     {
         "week_num": "17",
@@ -3093,7 +3857,8 @@
         "pts_win": "42",
         "pts_lose": "17",
         "yards_win": "381",
-        "yards_lose": "225"
+        "yards_lose": "225",
+        "stage": "Regular Season"
     },
     {
         "week_num": "17",
@@ -3105,7 +3870,8 @@
         "pts_win": "33",
         "pts_lose": "14",
         "yards_win": "374",
-        "yards_lose": "294"
+        "yards_lose": "294",
+        "stage": "Regular Season"
     },
     {
         "week_num": "17",
@@ -3117,7 +3883,8 @@
         "pts_win": "36",
         "pts_lose": "35",
         "yards_win": "419",
-        "yards_lose": "441"
+        "yards_lose": "441",
+        "stage": "Regular Season"
     },
     {
         "week_num": "17",
@@ -3129,7 +3896,8 @@
         "pts_win": "31",
         "pts_lose": "0",
         "yards_win": "402",
-        "yards_lose": "175"
+        "yards_lose": "175",
+        "stage": "Regular Season"
     },
     {
         "week_num": "17",
@@ -3141,7 +3909,8 @@
         "pts_win": "20",
         "pts_lose": "3",
         "yards_win": "342",
-        "yards_lose": "119"
+        "yards_lose": "119",
+        "stage": "Regular Season"
     },
     {
         "week_num": "17",
@@ -3153,7 +3922,8 @@
         "pts_win": "38",
         "pts_lose": "3",
         "yards_win": "375",
-        "yards_lose": "239"
+        "yards_lose": "239",
+        "stage": "Regular Season"
     },
     {
         "week_num": "17",
@@ -3165,7 +3935,8 @@
         "pts_win": "24",
         "pts_lose": "10",
         "yards_win": "332",
-        "yards_lose": "164"
+        "yards_lose": "164",
+        "stage": "Regular Season"
     },
     {
         "week_num": "17",
@@ -3177,7 +3948,8 @@
         "pts_win": "16",
         "pts_lose": "13",
         "yards_win": "343",
-        "yards_lose": "196"
+        "yards_lose": "196",
+        "stage": "Regular Season"
     },
     {
         "week_num": "17",
@@ -3189,7 +3961,8 @@
         "pts_win": "26",
         "pts_lose": "24",
         "yards_win": "463",
-        "yards_lose": "426"
+        "yards_lose": "426",
+        "stage": "Regular Season"
     },
     {
         "week_num": "17",
@@ -3201,7 +3974,8 @@
         "pts_win": "27",
         "pts_lose": "24",
         "yards_win": "291",
-        "yards_lose": "198"
+        "yards_lose": "198",
+        "stage": "Regular Season"
     },
     {
         "week_num": "17",
@@ -3213,7 +3987,8 @@
         "pts_win": "23",
         "pts_lose": "9",
         "yards_win": "276",
-        "yards_lose": "370"
+        "yards_lose": "370",
+        "stage": "Regular Season"
     },
     {
         "week_num": "17",
@@ -3225,7 +4000,8 @@
         "pts_win": "35",
         "pts_lose": "3",
         "yards_win": "409",
-        "yards_lose": "292"
+        "yards_lose": "292",
+        "stage": "Regular Season"
     },
     {
         "week_num": "17",
@@ -3237,7 +4013,8 @@
         "pts_win": "24",
         "pts_lose": "0",
         "yards_win": "360",
-        "yards_lose": "89"
+        "yards_lose": "89",
+        "stage": "Regular Season"
     },
     {
         "week_num": "17",
@@ -3249,7 +4026,8 @@
         "pts_win": "48",
         "pts_lose": "32",
         "yards_win": "377",
-        "yards_lose": "391"
+        "yards_lose": "391",
+        "stage": "Regular Season"
     },
     {
         "week_num": "17",
@@ -3261,19 +4039,8 @@
         "pts_win": "33",
         "pts_lose": "17",
         "yards_win": "436",
-        "yards_lose": "258"
-    },
-    {
-        "week_num": "",
-        "game_day_of_week": "",
-        "game_date": "Playoffs",
-        "gametime": "",
-        "winner": "",
-        "loser": "",
-        "pts_win": "",
-        "pts_lose": "",
-        "yards_win": "",
-        "yards_lose": ""
+        "yards_lose": "258",
+        "stage": "Regular Season"
     },
     {
         "week_num": "WildCard",
@@ -3285,7 +4052,8 @@
         "pts_win": "21",
         "pts_lose": "7",
         "yards_win": "422",
-        "yards_lose": "322"
+        "yards_lose": "322",
+        "stage": "Post Season"
     },
     {
         "week_num": "WildCard",
@@ -3297,7 +4065,8 @@
         "pts_win": "24",
         "pts_lose": "22",
         "yards_win": "380",
-        "yards_lose": "299"
+        "yards_lose": "299",
+        "stage": "Post Season"
     },
     {
         "week_num": "WildCard",
@@ -3309,7 +4078,8 @@
         "pts_win": "23",
         "pts_lose": "17",
         "yards_win": "243",
-        "yards_lose": "229"
+        "yards_lose": "229",
+        "stage": "Post Season"
     },
     {
         "week_num": "WildCard",
@@ -3321,7 +4091,8 @@
         "pts_win": "16",
         "pts_lose": "15",
         "yards_win": "300",
-        "yards_lose": "356"
+        "yards_lose": "356",
+        "stage": "Post Season"
     },
     {
         "week_num": "Division",
@@ -3333,7 +4104,8 @@
         "pts_win": "31",
         "pts_lose": "13",
         "yards_win": "433",
-        "yards_lose": "266"
+        "yards_lose": "266",
+        "stage": "Post Season"
     },
     {
         "week_num": "Division",
@@ -3345,7 +4117,8 @@
         "pts_win": "30",
         "pts_lose": "22",
         "yards_win": "459",
-        "yards_lose": "308"
+        "yards_lose": "308",
+        "stage": "Post Season"
     },
     {
         "week_num": "Division",
@@ -3357,7 +4130,8 @@
         "pts_win": "41",
         "pts_lose": "28",
         "yards_win": "498",
-        "yards_lose": "335"
+        "yards_lose": "335",
+        "stage": "Post Season"
     },
     {
         "week_num": "Division",
@@ -3369,7 +4143,8 @@
         "pts_win": "20",
         "pts_lose": "14",
         "yards_win": "420",
-        "yards_lose": "250"
+        "yards_lose": "250",
+        "stage": "Post Season"
     },
     {
         "week_num": "ConfChamp",
@@ -3381,7 +4156,8 @@
         "pts_win": "26",
         "pts_lose": "23",
         "yards_win": "378",
-        "yards_lose": "290"
+        "yards_lose": "290",
+        "stage": "Post Season"
     },
     {
         "week_num": "ConfChamp",
@@ -3393,7 +4169,8 @@
         "pts_win": "37",
         "pts_lose": "31",
         "yards_win": "524",
-        "yards_lose": "290"
+        "yards_lose": "290",
+        "stage": "Post Season"
     },
     {
         "week_num": "SuperBowl",
@@ -3405,732 +4182,7 @@
         "pts_win": "13",
         "pts_lose": "3",
         "yards_win": "407",
-        "yards_lose": "260"
-    },
-    {
-        "week_num": "",
-        "game_day_of_week": "Thu",
-        "game_date": "August 2",
-        "visitor_team": "Chicago Bears",
-        "points": "16",
-        "game_location": "@",
-        "home_team": "Baltimore Ravens",
-        "points_opp": "17",
-        "stage": "Preseason"
-    },
-    {
-        "week_num": "1",
-        "game_day_of_week": "Thu",
-        "game_date": "August 9",
-        "visitor_team": "New Orleans Saints",
-        "points": "24",
-        "game_location": "@",
-        "home_team": "Jacksonville Jaguars",
-        "points_opp": "20",
-        "stage": "Preseason"
-    },
-    {
-        "week_num": "1",
-        "game_day_of_week": "Thu",
-        "game_date": "August 9",
-        "visitor_team": "Chicago Bears",
-        "points": "27",
-        "game_location": "@",
-        "home_team": "Cincinnati Bengals",
-        "points_opp": "30",
-        "stage": "Preseason"
-    },
-    {
-        "week_num": "1",
-        "game_day_of_week": "Thu",
-        "game_date": "August 9",
-        "visitor_team": "Houston Texans",
-        "points": "17",
-        "game_location": "@",
-        "home_team": "Kansas City Chiefs",
-        "points_opp": "10",
-        "stage": "Preseason"
-    },
-    {
-        "week_num": "1",
-        "game_day_of_week": "Thu",
-        "game_date": "August 9",
-        "visitor_team": "Washington Redskins",
-        "points": "17",
-        "game_location": "@",
-        "home_team": "New England Patriots",
-        "points_opp": "26",
-        "stage": "Preseason"
-    },
-    {
-        "week_num": "1",
-        "game_day_of_week": "Thu",
-        "game_date": "August 9",
-        "visitor_team": "Pittsburgh Steelers",
-        "points": "31",
-        "game_location": "@",
-        "home_team": "Philadelphia Eagles",
-        "points_opp": "14",
-        "stage": "Preseason"
-    },
-    {
-        "week_num": "1",
-        "game_day_of_week": "Thu",
-        "game_date": "August 9",
-        "visitor_team": "Los Angeles Rams",
-        "points": "7",
-        "game_location": "@",
-        "home_team": "Baltimore Ravens",
-        "points_opp": "33",
-        "stage": "Preseason"
-    },
-    {
-        "week_num": "1",
-        "game_day_of_week": "Thu",
-        "game_date": "August 9",
-        "visitor_team": "Dallas Cowboys",
-        "points": "21",
-        "game_location": "@",
-        "home_team": "San Francisco 49ers",
-        "points_opp": "24",
-        "stage": "Preseason"
-    },
-    {
-        "week_num": "1",
-        "game_day_of_week": "Thu",
-        "game_date": "August 9",
-        "visitor_team": "Tennessee Titans",
-        "points": "17",
-        "game_location": "@",
-        "home_team": "Green Bay Packers",
-        "points_opp": "31",
-        "stage": "Preseason"
-    },
-    {
-        "week_num": "1",
-        "game_day_of_week": "Thu",
-        "game_date": "August 9",
-        "visitor_team": "Tampa Bay Buccaneers",
-        "points": "26",
-        "game_location": "@",
-        "home_team": "Miami Dolphins",
-        "points_opp": "24",
-        "stage": "Preseason"
-    },
-    {
-        "week_num": "1",
-        "game_day_of_week": "Thu",
-        "game_date": "August 9",
-        "visitor_team": "Carolina Panthers",
-        "points": "28",
-        "game_location": "@",
-        "home_team": "Buffalo Bills",
-        "points_opp": "23",
-        "stage": "Preseason"
-    },
-    {
-        "week_num": "1",
-        "game_day_of_week": "Thu",
-        "game_date": "August 9",
-        "visitor_team": "Cleveland Browns",
-        "points": "20",
-        "game_location": "@",
-        "home_team": "New York Giants",
-        "points_opp": "10",
-        "stage": "Preseason"
-    },
-    {
-        "week_num": "1",
-        "game_day_of_week": "Thu",
-        "game_date": "August 9",
-        "visitor_team": "Indianapolis Colts",
-        "points": "19",
-        "game_location": "@",
-        "home_team": "Seattle Seahawks",
-        "points_opp": "17",
-        "stage": "Preseason"
-    },
-    {
-        "week_num": "1",
-        "game_day_of_week": "Fri",
-        "game_date": "August 10",
-        "visitor_team": "Detroit Lions",
-        "points": "10",
-        "game_location": "@",
-        "home_team": "Oakland Raiders",
-        "points_opp": "16",
-        "stage": "Preseason"
-    },
-    {
-        "week_num": "1",
-        "game_day_of_week": "Fri",
-        "game_date": "August 10",
-        "visitor_team": "Atlanta Falcons",
-        "points": "0",
-        "game_location": "@",
-        "home_team": "New York Jets",
-        "points_opp": "17",
-        "stage": "Preseason"
-    },
-    {
-        "week_num": "1",
-        "game_day_of_week": "Sat",
-        "game_date": "August 11",
-        "visitor_team": "Los Angeles Chargers",
-        "points": "17",
-        "game_location": "@",
-        "home_team": "Arizona Cardinals",
-        "points_opp": "24",
-        "stage": "Preseason"
-    },
-    {
-        "week_num": "1",
-        "game_day_of_week": "Sat",
-        "game_date": "August 11",
-        "visitor_team": "Minnesota Vikings",
-        "points": "42",
-        "game_location": "@",
-        "home_team": "Denver Broncos",
-        "points_opp": "28",
-        "stage": "Preseason"
-    },
-    {
-        "week_num": "2",
-        "game_day_of_week": "Thu",
-        "game_date": "August 16",
-        "visitor_team": "Pittsburgh Steelers",
-        "points": "34",
-        "game_location": "@",
-        "home_team": "Green Bay Packers",
-        "points_opp": "51",
-        "stage": "Preseason"
-    },
-    {
-        "week_num": "2",
-        "game_day_of_week": "Thu",
-        "game_date": "August 16",
-        "visitor_team": "Philadelphia Eagles",
-        "points": "20",
-        "game_location": "@",
-        "home_team": "New England Patriots",
-        "points_opp": "37",
-        "stage": "Preseason"
-    },
-    {
-        "week_num": "2",
-        "game_day_of_week": "Thu",
-        "game_date": "August 16",
-        "visitor_team": "New York Jets",
-        "points": "13",
-        "game_location": "@",
-        "home_team": "Washington Redskins",
-        "points_opp": "15",
-        "stage": "Preseason"
-    },
-    {
-        "week_num": "Week",
-        "game_day_of_week": null,
-        "game_date": null,
-        "visitor_team": null,
-        "points": null,
-        "game_location": null,
-        "home_team": null,
-        "points_opp": null,
-        "stage": "Preseason"
-    },
-    {
-        "week_num": "2",
-        "game_day_of_week": "Fri",
-        "game_date": "August 17",
-        "visitor_team": "Miami Dolphins",
-        "points": "20",
-        "game_location": "@",
-        "home_team": "Carolina Panthers",
-        "points_opp": "27",
-        "stage": "Preseason"
-    },
-    {
-        "week_num": "2",
-        "game_day_of_week": "Fri",
-        "game_date": "August 17",
-        "visitor_team": "Kansas City Chiefs",
-        "points": "28",
-        "game_location": "@",
-        "home_team": "Atlanta Falcons",
-        "points_opp": "14",
-        "stage": "Preseason"
-    },
-    {
-        "week_num": "2",
-        "game_day_of_week": "Fri",
-        "game_date": "August 17",
-        "visitor_team": "New York Giants",
-        "points": "30",
-        "game_location": "@",
-        "home_team": "Detroit Lions",
-        "points_opp": "17",
-        "stage": "Preseason"
-    },
-    {
-        "week_num": "2",
-        "game_day_of_week": "Fri",
-        "game_date": "August 17",
-        "visitor_team": "Buffalo Bills",
-        "points": "19",
-        "game_location": "@",
-        "home_team": "Cleveland Browns",
-        "points_opp": "17",
-        "stage": "Preseason"
-    },
-    {
-        "week_num": "2",
-        "game_day_of_week": "Fri",
-        "game_date": "August 17",
-        "visitor_team": "Arizona Cardinals",
-        "points": "20",
-        "game_location": "@",
-        "home_team": "New Orleans Saints",
-        "points_opp": "15",
-        "stage": "Preseason"
-    },
-    {
-        "week_num": "2",
-        "game_day_of_week": "Sat",
-        "game_date": "August 18",
-        "visitor_team": "Chicago Bears",
-        "points": "24",
-        "game_location": "@",
-        "home_team": "Denver Broncos",
-        "points_opp": "23",
-        "stage": "Preseason"
-    },
-    {
-        "week_num": "2",
-        "game_day_of_week": "Sat",
-        "game_date": "August 18",
-        "visitor_team": "Jacksonville Jaguars",
-        "points": "14",
-        "game_location": "@",
-        "home_team": "Minnesota Vikings",
-        "points_opp": "10",
-        "stage": "Preseason"
-    },
-    {
-        "week_num": "2",
-        "game_day_of_week": "Sat",
-        "game_date": "August 18",
-        "visitor_team": "Oakland Raiders",
-        "points": "15",
-        "game_location": "@",
-        "home_team": "Los Angeles Rams",
-        "points_opp": "19",
-        "stage": "Preseason"
-    },
-    {
-        "week_num": "2",
-        "game_day_of_week": "Sat",
-        "game_date": "August 18",
-        "visitor_team": "San Francisco 49ers",
-        "points": "13",
-        "game_location": "@",
-        "home_team": "Houston Texans",
-        "points_opp": "16",
-        "stage": "Preseason"
-    },
-    {
-        "week_num": "2",
-        "game_day_of_week": "Sat",
-        "game_date": "August 18",
-        "visitor_team": "Cincinnati Bengals",
-        "points": "21",
-        "game_location": "@",
-        "home_team": "Dallas Cowboys",
-        "points_opp": "13",
-        "stage": "Preseason"
-    },
-    {
-        "week_num": "2",
-        "game_day_of_week": "Sat",
-        "game_date": "August 18",
-        "visitor_team": "Tampa Bay Buccaneers",
-        "points": "30",
-        "game_location": "@",
-        "home_team": "Tennessee Titans",
-        "points_opp": "14",
-        "stage": "Preseason"
-    },
-    {
-        "week_num": "2",
-        "game_day_of_week": "Sat",
-        "game_date": "August 18",
-        "visitor_team": "Seattle Seahawks",
-        "points": "14",
-        "game_location": "@",
-        "home_team": "Los Angeles Chargers",
-        "points_opp": "24",
-        "stage": "Preseason"
-    },
-    {
-        "week_num": "2",
-        "game_day_of_week": "Mon",
-        "game_date": "August 20",
-        "visitor_team": "Baltimore Ravens",
-        "points": "20",
-        "game_location": "@",
-        "home_team": "Indianapolis Colts",
-        "points_opp": "19",
-        "stage": "Preseason"
-    },
-    {
-        "week_num": "3",
-        "game_day_of_week": "Thu",
-        "game_date": "August 23",
-        "visitor_team": "Philadelphia Eagles",
-        "points": "0",
-        "game_location": "@",
-        "home_team": "Cleveland Browns",
-        "points_opp": "5",
-        "stage": "Preseason"
-    },
-    {
-        "week_num": "3",
-        "game_day_of_week": "Fri",
-        "game_date": "August 24",
-        "visitor_team": "Detroit Lions",
-        "points": "33",
-        "game_location": "@",
-        "home_team": "Tampa Bay Buccaneers",
-        "points_opp": "30",
-        "stage": "Preseason"
-    },
-    {
-        "week_num": "3",
-        "game_day_of_week": "Fri",
-        "game_date": "August 24",
-        "visitor_team": "Green Bay Packers",
-        "points": "6",
-        "game_location": "@",
-        "home_team": "Oakland Raiders",
-        "points_opp": "13",
-        "stage": "Preseason"
-    },
-    {
-        "week_num": "3",
-        "game_day_of_week": "Fri",
-        "game_date": "August 24",
-        "visitor_team": "Seattle Seahawks",
-        "points": "20",
-        "game_location": "@",
-        "home_team": "Minnesota Vikings",
-        "points_opp": "21",
-        "stage": "Preseason"
-    },
-    {
-        "week_num": "3",
-        "game_day_of_week": "Fri",
-        "game_date": "August 24",
-        "visitor_team": "New York Giants",
-        "points": "22",
-        "game_location": "@",
-        "home_team": "New York Jets",
-        "points_opp": "16",
-        "stage": "Preseason"
-    },
-    {
-        "week_num": "3",
-        "game_day_of_week": "Fri",
-        "game_date": "August 24",
-        "visitor_team": "New England Patriots",
-        "points": "14",
-        "game_location": "@",
-        "home_team": "Carolina Panthers",
-        "points_opp": "25",
-        "stage": "Preseason"
-    },
-    {
-        "week_num": "3",
-        "game_day_of_week": "Fri",
-        "game_date": "August 24",
-        "visitor_team": "Denver Broncos",
-        "points": "29",
-        "game_location": "@",
-        "home_team": "Washington Redskins",
-        "points_opp": "17",
-        "stage": "Preseason"
-    },
-    {
-        "week_num": "3",
-        "game_day_of_week": "Sat",
-        "game_date": "August 25",
-        "visitor_team": "Houston Texans",
-        "points": "20",
-        "game_location": "@",
-        "home_team": "Los Angeles Rams",
-        "points_opp": "21",
-        "stage": "Preseason"
-    },
-    {
-        "week_num": "3",
-        "game_day_of_week": "Sat",
-        "game_date": "August 25",
-        "visitor_team": "Atlanta Falcons",
-        "points": "6",
-        "game_location": "@",
-        "home_team": "Jacksonville Jaguars",
-        "points_opp": "17",
-        "stage": "Preseason"
-    },
-    {
-        "week_num": "3",
-        "game_day_of_week": "Sat",
-        "game_date": "August 25",
-        "visitor_team": "Tennessee Titans",
-        "points": "6",
-        "game_location": "@",
-        "home_team": "Pittsburgh Steelers",
-        "points_opp": "16",
-        "stage": "Preseason"
-    },
-    {
-        "week_num": "3",
-        "game_day_of_week": "Sat",
-        "game_date": "August 25",
-        "visitor_team": "Kansas City Chiefs",
-        "points": "20",
-        "game_location": "@",
-        "home_team": "Chicago Bears",
-        "points_opp": "27",
-        "stage": "Preseason"
-    },
-    {
-        "week_num": "3",
-        "game_day_of_week": "Sat",
-        "game_date": "August 25",
-        "visitor_team": "Baltimore Ravens",
-        "points": "27",
-        "game_location": "@",
-        "home_team": "Miami Dolphins",
-        "points_opp": "10",
-        "stage": "Preseason"
-    },
-    {
-        "week_num": "3",
-        "game_day_of_week": "Sat",
-        "game_date": "August 25",
-        "visitor_team": "New Orleans Saints",
-        "points": "36",
-        "game_location": "@",
-        "home_team": "Los Angeles Chargers",
-        "points_opp": "7",
-        "stage": "Preseason"
-    },
-    {
-        "week_num": "3",
-        "game_day_of_week": "Sat",
-        "game_date": "August 25",
-        "visitor_team": "San Francisco 49ers",
-        "points": "17",
-        "game_location": "@",
-        "home_team": "Indianapolis Colts",
-        "points_opp": "23",
-        "stage": "Preseason"
-    },
-    {
-        "week_num": "3",
-        "game_day_of_week": "Sun",
-        "game_date": "August 26",
-        "visitor_team": "Arizona Cardinals",
-        "points": "27",
-        "game_location": "@",
-        "home_team": "Dallas Cowboys",
-        "points_opp": "3",
-        "stage": "Preseason"
-    },
-    {
-        "week_num": "3",
-        "game_day_of_week": "Sun",
-        "game_date": "August 26",
-        "visitor_team": "Cincinnati Bengals",
-        "points": "26",
-        "game_location": "@",
-        "home_team": "Buffalo Bills",
-        "points_opp": "13",
-        "stage": "Preseason"
-    },
-    {
-        "week_num": "4",
-        "game_day_of_week": "Thu",
-        "game_date": "August 30",
-        "visitor_team": "Dallas Cowboys",
-        "points": "6",
-        "game_location": "@",
-        "home_team": "Houston Texans",
-        "points_opp": "14",
-        "stage": "Preseason"
-    },
-    {
-        "week_num": "4",
-        "game_day_of_week": "Thu",
-        "game_date": "August 30",
-        "visitor_team": "Buffalo Bills",
-        "points": "28",
-        "game_location": "@",
-        "home_team": "Chicago Bears",
-        "points_opp": "27",
-        "stage": "Preseason"
-    },
-    {
-        "week_num": "4",
-        "game_day_of_week": "Thu",
-        "game_date": "August 30",
-        "visitor_team": "New York Jets",
-        "points": "9",
-        "game_location": "@",
-        "home_team": "Philadelphia Eagles",
-        "points_opp": "10",
-        "stage": "Preseason"
-    },
-    {
-        "week_num": "4",
-        "game_day_of_week": "Thu",
-        "game_date": "August 30",
-        "visitor_team": "Los Angeles Rams",
-        "points": "0",
-        "game_location": "@",
-        "home_team": "New Orleans Saints",
-        "points_opp": "28",
-        "stage": "Preseason"
-    },
-    {
-        "week_num": "4",
-        "game_day_of_week": "Thu",
-        "game_date": "August 30",
-        "visitor_team": "Los Angeles Chargers",
-        "points": "23",
-        "game_location": "@",
-        "home_team": "San Francisco 49ers",
-        "points_opp": "21",
-        "stage": "Preseason"
-    },
-    {
-        "week_num": "4",
-        "game_day_of_week": "Thu",
-        "game_date": "August 30",
-        "visitor_team": "New England Patriots",
-        "points": "17",
-        "game_location": "@",
-        "home_team": "New York Giants",
-        "points_opp": "12",
-        "stage": "Preseason"
-    },
-    {
-        "week_num": "4",
-        "game_day_of_week": "Thu",
-        "game_date": "August 30",
-        "visitor_team": "Indianapolis Colts",
-        "points": "27",
-        "game_location": "@",
-        "home_team": "Cincinnati Bengals",
-        "points_opp": "26",
-        "stage": "Preseason"
-    },
-    {
-        "week_num": "4",
-        "game_day_of_week": "Thu",
-        "game_date": "August 30",
-        "visitor_team": "Jacksonville Jaguars",
-        "points": "25",
-        "game_location": "@",
-        "home_team": "Tampa Bay Buccaneers",
-        "points_opp": "10",
-        "stage": "Preseason"
-    },
-    {
-        "week_num": "4",
-        "game_day_of_week": "Thu",
-        "game_date": "August 30",
-        "visitor_team": "Denver Broncos",
-        "points": "21",
-        "game_location": "@",
-        "home_team": "Arizona Cardinals",
-        "points_opp": "10",
-        "stage": "Preseason"
-    },
-    {
-        "week_num": "4",
-        "game_day_of_week": "Thu",
-        "game_date": "August 30",
-        "visitor_team": "Miami Dolphins",
-        "points": "34",
-        "game_location": "@",
-        "home_team": "Atlanta Falcons",
-        "points_opp": "7",
-        "stage": "Preseason"
-    },
-    {
-        "week_num": "4",
-        "game_day_of_week": "Thu",
-        "game_date": "August 30",
-        "visitor_team": "Minnesota Vikings",
-        "points": "13",
-        "game_location": "@",
-        "home_team": "Tennessee Titans",
-        "points_opp": "3",
-        "stage": "Preseason"
-    },
-    {
-        "week_num": "4",
-        "game_day_of_week": "Thu",
-        "game_date": "August 30",
-        "visitor_team": "Oakland Raiders",
-        "points": "30",
-        "game_location": "@",
-        "home_team": "Seattle Seahawks",
-        "points_opp": "19",
-        "stage": "Preseason"
-    },
-    {
-        "week_num": "4",
-        "game_day_of_week": "Thu",
-        "game_date": "August 30",
-        "visitor_team": "Washington Redskins",
-        "points": "20",
-        "game_location": "@",
-        "home_team": "Baltimore Ravens",
-        "points_opp": "30",
-        "stage": "Preseason"
-    },
-    {
-        "week_num": "4",
-        "game_day_of_week": "Thu",
-        "game_date": "August 30",
-        "visitor_team": "Cleveland Browns",
-        "points": "35",
-        "game_location": "@",
-        "home_team": "Detroit Lions",
-        "points_opp": "17",
-        "stage": "Preseason"
-    },
-    {
-        "week_num": "4",
-        "game_day_of_week": "Thu",
-        "game_date": "August 30",
-        "visitor_team": "Carolina Panthers",
-        "points": "24",
-        "game_location": "@",
-        "home_team": "Pittsburgh Steelers",
-        "points_opp": "39",
-        "stage": "Preseason"
-    },
-    {
-        "week_num": "4",
-        "game_day_of_week": "Thu",
-        "game_date": "August 30",
-        "visitor_team": "Green Bay Packers",
-        "points": "21",
-        "game_location": "@",
-        "home_team": "Kansas City Chiefs",
-        "points_opp": "33",
-        "stage": "Preseason"
+        "yards_lose": "260",
+        "stage": "Post Season"
     }
 ]
