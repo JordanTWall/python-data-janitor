@@ -2,15 +2,15 @@ import os
 import argparse
 from dotenv import load_dotenv
 from modules import get_mongo_client, get_database
-from functions.webScraper import download_pfc_data
 from functions.data_check import check_missing_data_by_year
+from functions.webScraper import download_pfc_data, download_preseason_data
 
 # Load environment variables from .env file
 load_dotenv()
 
 # Initialize the argument parser
 parser = argparse.ArgumentParser(description="Check for missing data in the NFL games database or download game data.")
-parser.add_argument("action", choices=["check", "download"], help="The action to perform.")
+parser.add_argument("action", choices=["check", "download", "download_preseason"], help="The action to perform.")
 parser.add_argument("--team", help="The specific team to check. Use 'all' to check all teams.")
 parser.add_argument("--years", help="Comma-separated list of specific years or year ranges to check or download (e.g., '2011,2013,2011-2013'). Use 'all' to check/download all years.")
 
@@ -63,5 +63,10 @@ if args.action == "check":
 
 elif args.action == "download":
     if years == "all":
-        years = list(range(2010, 2023))  # Example range
+        years = list(range(2010, 2023))  
     download_pfc_data(years)
+
+elif args.action == "download_preseason":
+    if years == "all":
+        years = list(range(2010, 2023))  
+    download_preseason_data(years)

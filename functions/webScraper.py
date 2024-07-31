@@ -1,68 +1,30 @@
-# functions/download_pfc.py
-
 import os
 import json
 import time
-from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
+from modules import setup_driver
 
-def setup_driver():
-    chrome_options = Options()
-    # Use the Chrome Headless Shell
-    chrome_options.binary_location = "C:\\Users\\jorda\\OneDrive\\Desktop\\chrome\\chrome-headless-shell-win64\\chrome-headless-shell.exe"
-    chrome_options.add_argument("--headless")  # Run in headless mode
-    chrome_options.add_argument("--disable-gpu")
-    chrome_options.add_argument("--no-sandbox")
-    chrome_options.add_argument("--disable-dev-shm-usage")
+MIN_EXECUTION_TIME = 6.5  # Minimum execution time in seconds per year
 
-    # Specify the path to ChromeDriver
-    service = Service("C:\\Users\\jorda\\OneDrive\\Desktop\\chrome\\chromedriver-win64\\chromedriver.exe")
-    driver = webdriver.Chrome(service=service, options=chrome_options)
-    return driver
-
-def parse_data_to_json(soup):
+def parse_regular_season_data(soup):
     data = []
     table = soup.find('table', {'id': 'games'})
     if not table:
-        print("No table found on the page.")
+        print("No regular season table found on the page.")
         return data
 
     rows = table.find_all('tr', {'data-row': True})
     for row in rows:
-        week_num = row.find('th', {'data-stat': 'week_num'})
-        week_num = week_num.text.strip() if week_num else None
-
-        game_day_of_week = row.find('td', {'data-stat': 'game_day_of_week'})
-        game_day_of_week = game_day_of_week.text.strip() if game_day_of_week else None
-
-        game_date = row.find('td', {'data-stat': 'game_date'})
-        game_date = game_date.text.strip() if game_date else None
-
-        gametime = row.find('td', {'data-stat': 'gametime'})
-        gametime = gametime.text.strip() if gametime else None
-
-        winner = row.find('td', {'data-stat': 'winner'})
-        winner = winner.text.strip() if winner else None
-
-        loser = row.find('td', {'data-stat': 'loser'})
-        loser = loser.text.strip() if loser else None
-
-        pts_win = row.find('td', {'data-stat': 'pts_win'})
-        pts_win = pts_win.text.strip() if pts_win else None
-
-        pts_lose = row.find('td', {'data-stat': 'pts_lose'})
-        pts_lose = pts_lose.text.strip() if pts_lose else None
-
-        yards_win = row.find('td', {'data-stat': 'yards_win'})
-        yards_win = yards_win.text.strip() if yards_win else None
-
-        yards_lose = row.find('td', {'data-stat': 'yards_lose'})
-        yards_lose = yards_lose.text.strip() if yards_lose else None
+        week_num = row.find('th', {'data-stat': 'week_num'}).text.strip() if row.find('th', {'data-stat': 'week_num'}) else None
+        game_day_of_week = row.find('td', {'data-stat': 'game_day_of_week'}).text.strip() if row.find('td', {'data-stat': 'game_day_of_week'}) else None
+        game_date = row.find('td', {'data-stat': 'game_date'}).text.strip() if row.find('td', {'data-stat': 'game_date'}) else None
+        gametime = row.find('td', {'data-stat': 'gametime'}).text.strip() if row.find('td', {'data-stat': 'gametime'}) else None
+        winner = row.find('td', {'data-stat': 'winner'}).text.strip() if row.find('td', {'data-stat': 'winner'}) else None
+        loser = row.find('td', {'data-stat': 'loser'}).text.strip() if row.find('td', {'data-stat': 'loser'}) else None
+        pts_win = row.find('td', {'data-stat': 'pts_win'}).text.strip() if row.find('td', {'data-stat': 'pts_win'}) else None
+        pts_lose = row.find('td', {'data-stat': 'pts_lose'}).text.strip() if row.find('td', {'data-stat': 'pts_lose'}) else None
+        yards_win = row.find('td', {'data-stat': 'yards_win'}).text.strip() if row.find('td', {'data-stat': 'yards_win'}) else None
+        yards_lose = row.find('td', {'data-stat': 'yards_lose'}).text.strip() if row.find('td', {'data-stat': 'yards_lose'}) else None
 
         game_data = {
             "week_num": week_num,
@@ -79,33 +41,128 @@ def parse_data_to_json(soup):
         data.append(game_data)
     return data
 
+def parse_preseason_data(soup):
+    data = []
+    table = soup.find('table', {'id': 'preseason'})
+    if not table:
+        print("No preseason table found on the page.")
+        return data
+
+    rows = table.find_all('tr', {'data-row': True})
+    for row in rows:
+        week_num = row.find('th', {'data-stat': 'week_num'}).text.strip() if row.find('th', {'data-stat': 'week_num'}) else None
+        game_day_of_week = row.find('td', {'data-stat': 'game_day_of_week'}).text.strip() if row.find('td', {'data-stat': 'game_day_of_week'}) else None
+        game_date = row.find('td', {'data-stat': 'boxscore_word'}).text.strip() if row.find('td', {'data-stat': 'boxscore_word'}) else None
+        visitor_team = row.find('td', {'data-stat': 'visitor_team'}).text.strip() if row.find('td', {'data-stat': 'visitor_team'}) else None
+        points = row.find('td', {'data-stat': 'points'}).text.strip() if row.find('td', {'data-stat': 'points'}) else None
+        game_location = row.find('td', {'data-stat': 'game_location'}).text.strip() if row.find('td', {'data-stat': 'game_location'}) else None
+        home_team = row.find('td', {'data-stat': 'home_team'}).text.strip() if row.find('td', {'data-stat': 'home_team'}) else None
+        points_opp = row.find('td', {'data-stat': 'points_opp'}).text.strip() if row.find('td', {'data-stat': 'points_opp'}) else None
+
+        game_data = {
+            "week_num": week_num,
+            "game_day_of_week": game_day_of_week,
+            "game_date": game_date,
+            "visitor_team": visitor_team,
+            "points": points,
+            "game_location": game_location,
+            "home_team": home_team,
+            "points_opp": points_opp,
+            "stage": "Preseason"
+        }
+        data.append(game_data)
+    return data
+
+def is_duplicate(existing_data, new_data):
+    """Check if new_data already exists in existing_data list."""
+    for existing in existing_data:
+        if existing == new_data:
+            return True
+    return False
+
 def download_pfc_data(years):
     driver = setup_driver()
-    base_url = "https://www.pro-football-reference.com/years/{}/games.htm"
+    regular_season_base_url = "https://www.pro-football-reference.com/years/{}/games.htm"
 
     for year in years:
+        start_time = time.time()
+        all_data = []
+
         try:
-            url = base_url.format(year)
-            driver.get(url)
-            print(f"Bot navigated to {url}")
+            regular_season_url = regular_season_base_url.format(year)
+            driver.get(regular_season_url)
+            print(f"Bot navigated to {regular_season_url}")
+
+            soup = BeautifulSoup(driver.page_source, 'html.parser')
+            regular_season_data = parse_regular_season_data(soup)
+
+            # Load existing data or create new
+            output_path = os.path.join("games_by_year_data", f"games_in_{year}.json")
+            if os.path.exists(output_path):
+                with open(output_path, 'r', encoding='utf-8') as f:
+                    all_data = json.load(f)
+
+            # Add new data if not duplicate
+            for game in regular_season_data:
+                if not is_duplicate(all_data, game):
+                    all_data.append(game)
+
+            # Save updated data to JSON
+            os.makedirs("games_by_year_data", exist_ok=True)
+            with open(output_path, 'w', encoding='utf-8') as f:
+                json.dump(all_data, f, indent=4)
+            print(f"Regular season data for {year} downloaded and saved as JSON.")
+
+        except Exception as e:
+            print(f"An error occurred while downloading regular season data for {year}: {e}")
+
+        # Ensure the loop takes at least MIN_EXECUTION_TIME
+        elapsed_time = time.time() - start_time
+        if elapsed_time < MIN_EXECUTION_TIME:
+            time.sleep(MIN_EXECUTION_TIME - elapsed_time)
+
+    driver.quit()
+
+def download_preseason_data(years):
+    driver = setup_driver()
+    preseason_base_url = "https://www.pro-football-reference.com/years/{}/preseason.htm"
+
+    for year in years:
+        start_time = time.time()
+        all_data = []
+
+        try:
+            preseason_url = preseason_base_url.format(year)
+            driver.get(preseason_url)
+            print(f"Bot navigated to {preseason_url}")
 
             # Get page source and parse with BeautifulSoup
             soup = BeautifulSoup(driver.page_source, 'html.parser')
-            data = parse_data_to_json(soup)
+            preseason_data = parse_preseason_data(soup)
 
-            # Save to JSON
-            if data:
-                output_path = os.path.join("games_by_year_data", f"games_in_{year}.json")
-                os.makedirs("games_by_year_data", exist_ok=True)
-                with open(output_path, 'w', encoding='utf-8') as f:
-                    json.dump(data, f, indent=4)
-                print(f"Data for {year} downloaded and saved as JSON.")
-            else:
-                print(f"No data found for {year}.")
-            
-    
+            # Load existing data or create new
+            output_path = os.path.join("games_by_year_data", f"games_in_{year}.json")
+            if os.path.exists(output_path):
+                with open(output_path, 'r', encoding='utf-8') as f:
+                    all_data = json.load(f)
+
+            # Add new data if not duplicate
+            for game in preseason_data:
+                if not is_duplicate(all_data, game):
+                    all_data.append(game)
+
+            # Save updated data to JSON
+            os.makedirs("games_by_year_data", exist_ok=True)
+            with open(output_path, 'w', encoding='utf-8') as f:
+                json.dump(all_data, f, indent=4)
+            print(f"Preseason data for {year} downloaded and saved as JSON.")
 
         except Exception as e:
-            print(f"An error occurred while downloading data for {year}: {e}")
+            print(f"An error occurred while downloading preseason data for {year}: {e}")
+
+        # Ensure the loop takes at least MIN_EXECUTION_TIME
+        elapsed_time = time.time() - start_time
+        if elapsed_time < MIN_EXECUTION_TIME:
+            time.sleep(MIN_EXECUTION_TIME - elapsed_time)
 
     driver.quit()

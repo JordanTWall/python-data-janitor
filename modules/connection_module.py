@@ -1,4 +1,4 @@
-# connection_module.py
+# modules/connection_module.py
 import os
 from pymongo import MongoClient
 from dotenv import load_dotenv
@@ -24,3 +24,4 @@ def get_database(client, db_name="nfl_games_by_year"):
 
     except Exception as e:
         raise Exception(f"Error accessing database: {e}")
+
