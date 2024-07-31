@@ -39,11 +39,17 @@ def scrub_pfc_data():
                     else:
                         game["week_num"] = "Hall of Fame Game"
                         total_changes += 1
-                
+
                 # Ensure "stage" field is present
                 if "stage" not in game:
                     week_num = game.get("week_num", "")
-                    if week_num in ["WildCard", "Division", "ConfChamp", "SuperBowl"]:
+                    if week_num == "WildCard":
+                        game["stage"] = "Post Season"
+                    elif week_num == "Division":
+                        game["stage"] = "Post Season"
+                    elif week_num == "ConfChamp":
+                        game["stage"] = "Post Season"
+                    elif week_num == "SuperBowl":
                         game["stage"] = "Post Season"
                     elif week_num.isdigit() and int(week_num) <= 4:
                         game["stage"] = "Pre Season"
@@ -53,7 +59,18 @@ def scrub_pfc_data():
                 elif game["stage"] == "Preseason":
                     game["stage"] = "Pre Season"
                     total_changes += 1
-                
+
+                # Correct `week_num` for specific playoff rounds
+                if game.get("week_num") == "Division":
+                    game["week_num"] = "Divisional Round"
+                    total_changes += 1
+                elif game.get("week_num") == "ConfChamp":
+                    game["week_num"] = "Conference Championships"
+                    total_changes += 1
+                elif game.get("week_num") == "SuperBowl":
+                    game["week_num"] = "Super Bowl"
+                    total_changes += 1
+
                 # Correct date format for Pre Season games
                 if game.get("stage") == "Pre Season":
                     game_date = game.get("game_date", "")
