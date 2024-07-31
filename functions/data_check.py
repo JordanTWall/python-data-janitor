@@ -1,8 +1,8 @@
 # data_check.py
 from pymongo import MongoClient
 
-def check_missing_data_by_year(db, collection_name):
-    collection = db[collection_name]
+def check_missing_data_by_year(db, team_name):
+    collection = db[team_name]
     missing_data_by_year = {}
 
     for doc in collection.find({"$or": [{"games.game.stage": None}, {"games.game.week": None}]}):

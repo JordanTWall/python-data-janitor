@@ -17,11 +17,10 @@ def get_mongo_client():
     except Exception as e:
         raise Exception(f"The following error occurred: {e}")
 
-def get_database_and_collection(client, db_name="nicholasCageDB", collection_name="nfl_games_by_year"):
+def get_database(client, db_name="nfl_games_by_year"):
     try:
         database = client[db_name]
-        collection = database[collection_name]
-        return database, collection
+        return database
 
     except Exception as e:
-        raise Exception(f"Error accessing database or collection: {e}")
+        raise Exception(f"Error accessing database: {e}")

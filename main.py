@@ -3,11 +3,9 @@
 import os
 import argparse
 from dotenv import load_dotenv
+from modules import get_mongo_client, get_database
 from functions.webScraper import download_pfc_data
-# main.py
-from modules import get_mongo_client, get_database_and_collection, check_missing_data_by_year
-
-# Your main script logic here
+from functions.data_check import check_missing_data_by_year
 
 # Load environment variables from .env file
 load_dotenv()
@@ -20,14 +18,11 @@ parser.add_argument("--year", help="The specific year to check, use 'all' to che
 
 args = parser.parse_args()
 
+# Connect to MongoDB
+client = get_mongo_client()
+db = get_database(client)  # Connect to the database
+
 if args.action == "check":
-    from functions.data_check import check_missing_data_by_year
-    from modules import get_mongo_client, get_database_and_collection
-
-    # Connect to MongoDB
-    client = get_mongo_client()
-    db, _ = get_database_and_collection(client)
-
     total_missing = 0
     if args.team == "all":
         collections = db.list_collection_names()
@@ -49,9 +44,6 @@ if args.action == "check":
     # Print the total number of missing data points
     print(f"\nTotal missing data points: {total_missing}")
 
-    # Close the MongoDB client
-    client.close()
-
 elif args.action == "download":
     if args.year == "all":
         years = list(range(2016, 2023))  # Example range
@@ -59,3 +51,6 @@ elif args.action == "download":
         years = [int(args.year)]
     
     download_pfc_data(years)
+
+# Close the MongoDB client
+client.close()
