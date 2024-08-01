@@ -18,6 +18,16 @@ def correct_date_format(date_str, year):
     except ValueError:
         return None
 
+def convert_preseason_date(date_str, year):
+    """Convert a 'Month Day' format to 'YYYY-MM-DD' using the provided year."""
+    try:
+        date_parsed = datetime.strptime(date_str, "%B %d")
+        corrected_date = date_parsed.replace(year=int(year))
+        return corrected_date.strftime("%Y-%m-%d")
+    except ValueError:
+        print(f"Error: Cannot parse date '{date_str}' with year {year}")
+        return None
+
 def stage_check(game, week_num):
     """Set the stage field based on the week_num."""
     if week_num == "WildCard":

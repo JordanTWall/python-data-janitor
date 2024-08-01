@@ -1,6 +1,534 @@
 [
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
+        "week_num": "1",
+        "game_day_of_week": "Thu",
+        "game_date": "2023-08-10",
+        "visitor_team": "Houston Texans",
+        "points": "20",
+        "game_location": "@",
+        "home_team": "New England Patriots",
+        "points_opp": "9"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "1",
+        "game_day_of_week": "Thu",
+        "game_date": "2023-08-10",
+        "visitor_team": "Minnesota Vikings",
+        "points": "13",
+        "game_location": "@",
+        "home_team": "Seattle Seahawks",
+        "points_opp": "24"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "1",
+        "game_day_of_week": "Fri",
+        "game_date": "2023-08-11",
+        "visitor_team": "Green Bay Packers",
+        "points": "36",
+        "game_location": "@",
+        "home_team": "Cincinnati Bengals",
+        "points_opp": "19"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "1",
+        "game_day_of_week": "Fri",
+        "game_date": "2023-08-11",
+        "visitor_team": "Washington Commanders",
+        "points": "17",
+        "game_location": "@",
+        "home_team": "Cleveland Browns",
+        "points_opp": "15"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "1",
+        "game_day_of_week": "Fri",
+        "game_date": "2023-08-11",
+        "visitor_team": "Denver Broncos",
+        "points": "17",
+        "game_location": "@",
+        "home_team": "Arizona Cardinals",
+        "points_opp": "18"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "1",
+        "game_day_of_week": "Fri",
+        "game_date": "2023-08-11",
+        "visitor_team": "New York Giants",
+        "points": "16",
+        "game_location": "@",
+        "home_team": "Detroit Lions",
+        "points_opp": "21"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "1",
+        "game_day_of_week": "Fri",
+        "game_date": "2023-08-11",
+        "visitor_team": "Atlanta Falcons",
+        "points": "19",
+        "game_location": "@",
+        "home_team": "Miami Dolphins",
+        "points_opp": "3"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "1",
+        "game_day_of_week": "Fri",
+        "game_date": "2023-08-11",
+        "visitor_team": "Pittsburgh Steelers",
+        "points": "27",
+        "game_location": "@",
+        "home_team": "Tampa Bay Buccaneers",
+        "points_opp": "17"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "1",
+        "game_day_of_week": "Sat",
+        "game_date": "2023-08-12",
+        "visitor_team": "Los Angeles Chargers",
+        "points": "34",
+        "game_location": "@",
+        "home_team": "Los Angeles Rams",
+        "points_opp": "17"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "1",
+        "game_day_of_week": "Sat",
+        "game_date": "2023-08-12",
+        "visitor_team": "Philadelphia Eagles",
+        "points": "19",
+        "game_location": "@",
+        "home_team": "Baltimore Ravens",
+        "points_opp": "20"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "1",
+        "game_day_of_week": "Sat",
+        "game_date": "2023-08-12",
+        "visitor_team": "Jacksonville Jaguars",
+        "points": "28",
+        "game_location": "@",
+        "home_team": "Dallas Cowboys",
+        "points_opp": "23"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "1",
+        "game_day_of_week": "Sat",
+        "game_date": "2023-08-12",
+        "visitor_team": "Tennessee Titans",
+        "points": "17",
+        "game_location": "@",
+        "home_team": "Chicago Bears",
+        "points_opp": "23"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "1",
+        "game_day_of_week": "Sat",
+        "game_date": "2023-08-12",
+        "visitor_team": "New York Jets",
+        "points": "27",
+        "game_location": "@",
+        "home_team": "Carolina Panthers",
+        "points_opp": "0"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "1",
+        "game_day_of_week": "Sat",
+        "game_date": "2023-08-12",
+        "visitor_team": "Indianapolis Colts",
+        "points": "19",
+        "game_location": "@",
+        "home_team": "Buffalo Bills",
+        "points_opp": "23"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "1",
+        "game_day_of_week": "Sun",
+        "game_date": "2023-08-13",
+        "visitor_team": "Kansas City Chiefs",
+        "points": "24",
+        "game_location": "@",
+        "home_team": "New Orleans Saints",
+        "points_opp": "26"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "1",
+        "game_day_of_week": "Sun",
+        "game_date": "2023-08-13",
+        "visitor_team": "San Francisco 49ers",
+        "points": "7",
+        "game_location": "@",
+        "home_team": "Las Vegas Raiders",
+        "points_opp": "34"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "2",
+        "game_day_of_week": "Thu",
+        "game_date": "2023-08-17",
+        "visitor_team": "Cleveland Browns",
+        "points": "18",
+        "game_location": "@",
+        "home_team": "Philadelphia Eagles",
+        "points_opp": "18"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "2",
+        "game_day_of_week": "Fri",
+        "game_date": "2023-08-18",
+        "visitor_team": "Cincinnati Bengals",
+        "points": "13",
+        "game_location": "@",
+        "home_team": "Atlanta Falcons",
+        "points_opp": "13"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "2",
+        "game_day_of_week": "Fri",
+        "game_date": "2023-08-18",
+        "visitor_team": "Carolina Panthers",
+        "points": "19",
+        "game_location": "@",
+        "home_team": "New York Giants",
+        "points_opp": "21"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "2",
+        "game_day_of_week": "Sat",
+        "game_date": "2023-08-19",
+        "visitor_team": "Miami Dolphins",
+        "points": "28",
+        "game_location": "@",
+        "home_team": "Houston Texans",
+        "points_opp": "3"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "2",
+        "game_day_of_week": "Sat",
+        "game_date": "2023-08-19",
+        "visitor_team": "Denver Broncos",
+        "points": "20",
+        "game_location": "@",
+        "home_team": "San Francisco 49ers",
+        "points_opp": "21"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "2",
+        "game_day_of_week": "Sat",
+        "game_date": "2023-08-19",
+        "visitor_team": "Dallas Cowboys",
+        "points": "14",
+        "game_location": "@",
+        "home_team": "Seattle Seahawks",
+        "points_opp": "22"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "2",
+        "game_day_of_week": "Sat",
+        "game_date": "2023-08-19",
+        "visitor_team": "Las Vegas Raiders",
+        "points": "34",
+        "game_location": "@",
+        "home_team": "Los Angeles Rams",
+        "points_opp": "17"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "2",
+        "game_day_of_week": "Sat",
+        "game_date": "2023-08-19",
+        "visitor_team": "Buffalo Bills",
+        "points": "15",
+        "game_location": "@",
+        "home_team": "Pittsburgh Steelers",
+        "points_opp": "27"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "2",
+        "game_day_of_week": "Sat",
+        "game_date": "2023-08-19",
+        "visitor_team": "Tampa Bay Buccaneers",
+        "points": "13",
+        "game_location": "@",
+        "home_team": "New York Jets",
+        "points_opp": "6"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "2",
+        "game_day_of_week": "Sat",
+        "game_date": "2023-08-19",
+        "visitor_team": "New England Patriots",
+        "points": "21",
+        "game_location": "@",
+        "home_team": "Green Bay Packers",
+        "points_opp": "17"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "2",
+        "game_day_of_week": "Sat",
+        "game_date": "2023-08-19",
+        "visitor_team": "Jacksonville Jaguars",
+        "points": "25",
+        "game_location": "@",
+        "home_team": "Detroit Lions",
+        "points_opp": "7"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "2",
+        "game_day_of_week": "Sat",
+        "game_date": "2023-08-19",
+        "visitor_team": "Kansas City Chiefs",
+        "points": "38",
+        "game_location": "@",
+        "home_team": "Arizona Cardinals",
+        "points_opp": "10"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "2",
+        "game_day_of_week": "Sat",
+        "game_date": "2023-08-19",
+        "visitor_team": "Chicago Bears",
+        "points": "17",
+        "game_location": "@",
+        "home_team": "Indianapolis Colts",
+        "points_opp": "24"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "2",
+        "game_day_of_week": "Sat",
+        "game_date": "2023-08-19",
+        "visitor_team": "Tennessee Titans",
+        "points": "24",
+        "game_location": "@",
+        "home_team": "Minnesota Vikings",
+        "points_opp": "16"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "2",
+        "game_day_of_week": "Sun",
+        "game_date": "2023-08-20",
+        "visitor_team": "New Orleans Saints",
+        "points": "22",
+        "game_location": "@",
+        "home_team": "Los Angeles Chargers",
+        "points_opp": "17"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "2",
+        "game_day_of_week": "Mon",
+        "game_date": "2023-08-21",
+        "visitor_team": "Baltimore Ravens",
+        "points": "28",
+        "game_location": "@",
+        "home_team": "Washington Commanders",
+        "points_opp": "29"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "3",
+        "game_day_of_week": "Thu",
+        "game_date": "2023-08-24",
+        "visitor_team": "Pittsburgh Steelers",
+        "points": "24",
+        "game_location": "@",
+        "home_team": "Atlanta Falcons",
+        "points_opp": "0"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "3",
+        "game_day_of_week": "Thu",
+        "game_date": "2023-08-24",
+        "visitor_team": "Indianapolis Colts",
+        "points": "27",
+        "game_location": "@",
+        "home_team": "Philadelphia Eagles",
+        "points_opp": "13"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "3",
+        "game_day_of_week": "Fri",
+        "game_date": "2023-08-25",
+        "visitor_team": "Los Angeles Chargers",
+        "points": "23",
+        "game_location": "@",
+        "home_team": "San Francisco 49ers",
+        "points_opp": "12"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "3",
+        "game_day_of_week": "Fri",
+        "game_date": "2023-08-25",
+        "visitor_team": "New England Patriots",
+        "points": "7",
+        "game_location": "@",
+        "home_team": "Tennessee Titans",
+        "points_opp": "23"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "3",
+        "game_day_of_week": "Fri",
+        "game_date": "2023-08-25",
+        "visitor_team": "Detroit Lions",
+        "points": "26",
+        "game_location": "@",
+        "home_team": "Carolina Panthers",
+        "points_opp": "17"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "3",
+        "game_day_of_week": "Sat",
+        "game_date": "2023-08-26",
+        "visitor_team": "Buffalo Bills",
+        "points": "24",
+        "game_location": "@",
+        "home_team": "Chicago Bears",
+        "points_opp": "21"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "3",
+        "game_day_of_week": "Sat",
+        "game_date": "2023-08-26",
+        "visitor_team": "Las Vegas Raiders",
+        "points": "16",
+        "game_location": "@",
+        "home_team": "Dallas Cowboys",
+        "points_opp": "31"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "3",
+        "game_day_of_week": "Sat",
+        "game_date": "2023-08-26",
+        "visitor_team": "Los Angeles Rams",
+        "points": "0",
+        "game_location": "@",
+        "home_team": "Denver Broncos",
+        "points_opp": "41"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "3",
+        "game_day_of_week": "Sat",
+        "game_date": "2023-08-26",
+        "visitor_team": "Seattle Seahawks",
+        "points": "15",
+        "game_location": "@",
+        "home_team": "Green Bay Packers",
+        "points_opp": "19"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "3",
+        "game_day_of_week": "Sat",
+        "game_date": "2023-08-26",
+        "visitor_team": "Miami Dolphins",
+        "points": "18",
+        "game_location": "@",
+        "home_team": "Jacksonville Jaguars",
+        "points_opp": "31"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "3",
+        "game_day_of_week": "Sat",
+        "game_date": "2023-08-26",
+        "visitor_team": "Cleveland Browns",
+        "points": "32",
+        "game_location": "@",
+        "home_team": "Kansas City Chiefs",
+        "points_opp": "33"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "3",
+        "game_day_of_week": "Sat",
+        "game_date": "2023-08-26",
+        "visitor_team": "Arizona Cardinals",
+        "points": "18",
+        "game_location": "@",
+        "home_team": "Minnesota Vikings",
+        "points_opp": "17"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "3",
+        "game_day_of_week": "Sat",
+        "game_date": "2023-08-26",
+        "visitor_team": "New York Jets",
+        "points": "32",
+        "game_location": "@",
+        "home_team": "New York Giants",
+        "points_opp": "24"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "3",
+        "game_day_of_week": "Sat",
+        "game_date": "2023-08-26",
+        "visitor_team": "Baltimore Ravens",
+        "points": "20",
+        "game_location": "@",
+        "home_team": "Tampa Bay Buccaneers",
+        "points_opp": "26"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "3",
+        "game_day_of_week": "Sat",
+        "game_date": "2023-08-26",
+        "visitor_team": "Cincinnati Bengals",
+        "points": "19",
+        "game_location": "@",
+        "home_team": "Washington Commanders",
+        "points_opp": "21"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "3",
+        "game_day_of_week": "Sun",
+        "game_date": "2023-08-27",
+        "visitor_team": "Houston Texans",
+        "points": "17",
+        "game_location": "@",
+        "home_team": "New Orleans Saints",
+        "points_opp": "13"
+    },
+    {
+        "stage": "Pre Season",
         "week_num": "1",
         "game_day_of_week": "Thu",
         "game_date": "2023-09-07",
@@ -13,7 +541,7 @@
         "yards_lose": "316"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "1",
         "game_day_of_week": "Sun",
         "game_date": "2023-09-10",
@@ -26,7 +554,7 @@
         "yards_lose": "281"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "1",
         "game_day_of_week": "Sun",
         "game_date": "2023-09-10",
@@ -39,7 +567,7 @@
         "yards_lose": "142"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "1",
         "game_day_of_week": "Sun",
         "game_date": "2023-09-10",
@@ -52,7 +580,7 @@
         "yards_lose": "280"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "1",
         "game_day_of_week": "Sun",
         "game_date": "2023-09-10",
@@ -65,7 +593,7 @@
         "yards_lose": "210"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "1",
         "game_day_of_week": "Sun",
         "game_date": "2023-09-10",
@@ -78,7 +606,7 @@
         "yards_lose": "268"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "1",
         "game_day_of_week": "Sun",
         "game_date": "2023-09-10",
@@ -91,7 +619,7 @@
         "yards_lose": "369"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "1",
         "game_day_of_week": "Sun",
         "game_date": "2023-09-10",
@@ -104,7 +632,7 @@
         "yards_lose": "285"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "1",
         "game_day_of_week": "Sun",
         "game_date": "2023-09-10",
@@ -117,7 +645,7 @@
         "yards_lose": "239"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "1",
         "game_day_of_week": "Sun",
         "game_date": "2023-09-10",
@@ -130,7 +658,7 @@
         "yards_lose": "311"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "1",
         "game_day_of_week": "Sun",
         "game_date": "2023-09-10",
@@ -143,7 +671,7 @@
         "yards_lose": "260"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "1",
         "game_day_of_week": "Sun",
         "game_date": "2023-09-10",
@@ -156,7 +684,7 @@
         "yards_lose": "433"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "1",
         "game_day_of_week": "Sun",
         "game_date": "2023-09-10",
@@ -169,7 +697,7 @@
         "yards_lose": "382"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "1",
         "game_day_of_week": "Sun",
         "game_date": "2023-09-10",
@@ -182,7 +710,7 @@
         "yards_lose": "180"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "1",
         "game_day_of_week": "Sun",
         "game_date": "2023-09-10",
@@ -195,7 +723,7 @@
         "yards_lose": "171"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "1",
         "game_day_of_week": "Mon",
         "game_date": "2023-09-11",
@@ -208,20 +736,7 @@
         "yards_lose": "314"
     },
     {
-        "stage": "Regular Season",
-        "week_num": "Week",
-        "game_day_of_week": null,
-        "game_date": null,
-        "gametime": null,
-        "winner": null,
-        "loser": null,
-        "pts_win": null,
-        "pts_lose": null,
-        "yards_win": null,
-        "yards_lose": null
-    },
-    {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "2",
         "game_day_of_week": "Thu",
         "game_date": "2023-09-14",
@@ -234,7 +749,7 @@
         "yards_lose": "374"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "2",
         "game_day_of_week": "Sun",
         "game_date": "2023-09-17",
@@ -247,7 +762,7 @@
         "yards_lose": "224"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "2",
         "game_day_of_week": "Sun",
         "game_date": "2023-09-17",
@@ -260,7 +775,7 @@
         "yards_lose": "240"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "2",
         "game_day_of_week": "Sun",
         "game_date": "2023-09-17",
@@ -273,7 +788,7 @@
         "yards_lose": "236"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "2",
         "game_day_of_week": "Sun",
         "game_date": "2023-09-17",
@@ -286,7 +801,7 @@
         "yards_lose": "282"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "2",
         "game_day_of_week": "Sun",
         "game_date": "2023-09-17",
@@ -299,7 +814,7 @@
         "yards_lose": "389"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "2",
         "game_day_of_week": "Sun",
         "game_date": "2023-09-17",
@@ -312,7 +827,7 @@
         "yards_lose": "418"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "2",
         "game_day_of_week": "Sun",
         "game_date": "2023-09-17",
@@ -325,7 +840,7 @@
         "yards_lose": "271"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "2",
         "game_day_of_week": "Sun",
         "game_date": "2023-09-17",
@@ -338,7 +853,7 @@
         "yards_lose": "342"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "2",
         "game_day_of_week": "Sun",
         "game_date": "2023-09-17",
@@ -351,7 +866,7 @@
         "yards_lose": "379"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "2",
         "game_day_of_week": "Sun",
         "game_date": "2023-09-17",
@@ -364,7 +879,7 @@
         "yards_lose": "386"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "2",
         "game_day_of_week": "Sun",
         "game_date": "2023-09-17",
@@ -377,7 +892,7 @@
         "yards_lose": "215"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "2",
         "game_day_of_week": "Sun",
         "game_date": "2023-09-17",
@@ -390,7 +905,7 @@
         "yards_lose": "399"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "2",
         "game_day_of_week": "Sun",
         "game_date": "2023-09-17",
@@ -403,7 +918,7 @@
         "yards_lose": "288"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "2",
         "game_day_of_week": "Mon",
         "game_date": "2023-09-18",
@@ -416,7 +931,7 @@
         "yards_lose": "239"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "2",
         "game_day_of_week": "Mon",
         "game_date": "2023-09-18",
@@ -429,7 +944,7 @@
         "yards_lose": "408"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "3",
         "game_day_of_week": "Thu",
         "game_date": "2023-09-21",
@@ -442,7 +957,7 @@
         "yards_lose": "150"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "3",
         "game_day_of_week": "Sun",
         "game_date": "2023-09-24",
@@ -455,7 +970,7 @@
         "yards_lose": "183"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "3",
         "game_day_of_week": "Sun",
         "game_date": "2023-09-24",
@@ -468,7 +983,7 @@
         "yards_lose": "230"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "3",
         "game_day_of_week": "Sun",
         "game_date": "2023-09-24",
@@ -481,7 +996,7 @@
         "yards_lose": "94"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "3",
         "game_day_of_week": "Sun",
         "game_date": "2023-09-24",
@@ -494,7 +1009,7 @@
         "yards_lose": "364"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "3",
         "game_day_of_week": "Sun",
         "game_date": "2023-09-24",
@@ -507,7 +1022,7 @@
         "yards_lose": "363"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "3",
         "game_day_of_week": "Sun",
         "game_date": "2023-09-24",
@@ -520,7 +1035,7 @@
         "yards_lose": "252"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "3",
         "game_day_of_week": "Sun",
         "game_date": "2023-09-24",
@@ -533,7 +1048,7 @@
         "yards_lose": "404"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "3",
         "game_day_of_week": "Sun",
         "game_date": "2023-09-24",
@@ -546,7 +1061,7 @@
         "yards_lose": "475"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "3",
         "game_day_of_week": "Sun",
         "game_date": "2023-09-24",
@@ -559,7 +1074,7 @@
         "yards_lose": "171"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "3",
         "game_day_of_week": "Sun",
         "game_date": "2023-09-24",
@@ -572,7 +1087,7 @@
         "yards_lose": "378"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "3",
         "game_day_of_week": "Sun",
         "game_date": "2023-09-24",
@@ -585,7 +1100,7 @@
         "yards_lose": "203"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "3",
         "game_day_of_week": "Sun",
         "game_date": "2023-09-24",
@@ -598,7 +1113,7 @@
         "yards_lose": "416"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "3",
         "game_day_of_week": "Sun",
         "game_date": "2023-09-24",
@@ -611,7 +1126,7 @@
         "yards_lose": "362"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "3",
         "game_day_of_week": "Mon",
         "game_date": "2023-09-25",
@@ -624,7 +1139,7 @@
         "yards_lose": "174"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "3",
         "game_day_of_week": "Mon",
         "game_date": "2023-09-25",
@@ -637,7 +1152,7 @@
         "yards_lose": "292"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "4",
         "game_day_of_week": "Thu",
         "game_date": "2023-09-28",
@@ -650,7 +1165,7 @@
         "yards_lose": "230"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "4",
         "game_day_of_week": "Sun",
         "game_date": "2023-10-01",
@@ -663,7 +1178,7 @@
         "yards_lose": "287"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "4",
         "game_day_of_week": "Sun",
         "game_date": "2023-10-01",
@@ -676,7 +1191,7 @@
         "yards_lose": "393"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "4",
         "game_day_of_week": "Sun",
         "game_date": "2023-10-01",
@@ -689,7 +1204,7 @@
         "yards_lose": "232"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "4",
         "game_day_of_week": "Sun",
         "game_date": "2023-10-01",
@@ -702,7 +1217,7 @@
         "yards_lose": "471"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "4",
         "game_day_of_week": "Sun",
         "game_date": "2023-10-01",
@@ -715,7 +1230,7 @@
         "yards_lose": "211"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "4",
         "game_day_of_week": "Sun",
         "game_date": "2023-10-01",
@@ -728,7 +1243,7 @@
         "yards_lose": "166"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "4",
         "game_day_of_week": "Sun",
         "game_date": "2023-10-01",
@@ -741,7 +1256,7 @@
         "yards_lose": "329"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "4",
         "game_day_of_week": "Sun",
         "game_date": "2023-10-01",
@@ -754,7 +1269,7 @@
         "yards_lose": "225"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "4",
         "game_day_of_week": "Sun",
         "game_date": "2023-10-01",
@@ -767,7 +1282,7 @@
         "yards_lose": "197"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "4",
         "game_day_of_week": "Sun",
         "game_date": "2023-10-01",
@@ -780,7 +1295,7 @@
         "yards_lose": "365"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "4",
         "game_day_of_week": "Sun",
         "game_date": "2023-10-01",
@@ -793,7 +1308,7 @@
         "yards_lose": "264"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "4",
         "game_day_of_week": "Sun",
         "game_date": "2023-10-01",
@@ -806,7 +1321,7 @@
         "yards_lose": "362"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "4",
         "game_day_of_week": "Sun",
         "game_date": "2023-10-01",
@@ -819,7 +1334,7 @@
         "yards_lose": "253"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "4",
         "game_day_of_week": "Sun",
         "game_date": "2023-10-01",
@@ -832,7 +1347,7 @@
         "yards_lose": "336"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "4",
         "game_day_of_week": "Mon",
         "game_date": "2023-10-02",
@@ -3549,20 +4064,7 @@
         "yards_lose": "275"
     },
     {
-        "stage": "Regular Season",
-        "week_num": "",
-        "game_day_of_week": "",
-        "game_date": "Playoffs",
-        "gametime": "",
-        "winner": "",
-        "loser": "",
-        "pts_win": "",
-        "pts_lose": "",
-        "yards_win": "",
-        "yards_lose": ""
-    },
-    {
-        "stage": "Regular Season",
+        "stage": "Post Season",
         "week_num": "WildCard",
         "game_day_of_week": "Sat",
         "game_date": "2024-01-13",
@@ -3575,7 +4077,7 @@
         "yards_lose": "324"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Post Season",
         "week_num": "WildCard",
         "game_day_of_week": "Sat",
         "game_date": "2024-01-13",
@@ -3588,7 +4090,7 @@
         "yards_lose": "264"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Post Season",
         "week_num": "WildCard",
         "game_day_of_week": "Sun",
         "game_date": "2024-01-14",
@@ -3601,7 +4103,7 @@
         "yards_lose": "510"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Post Season",
         "week_num": "WildCard",
         "game_day_of_week": "Sun",
         "game_date": "2024-01-14",
@@ -3614,7 +4116,7 @@
         "yards_lose": "425"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Post Season",
         "week_num": "WildCard",
         "game_day_of_week": "Mon",
         "game_date": "2024-01-15",
@@ -3627,7 +4129,7 @@
         "yards_lose": "324"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Post Season",
         "week_num": "WildCard",
         "game_day_of_week": "Mon",
         "game_date": "2024-01-15",
@@ -3641,7 +4143,7 @@
     },
     {
         "stage": "Regular Season",
-        "week_num": "Division",
+        "week_num": "Divisional Round",
         "game_day_of_week": "Sat",
         "game_date": "2024-01-20",
         "gametime": "4:30PM",
@@ -3654,7 +4156,7 @@
     },
     {
         "stage": "Regular Season",
-        "week_num": "Division",
+        "week_num": "Divisional Round",
         "game_day_of_week": "Sat",
         "game_date": "2024-01-20",
         "gametime": "8:15PM",
@@ -3667,7 +4169,7 @@
     },
     {
         "stage": "Regular Season",
-        "week_num": "Division",
+        "week_num": "Divisional Round",
         "game_day_of_week": "Sun",
         "game_date": "2024-01-21",
         "gametime": "3:00PM",
@@ -3680,7 +4182,7 @@
     },
     {
         "stage": "Regular Season",
-        "week_num": "Division",
+        "week_num": "Divisional Round",
         "game_day_of_week": "Sun",
         "game_date": "2024-01-21",
         "gametime": "6:30PM",
@@ -3693,7 +4195,7 @@
     },
     {
         "stage": "Regular Season",
-        "week_num": "ConfChamp",
+        "week_num": "Conference Championships",
         "game_day_of_week": "Sun",
         "game_date": "2024-01-28",
         "gametime": "3:00PM",
@@ -3706,7 +4208,7 @@
     },
     {
         "stage": "Regular Season",
-        "week_num": "ConfChamp",
+        "week_num": "Conference Championships",
         "game_day_of_week": "Sun",
         "game_date": "2024-01-28",
         "gametime": "6:30PM",
@@ -3719,7 +4221,7 @@
     },
     {
         "stage": "Regular Season",
-        "week_num": "SuperBowl",
+        "week_num": "Super Bowl",
         "game_day_of_week": "Sun",
         "game_date": "2024-02-11",
         "gametime": "6:30PM",

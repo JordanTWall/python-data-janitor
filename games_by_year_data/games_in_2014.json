@@ -1,6 +1,545 @@
 [
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
+        "week_num": "1",
+        "game_day_of_week": "Sun",
+        "game_date": "2014-08-03",
+        "visitor_team": "New York Giants",
+        "points": "17",
+        "game_location": "@",
+        "home_team": "Buffalo Bills",
+        "points_opp": "13"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "2",
+        "game_day_of_week": "Thu",
+        "game_date": "2014-08-07",
+        "visitor_team": "Indianapolis Colts",
+        "points": "10",
+        "game_location": "@",
+        "home_team": "New York Jets",
+        "points_opp": "13"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "2",
+        "game_day_of_week": "Thu",
+        "game_date": "2014-08-07",
+        "visitor_team": "Dallas Cowboys",
+        "points": "7",
+        "game_location": "@",
+        "home_team": "San Diego Chargers",
+        "points_opp": "27"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "2",
+        "game_day_of_week": "Thu",
+        "game_date": "2014-08-07",
+        "visitor_team": "Seattle Seahawks",
+        "points": "16",
+        "game_location": "@",
+        "home_team": "Denver Broncos",
+        "points_opp": "21"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "2",
+        "game_day_of_week": "Thu",
+        "game_date": "2014-08-07",
+        "visitor_team": "New England Patriots",
+        "points": "6",
+        "game_location": "@",
+        "home_team": "Washington Redskins",
+        "points_opp": "23"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "2",
+        "game_day_of_week": "Thu",
+        "game_date": "2014-08-07",
+        "visitor_team": "San Francisco 49ers",
+        "points": "3",
+        "game_location": "@",
+        "home_team": "Baltimore Ravens",
+        "points_opp": "23"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "2",
+        "game_day_of_week": "Thu",
+        "game_date": "2014-08-07",
+        "visitor_team": "Cincinnati Bengals",
+        "points": "39",
+        "game_location": "@",
+        "home_team": "Kansas City Chiefs",
+        "points_opp": "41"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "2",
+        "game_day_of_week": "Fri",
+        "game_date": "2014-08-08",
+        "visitor_team": "Miami Dolphins",
+        "points": "10",
+        "game_location": "@",
+        "home_team": "Atlanta Falcons",
+        "points_opp": "16"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "2",
+        "game_day_of_week": "Fri",
+        "game_date": "2014-08-08",
+        "visitor_team": "Buffalo Bills",
+        "points": "20",
+        "game_location": "@",
+        "home_team": "Carolina Panthers",
+        "points_opp": "18"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "2",
+        "game_day_of_week": "Fri",
+        "game_date": "2014-08-08",
+        "visitor_team": "Tampa Bay Buccaneers",
+        "points": "10",
+        "game_location": "@",
+        "home_team": "Jacksonville Jaguars",
+        "points_opp": "16"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "2",
+        "game_day_of_week": "Fri",
+        "game_date": "2014-08-08",
+        "visitor_team": "Philadelphia Eagles",
+        "points": "28",
+        "game_location": "@",
+        "home_team": "Chicago Bears",
+        "points_opp": "34"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "2",
+        "game_day_of_week": "Fri",
+        "game_date": "2014-08-08",
+        "visitor_team": "Oakland Raiders",
+        "points": "6",
+        "game_location": "@",
+        "home_team": "Minnesota Vikings",
+        "points_opp": "10"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "2",
+        "game_day_of_week": "Fri",
+        "game_date": "2014-08-08",
+        "visitor_team": "New Orleans Saints",
+        "points": "26",
+        "game_location": "@",
+        "home_team": "St. Louis Rams",
+        "points_opp": "24"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "2",
+        "game_day_of_week": "Sat",
+        "game_date": "2014-08-09",
+        "visitor_team": "Cleveland Browns",
+        "points": "12",
+        "game_location": "@",
+        "home_team": "Detroit Lions",
+        "points_opp": "13"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "2",
+        "game_day_of_week": "Sat",
+        "game_date": "2014-08-09",
+        "visitor_team": "Pittsburgh Steelers",
+        "points": "16",
+        "game_location": "@",
+        "home_team": "New York Giants",
+        "points_opp": "20"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "2",
+        "game_day_of_week": "Sat",
+        "game_date": "2014-08-09",
+        "visitor_team": "Green Bay Packers",
+        "points": "16",
+        "game_location": "@",
+        "home_team": "Tennessee Titans",
+        "points_opp": "20"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "2",
+        "game_day_of_week": "Sat",
+        "game_date": "2014-08-09",
+        "visitor_team": "Houston Texans",
+        "points": "0",
+        "game_location": "@",
+        "home_team": "Arizona Cardinals",
+        "points_opp": "32"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "3",
+        "game_day_of_week": "Thu",
+        "game_date": "2014-08-14",
+        "visitor_team": "Jacksonville Jaguars",
+        "points": "19",
+        "game_location": "@",
+        "home_team": "Chicago Bears",
+        "points_opp": "20"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "3",
+        "game_day_of_week": "Fri",
+        "game_date": "2014-08-15",
+        "visitor_team": "Philadelphia Eagles",
+        "points": "35",
+        "game_location": "@",
+        "home_team": "New England Patriots",
+        "points_opp": "42"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "3",
+        "game_day_of_week": "Fri",
+        "game_date": "2014-08-15",
+        "visitor_team": "San Diego Chargers",
+        "points": "14",
+        "game_location": "@",
+        "home_team": "Seattle Seahawks",
+        "points_opp": "41"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "3",
+        "game_day_of_week": "Fri",
+        "game_date": "2014-08-15",
+        "visitor_team": "Detroit Lions",
+        "points": "26",
+        "game_location": "@",
+        "home_team": "Oakland Raiders",
+        "points_opp": "27"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "3",
+        "game_day_of_week": "Fri",
+        "game_date": "2014-08-15",
+        "visitor_team": "Tennessee Titans",
+        "points": "24",
+        "game_location": "@",
+        "home_team": "New Orleans Saints",
+        "points_opp": "31"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "3",
+        "game_day_of_week": "Sat",
+        "game_date": "2014-08-16",
+        "visitor_team": "Green Bay Packers",
+        "points": "21",
+        "game_location": "@",
+        "home_team": "St. Louis Rams",
+        "points_opp": "7"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "3",
+        "game_day_of_week": "Sat",
+        "game_date": "2014-08-16",
+        "visitor_team": "New York Jets",
+        "points": "25",
+        "game_location": "@",
+        "home_team": "Cincinnati Bengals",
+        "points_opp": "17"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "3",
+        "game_day_of_week": "Sat",
+        "game_date": "2014-08-16",
+        "visitor_team": "Baltimore Ravens",
+        "points": "37",
+        "game_location": "@",
+        "home_team": "Dallas Cowboys",
+        "points_opp": "30"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "3",
+        "game_day_of_week": "Sat",
+        "game_date": "2014-08-16",
+        "visitor_team": "New York Giants",
+        "points": "27",
+        "game_location": "@",
+        "home_team": "Indianapolis Colts",
+        "points_opp": "26"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "3",
+        "game_day_of_week": "Sat",
+        "game_date": "2014-08-16",
+        "visitor_team": "Buffalo Bills",
+        "points": "16",
+        "game_location": "@",
+        "home_team": "Pittsburgh Steelers",
+        "points_opp": "19"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "3",
+        "game_day_of_week": "Sat",
+        "game_date": "2014-08-16",
+        "visitor_team": "Miami Dolphins",
+        "points": "20",
+        "game_location": "@",
+        "home_team": "Tampa Bay Buccaneers",
+        "points_opp": "14"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "3",
+        "game_day_of_week": "Sat",
+        "game_date": "2014-08-16",
+        "visitor_team": "Atlanta Falcons",
+        "points": "7",
+        "game_location": "@",
+        "home_team": "Houston Texans",
+        "points_opp": "32"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "3",
+        "game_day_of_week": "Sat",
+        "game_date": "2014-08-16",
+        "visitor_team": "Arizona Cardinals",
+        "points": "28",
+        "game_location": "@",
+        "home_team": "Minnesota Vikings",
+        "points_opp": "30"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "3",
+        "game_day_of_week": "Sun",
+        "game_date": "2014-08-17",
+        "visitor_team": "Denver Broncos",
+        "points": "34",
+        "game_location": "@",
+        "home_team": "San Francisco 49ers",
+        "points_opp": "0"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "3",
+        "game_day_of_week": "Sun",
+        "game_date": "2014-08-17",
+        "visitor_team": "Kansas City Chiefs",
+        "points": "16",
+        "game_location": "@",
+        "home_team": "Carolina Panthers",
+        "points_opp": "28"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "3",
+        "game_day_of_week": "Mon",
+        "game_date": "2014-08-18",
+        "visitor_team": "Cleveland Browns",
+        "points": "23",
+        "game_location": "@",
+        "home_team": "Washington Redskins",
+        "points_opp": "24"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "4",
+        "game_day_of_week": "Thu",
+        "game_date": "2014-08-21",
+        "visitor_team": "Pittsburgh Steelers",
+        "points": "21",
+        "game_location": "@",
+        "home_team": "Philadelphia Eagles",
+        "points_opp": "31"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "4",
+        "game_day_of_week": "Fri",
+        "game_date": "2014-08-22",
+        "visitor_team": "Jacksonville Jaguars",
+        "points": "12",
+        "game_location": "@",
+        "home_team": "Detroit Lions",
+        "points_opp": "13"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "4",
+        "game_day_of_week": "Fri",
+        "game_date": "2014-08-22",
+        "visitor_team": "Carolina Panthers",
+        "points": "7",
+        "game_location": "@",
+        "home_team": "New England Patriots",
+        "points_opp": "30"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "4",
+        "game_day_of_week": "Fri",
+        "game_date": "2014-08-22",
+        "visitor_team": "New York Giants",
+        "points": "35",
+        "game_location": "@",
+        "home_team": "New York Jets",
+        "points_opp": "24"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "4",
+        "game_day_of_week": "Fri",
+        "game_date": "2014-08-22",
+        "visitor_team": "Oakland Raiders",
+        "points": "21",
+        "game_location": "@",
+        "home_team": "Green Bay Packers",
+        "points_opp": "31"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "4",
+        "game_day_of_week": "Fri",
+        "game_date": "2014-08-22",
+        "visitor_team": "Chicago Bears",
+        "points": "6",
+        "game_location": "@",
+        "home_team": "Seattle Seahawks",
+        "points_opp": "34"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "4",
+        "game_day_of_week": "Sat",
+        "game_date": "2014-08-23",
+        "visitor_team": "Minnesota Vikings",
+        "points": "30",
+        "game_location": "@",
+        "home_team": "Kansas City Chiefs",
+        "points_opp": "12"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "4",
+        "game_day_of_week": "Sat",
+        "game_date": "2014-08-23",
+        "visitor_team": "Houston Texans",
+        "points": "18",
+        "game_location": "@",
+        "home_team": "Denver Broncos",
+        "points_opp": "17"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "4",
+        "game_day_of_week": "Sat",
+        "game_date": "2014-08-23",
+        "visitor_team": "New Orleans Saints",
+        "points": "23",
+        "game_location": "@",
+        "home_team": "Indianapolis Colts",
+        "points_opp": "17"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "4",
+        "game_day_of_week": "Sat",
+        "game_date": "2014-08-23",
+        "visitor_team": "St. Louis Rams",
+        "points": "33",
+        "game_location": "@",
+        "home_team": "Cleveland Browns",
+        "points_opp": "14"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "4",
+        "game_day_of_week": "Sat",
+        "game_date": "2014-08-23",
+        "visitor_team": "Washington Redskins",
+        "points": "17",
+        "game_location": "@",
+        "home_team": "Baltimore Ravens",
+        "points_opp": "23"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "4",
+        "game_day_of_week": "Sat",
+        "game_date": "2014-08-23",
+        "visitor_team": "Dallas Cowboys",
+        "points": "20",
+        "game_location": "@",
+        "home_team": "Miami Dolphins",
+        "points_opp": "25"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "4",
+        "game_day_of_week": "Sat",
+        "game_date": "2014-08-23",
+        "visitor_team": "Tennessee Titans",
+        "points": "24",
+        "game_location": "@",
+        "home_team": "Atlanta Falcons",
+        "points_opp": "17"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "4",
+        "game_day_of_week": "Sat",
+        "game_date": "2014-08-23",
+        "visitor_team": "Tampa Bay Buccaneers",
+        "points": "27",
+        "game_location": "@",
+        "home_team": "Buffalo Bills",
+        "points_opp": "14"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "4",
+        "game_day_of_week": "Sun",
+        "game_date": "2014-08-24",
+        "visitor_team": "San Diego Chargers",
+        "points": "7",
+        "game_location": "@",
+        "home_team": "San Francisco 49ers",
+        "points_opp": "21"
+    },
+    {
+        "stage": "Pre Season",
+        "week_num": "4",
+        "game_day_of_week": "Sun",
+        "game_date": "2014-08-24",
+        "visitor_team": "Cincinnati Bengals",
+        "points": "19",
+        "game_location": "@",
+        "home_team": "Arizona Cardinals",
+        "points_opp": "13"
+    },
+    {
+        "stage": "Pre Season",
         "week_num": "1",
         "game_day_of_week": "Thu",
         "game_date": "2014-09-04",
@@ -13,7 +552,7 @@
         "yards_lose": "255"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "1",
         "game_day_of_week": "Sun",
         "game_date": "2014-09-07",
@@ -26,7 +565,7 @@
         "yards_lose": "427"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "1",
         "game_day_of_week": "Sun",
         "game_date": "2014-09-07",
@@ -39,7 +578,7 @@
         "yards_lose": "318"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "1",
         "game_day_of_week": "Sun",
         "game_date": "2014-09-07",
@@ -52,7 +591,7 @@
         "yards_lose": "423"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "1",
         "game_day_of_week": "Sun",
         "game_date": "2014-09-07",
@@ -65,7 +604,7 @@
         "yards_lose": "389"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "1",
         "game_day_of_week": "Sun",
         "game_date": "2014-09-07",
@@ -78,7 +617,7 @@
         "yards_lose": "306"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "1",
         "game_day_of_week": "Sun",
         "game_date": "2014-09-07",
@@ -91,7 +630,7 @@
         "yards_lose": "245"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "1",
         "game_day_of_week": "Sun",
         "game_date": "2014-09-07",
@@ -104,7 +643,7 @@
         "yards_lose": "158"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "1",
         "game_day_of_week": "Sun",
         "game_date": "2014-09-07",
@@ -117,7 +656,7 @@
         "yards_lose": "472"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "1",
         "game_day_of_week": "Sun",
         "game_date": "2014-09-07",
@@ -130,7 +669,7 @@
         "yards_lose": "372"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "1",
         "game_day_of_week": "Sun",
         "game_date": "2014-09-07",
@@ -143,7 +682,7 @@
         "yards_lose": "315"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "1",
         "game_day_of_week": "Sun",
         "game_date": "2014-09-07",
@@ -156,7 +695,7 @@
         "yards_lose": "264"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "1",
         "game_day_of_week": "Sun",
         "game_date": "2014-09-07",
@@ -169,7 +708,7 @@
         "yards_lose": "382"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "1",
         "game_day_of_week": "Sun",
         "game_date": "2014-09-07",
@@ -182,7 +721,7 @@
         "yards_lose": "408"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "1",
         "game_day_of_week": "Mon",
         "game_date": "2014-09-08",
@@ -195,7 +734,7 @@
         "yards_lose": "197"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "1",
         "game_day_of_week": "Mon",
         "game_date": "2014-09-08",
@@ -208,20 +747,7 @@
         "yards_lose": "290"
     },
     {
-        "stage": "Regular Season",
-        "week_num": "Week",
-        "game_day_of_week": null,
-        "game_date": null,
-        "gametime": null,
-        "winner": null,
-        "loser": null,
-        "pts_win": null,
-        "pts_lose": null,
-        "yards_win": null,
-        "yards_lose": null
-    },
-    {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "2",
         "game_day_of_week": "Thu",
         "game_date": "2014-09-11",
@@ -234,7 +760,7 @@
         "yards_lose": "301"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "2",
         "game_day_of_week": "Sun",
         "game_date": "2014-09-14",
@@ -247,7 +773,7 @@
         "yards_lose": "290"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "2",
         "game_day_of_week": "Sun",
         "game_date": "2014-09-14",
@@ -260,7 +786,7 @@
         "yards_lose": "397"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "2",
         "game_day_of_week": "Sun",
         "game_date": "2014-09-14",
@@ -273,7 +799,7 @@
         "yards_lose": "314"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "2",
         "game_day_of_week": "Sun",
         "game_date": "2014-09-14",
@@ -286,7 +812,7 @@
         "yards_lose": "323"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "2",
         "game_day_of_week": "Sun",
         "game_date": "2014-09-14",
@@ -299,7 +825,7 @@
         "yards_lose": "341"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "2",
         "game_day_of_week": "Sun",
         "game_date": "2014-09-14",
@@ -312,7 +838,7 @@
         "yards_lose": "309"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "2",
         "game_day_of_week": "Sun",
         "game_date": "2014-09-14",
@@ -325,7 +851,7 @@
         "yards_lose": "148"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "2",
         "game_day_of_week": "Sun",
         "game_date": "2014-09-14",
@@ -338,7 +864,7 @@
         "yards_lose": "217"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "2",
         "game_day_of_week": "Sun",
         "game_date": "2014-09-14",
@@ -351,7 +877,7 @@
         "yards_lose": "332"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "2",
         "game_day_of_week": "Sun",
         "game_date": "2014-09-14",
@@ -364,7 +890,7 @@
         "yards_lose": "288"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "2",
         "game_day_of_week": "Sun",
         "game_date": "2014-09-14",
@@ -377,7 +903,7 @@
         "yards_lose": "380"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "2",
         "game_day_of_week": "Sun",
         "game_date": "2014-09-14",
@@ -390,7 +916,7 @@
         "yards_lose": "313"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "2",
         "game_day_of_week": "Sun",
         "game_date": "2014-09-14",
@@ -403,7 +929,7 @@
         "yards_lose": "364"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "2",
         "game_day_of_week": "Sun",
         "game_date": "2014-09-14",
@@ -416,7 +942,7 @@
         "yards_lose": "359"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "2",
         "game_day_of_week": "Mon",
         "game_date": "2014-09-15",
@@ -429,7 +955,7 @@
         "yards_lose": "341"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "3",
         "game_day_of_week": "Thu",
         "game_date": "2014-09-18",
@@ -442,7 +968,7 @@
         "yards_lose": "217"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "3",
         "game_day_of_week": "Sun",
         "game_date": "2014-09-21",
@@ -455,7 +981,7 @@
         "yards_lose": "448"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "3",
         "game_day_of_week": "Sun",
         "game_date": "2014-09-21",
@@ -468,7 +994,7 @@
         "yards_lose": "292"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "3",
         "game_day_of_week": "Sun",
         "game_date": "2014-09-21",
@@ -481,7 +1007,7 @@
         "yards_lose": "326"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "3",
         "game_day_of_week": "Sun",
         "game_date": "2014-09-21",
@@ -494,7 +1020,7 @@
         "yards_lose": "375"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "3",
         "game_day_of_week": "Sun",
         "game_date": "2014-09-21",
@@ -507,7 +1033,7 @@
         "yards_lose": "344"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "3",
         "game_day_of_week": "Sun",
         "game_date": "2014-09-21",
@@ -520,7 +1046,7 @@
         "yards_lose": "223"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "3",
         "game_day_of_week": "Sun",
         "game_date": "2014-09-21",
@@ -533,7 +1059,7 @@
         "yards_lose": "411"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "3",
         "game_day_of_week": "Sun",
         "game_date": "2014-09-21",
@@ -546,7 +1072,7 @@
         "yards_lose": "241"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "3",
         "game_day_of_week": "Sun",
         "game_date": "2014-09-21",
@@ -559,7 +1085,7 @@
         "yards_lose": "511"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "3",
         "game_day_of_week": "Sun",
         "game_date": "2014-09-21",
@@ -572,7 +1098,7 @@
         "yards_lose": "247"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "3",
         "game_day_of_week": "Sun",
         "game_date": "2014-09-21",
@@ -585,7 +1111,7 @@
         "yards_lose": "318"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "3",
         "game_day_of_week": "Sun",
         "game_date": "2014-09-21",
@@ -598,7 +1124,7 @@
         "yards_lose": "332"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "3",
         "game_day_of_week": "Sun",
         "game_date": "2014-09-21",
@@ -611,7 +1137,7 @@
         "yards_lose": "332"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "3",
         "game_day_of_week": "Sun",
         "game_date": "2014-09-21",
@@ -624,7 +1150,7 @@
         "yards_lose": "349"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "3",
         "game_day_of_week": "Mon",
         "game_date": "2014-09-22",
@@ -637,7 +1163,7 @@
         "yards_lose": "414"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "4",
         "game_day_of_week": "Thu",
         "game_date": "2014-09-25",
@@ -650,7 +1176,7 @@
         "yards_lose": "329"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "4",
         "game_day_of_week": "Sun",
         "game_date": "2014-09-28",
@@ -663,7 +1189,7 @@
         "yards_lose": "316"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "4",
         "game_day_of_week": "Sun",
         "game_date": "2014-09-28",
@@ -676,7 +1202,7 @@
         "yards_lose": "315"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "4",
         "game_day_of_week": "Sun",
         "game_date": "2014-09-28",
@@ -689,7 +1215,7 @@
         "yards_lose": "496"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "4",
         "game_day_of_week": "Sun",
         "game_date": "2014-09-28",
@@ -702,7 +1228,7 @@
         "yards_lose": "336"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "4",
         "game_day_of_week": "Sun",
         "game_date": "2014-09-28",
@@ -715,7 +1241,7 @@
         "yards_lose": "261"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "4",
         "game_day_of_week": "Sun",
         "game_date": "2014-09-28",
@@ -728,7 +1254,7 @@
         "yards_lose": "390"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "4",
         "game_day_of_week": "Sun",
         "game_date": "2014-09-28",
@@ -741,7 +1267,7 @@
         "yards_lose": "317"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "4",
         "game_day_of_week": "Sun",
         "game_date": "2014-09-28",
@@ -754,7 +1280,7 @@
         "yards_lose": "320"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "4",
         "game_day_of_week": "Sun",
         "game_date": "2014-09-28",
@@ -767,7 +1293,7 @@
         "yards_lose": "411"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "4",
         "game_day_of_week": "Sun",
         "game_date": "2014-09-28",
@@ -780,7 +1306,7 @@
         "yards_lose": "213"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "4",
         "game_day_of_week": "Sun",
         "game_date": "2014-09-28",
@@ -793,7 +1319,7 @@
         "yards_lose": "438"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Pre Season",
         "week_num": "4",
         "game_day_of_week": "Mon",
         "game_date": "2014-09-29",
@@ -3341,20 +3867,7 @@
         "yards_lose": "337"
     },
     {
-        "stage": "Regular Season",
-        "week_num": "",
-        "game_day_of_week": "",
-        "game_date": "Playoffs",
-        "gametime": "",
-        "winner": "",
-        "loser": "",
-        "pts_win": "",
-        "pts_lose": "",
-        "yards_win": "",
-        "yards_lose": ""
-    },
-    {
-        "stage": "Regular Season",
+        "stage": "Post Season",
         "week_num": "WildCard",
         "game_day_of_week": "Sat",
         "game_date": "2015-01-03",
@@ -3367,7 +3880,7 @@
         "yards_lose": "78"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Post Season",
         "week_num": "WildCard",
         "game_day_of_week": "Sat",
         "game_date": "2015-01-03",
@@ -3380,7 +3893,7 @@
         "yards_lose": "387"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Post Season",
         "week_num": "WildCard",
         "game_day_of_week": "Sun",
         "game_date": "2015-01-04",
@@ -3393,7 +3906,7 @@
         "yards_lose": "254"
     },
     {
-        "stage": "Regular Season",
+        "stage": "Post Season",
         "week_num": "WildCard",
         "game_day_of_week": "Sun",
         "game_date": "2015-01-04",
@@ -3407,7 +3920,7 @@
     },
     {
         "stage": "Regular Season",
-        "week_num": "Division",
+        "week_num": "Divisional Round",
         "game_day_of_week": "Sat",
         "game_date": "2015-01-10",
         "gametime": "4:35PM",
@@ -3420,7 +3933,7 @@
     },
     {
         "stage": "Regular Season",
-        "week_num": "Division",
+        "week_num": "Divisional Round",
         "game_day_of_week": "Sat",
         "game_date": "2015-01-10",
         "gametime": "8:21PM",
@@ -3433,7 +3946,7 @@
     },
     {
         "stage": "Regular Season",
-        "week_num": "Division",
+        "week_num": "Divisional Round",
         "game_day_of_week": "Sun",
         "game_date": "2015-01-11",
         "gametime": "1:05PM",
@@ -3446,7 +3959,7 @@
     },
     {
         "stage": "Regular Season",
-        "week_num": "Division",
+        "week_num": "Divisional Round",
         "game_day_of_week": "Sun",
         "game_date": "2015-01-11",
         "gametime": "4:40PM",
@@ -3459,7 +3972,7 @@
     },
     {
         "stage": "Regular Season",
-        "week_num": "ConfChamp",
+        "week_num": "Conference Championships",
         "game_day_of_week": "Sun",
         "game_date": "2015-01-18",
         "gametime": "3:06PM",
@@ -3472,7 +3985,7 @@
     },
     {
         "stage": "Regular Season",
-        "week_num": "ConfChamp",
+        "week_num": "Conference Championships",
         "game_day_of_week": "Sun",
         "game_date": "2015-01-18",
         "gametime": "6:50PM",
@@ -3485,7 +3998,7 @@
     },
     {
         "stage": "Regular Season",
-        "week_num": "SuperBowl",
+        "week_num": "Super Bowl",
         "game_day_of_week": "Sun",
         "game_date": "2015-02-01",
         "gametime": "6:30PM",
@@ -3495,731 +4008,5 @@
         "pts_lose": "24",
         "yards_win": "377",
         "yards_lose": "396"
-    },
-    {
-        "stage": "Pre Season",
-        "week_num": "1",
-        "game_day_of_week": "Sun",
-        "game_date": "August 3",
-        "visitor_team": "New York Giants",
-        "points": "17",
-        "game_location": "@",
-        "home_team": "Buffalo Bills",
-        "points_opp": "13"
-    },
-    {
-        "stage": "Pre Season",
-        "week_num": "2",
-        "game_day_of_week": "Thu",
-        "game_date": "August 7",
-        "visitor_team": "Indianapolis Colts",
-        "points": "10",
-        "game_location": "@",
-        "home_team": "New York Jets",
-        "points_opp": "13"
-    },
-    {
-        "stage": "Pre Season",
-        "week_num": "2",
-        "game_day_of_week": "Thu",
-        "game_date": "August 7",
-        "visitor_team": "Dallas Cowboys",
-        "points": "7",
-        "game_location": "@",
-        "home_team": "San Diego Chargers",
-        "points_opp": "27"
-    },
-    {
-        "stage": "Pre Season",
-        "week_num": "2",
-        "game_day_of_week": "Thu",
-        "game_date": "August 7",
-        "visitor_team": "Seattle Seahawks",
-        "points": "16",
-        "game_location": "@",
-        "home_team": "Denver Broncos",
-        "points_opp": "21"
-    },
-    {
-        "stage": "Pre Season",
-        "week_num": "2",
-        "game_day_of_week": "Thu",
-        "game_date": "August 7",
-        "visitor_team": "New England Patriots",
-        "points": "6",
-        "game_location": "@",
-        "home_team": "Washington Redskins",
-        "points_opp": "23"
-    },
-    {
-        "stage": "Pre Season",
-        "week_num": "2",
-        "game_day_of_week": "Thu",
-        "game_date": "August 7",
-        "visitor_team": "San Francisco 49ers",
-        "points": "3",
-        "game_location": "@",
-        "home_team": "Baltimore Ravens",
-        "points_opp": "23"
-    },
-    {
-        "stage": "Pre Season",
-        "week_num": "2",
-        "game_day_of_week": "Thu",
-        "game_date": "August 7",
-        "visitor_team": "Cincinnati Bengals",
-        "points": "39",
-        "game_location": "@",
-        "home_team": "Kansas City Chiefs",
-        "points_opp": "41"
-    },
-    {
-        "stage": "Pre Season",
-        "week_num": "2",
-        "game_day_of_week": "Fri",
-        "game_date": "August 8",
-        "visitor_team": "Miami Dolphins",
-        "points": "10",
-        "game_location": "@",
-        "home_team": "Atlanta Falcons",
-        "points_opp": "16"
-    },
-    {
-        "stage": "Pre Season",
-        "week_num": "2",
-        "game_day_of_week": "Fri",
-        "game_date": "August 8",
-        "visitor_team": "Buffalo Bills",
-        "points": "20",
-        "game_location": "@",
-        "home_team": "Carolina Panthers",
-        "points_opp": "18"
-    },
-    {
-        "stage": "Pre Season",
-        "week_num": "2",
-        "game_day_of_week": "Fri",
-        "game_date": "August 8",
-        "visitor_team": "Tampa Bay Buccaneers",
-        "points": "10",
-        "game_location": "@",
-        "home_team": "Jacksonville Jaguars",
-        "points_opp": "16"
-    },
-    {
-        "stage": "Pre Season",
-        "week_num": "2",
-        "game_day_of_week": "Fri",
-        "game_date": "August 8",
-        "visitor_team": "Philadelphia Eagles",
-        "points": "28",
-        "game_location": "@",
-        "home_team": "Chicago Bears",
-        "points_opp": "34"
-    },
-    {
-        "stage": "Pre Season",
-        "week_num": "2",
-        "game_day_of_week": "Fri",
-        "game_date": "August 8",
-        "visitor_team": "Oakland Raiders",
-        "points": "6",
-        "game_location": "@",
-        "home_team": "Minnesota Vikings",
-        "points_opp": "10"
-    },
-    {
-        "stage": "Pre Season",
-        "week_num": "2",
-        "game_day_of_week": "Fri",
-        "game_date": "August 8",
-        "visitor_team": "New Orleans Saints",
-        "points": "26",
-        "game_location": "@",
-        "home_team": "St. Louis Rams",
-        "points_opp": "24"
-    },
-    {
-        "stage": "Pre Season",
-        "week_num": "2",
-        "game_day_of_week": "Sat",
-        "game_date": "August 9",
-        "visitor_team": "Cleveland Browns",
-        "points": "12",
-        "game_location": "@",
-        "home_team": "Detroit Lions",
-        "points_opp": "13"
-    },
-    {
-        "stage": "Pre Season",
-        "week_num": "2",
-        "game_day_of_week": "Sat",
-        "game_date": "August 9",
-        "visitor_team": "Pittsburgh Steelers",
-        "points": "16",
-        "game_location": "@",
-        "home_team": "New York Giants",
-        "points_opp": "20"
-    },
-    {
-        "stage": "Pre Season",
-        "week_num": "2",
-        "game_day_of_week": "Sat",
-        "game_date": "August 9",
-        "visitor_team": "Green Bay Packers",
-        "points": "16",
-        "game_location": "@",
-        "home_team": "Tennessee Titans",
-        "points_opp": "20"
-    },
-    {
-        "stage": "Pre Season",
-        "week_num": "2",
-        "game_day_of_week": "Sat",
-        "game_date": "August 9",
-        "visitor_team": "Houston Texans",
-        "points": "0",
-        "game_location": "@",
-        "home_team": "Arizona Cardinals",
-        "points_opp": "32"
-    },
-    {
-        "stage": "Pre Season",
-        "week_num": "3",
-        "game_day_of_week": "Thu",
-        "game_date": "August 14",
-        "visitor_team": "Jacksonville Jaguars",
-        "points": "19",
-        "game_location": "@",
-        "home_team": "Chicago Bears",
-        "points_opp": "20"
-    },
-    {
-        "stage": "Pre Season",
-        "week_num": "3",
-        "game_day_of_week": "Fri",
-        "game_date": "August 15",
-        "visitor_team": "Philadelphia Eagles",
-        "points": "35",
-        "game_location": "@",
-        "home_team": "New England Patriots",
-        "points_opp": "42"
-    },
-    {
-        "stage": "Pre Season",
-        "week_num": "3",
-        "game_day_of_week": "Fri",
-        "game_date": "August 15",
-        "visitor_team": "San Diego Chargers",
-        "points": "14",
-        "game_location": "@",
-        "home_team": "Seattle Seahawks",
-        "points_opp": "41"
-    },
-    {
-        "stage": "Pre Season",
-        "week_num": "Week",
-        "game_day_of_week": null,
-        "game_date": null,
-        "visitor_team": null,
-        "points": null,
-        "game_location": null,
-        "home_team": null,
-        "points_opp": null
-    },
-    {
-        "stage": "Pre Season",
-        "week_num": "3",
-        "game_day_of_week": "Fri",
-        "game_date": "August 15",
-        "visitor_team": "Detroit Lions",
-        "points": "26",
-        "game_location": "@",
-        "home_team": "Oakland Raiders",
-        "points_opp": "27"
-    },
-    {
-        "stage": "Pre Season",
-        "week_num": "3",
-        "game_day_of_week": "Fri",
-        "game_date": "August 15",
-        "visitor_team": "Tennessee Titans",
-        "points": "24",
-        "game_location": "@",
-        "home_team": "New Orleans Saints",
-        "points_opp": "31"
-    },
-    {
-        "stage": "Pre Season",
-        "week_num": "3",
-        "game_day_of_week": "Sat",
-        "game_date": "August 16",
-        "visitor_team": "Green Bay Packers",
-        "points": "21",
-        "game_location": "@",
-        "home_team": "St. Louis Rams",
-        "points_opp": "7"
-    },
-    {
-        "stage": "Pre Season",
-        "week_num": "3",
-        "game_day_of_week": "Sat",
-        "game_date": "August 16",
-        "visitor_team": "New York Jets",
-        "points": "25",
-        "game_location": "@",
-        "home_team": "Cincinnati Bengals",
-        "points_opp": "17"
-    },
-    {
-        "stage": "Pre Season",
-        "week_num": "3",
-        "game_day_of_week": "Sat",
-        "game_date": "August 16",
-        "visitor_team": "Baltimore Ravens",
-        "points": "37",
-        "game_location": "@",
-        "home_team": "Dallas Cowboys",
-        "points_opp": "30"
-    },
-    {
-        "stage": "Pre Season",
-        "week_num": "3",
-        "game_day_of_week": "Sat",
-        "game_date": "August 16",
-        "visitor_team": "New York Giants",
-        "points": "27",
-        "game_location": "@",
-        "home_team": "Indianapolis Colts",
-        "points_opp": "26"
-    },
-    {
-        "stage": "Pre Season",
-        "week_num": "3",
-        "game_day_of_week": "Sat",
-        "game_date": "August 16",
-        "visitor_team": "Buffalo Bills",
-        "points": "16",
-        "game_location": "@",
-        "home_team": "Pittsburgh Steelers",
-        "points_opp": "19"
-    },
-    {
-        "stage": "Pre Season",
-        "week_num": "3",
-        "game_day_of_week": "Sat",
-        "game_date": "August 16",
-        "visitor_team": "Miami Dolphins",
-        "points": "20",
-        "game_location": "@",
-        "home_team": "Tampa Bay Buccaneers",
-        "points_opp": "14"
-    },
-    {
-        "stage": "Pre Season",
-        "week_num": "3",
-        "game_day_of_week": "Sat",
-        "game_date": "August 16",
-        "visitor_team": "Atlanta Falcons",
-        "points": "7",
-        "game_location": "@",
-        "home_team": "Houston Texans",
-        "points_opp": "32"
-    },
-    {
-        "stage": "Pre Season",
-        "week_num": "3",
-        "game_day_of_week": "Sat",
-        "game_date": "August 16",
-        "visitor_team": "Arizona Cardinals",
-        "points": "28",
-        "game_location": "@",
-        "home_team": "Minnesota Vikings",
-        "points_opp": "30"
-    },
-    {
-        "stage": "Pre Season",
-        "week_num": "3",
-        "game_day_of_week": "Sun",
-        "game_date": "August 17",
-        "visitor_team": "Denver Broncos",
-        "points": "34",
-        "game_location": "@",
-        "home_team": "San Francisco 49ers",
-        "points_opp": "0"
-    },
-    {
-        "stage": "Pre Season",
-        "week_num": "3",
-        "game_day_of_week": "Sun",
-        "game_date": "August 17",
-        "visitor_team": "Kansas City Chiefs",
-        "points": "16",
-        "game_location": "@",
-        "home_team": "Carolina Panthers",
-        "points_opp": "28"
-    },
-    {
-        "stage": "Pre Season",
-        "week_num": "3",
-        "game_day_of_week": "Mon",
-        "game_date": "August 18",
-        "visitor_team": "Cleveland Browns",
-        "points": "23",
-        "game_location": "@",
-        "home_team": "Washington Redskins",
-        "points_opp": "24"
-    },
-    {
-        "stage": "Pre Season",
-        "week_num": "4",
-        "game_day_of_week": "Thu",
-        "game_date": "August 21",
-        "visitor_team": "Pittsburgh Steelers",
-        "points": "21",
-        "game_location": "@",
-        "home_team": "Philadelphia Eagles",
-        "points_opp": "31"
-    },
-    {
-        "stage": "Pre Season",
-        "week_num": "4",
-        "game_day_of_week": "Fri",
-        "game_date": "August 22",
-        "visitor_team": "Jacksonville Jaguars",
-        "points": "12",
-        "game_location": "@",
-        "home_team": "Detroit Lions",
-        "points_opp": "13"
-    },
-    {
-        "stage": "Pre Season",
-        "week_num": "4",
-        "game_day_of_week": "Fri",
-        "game_date": "August 22",
-        "visitor_team": "Carolina Panthers",
-        "points": "7",
-        "game_location": "@",
-        "home_team": "New England Patriots",
-        "points_opp": "30"
-    },
-    {
-        "stage": "Pre Season",
-        "week_num": "4",
-        "game_day_of_week": "Fri",
-        "game_date": "August 22",
-        "visitor_team": "New York Giants",
-        "points": "35",
-        "game_location": "@",
-        "home_team": "New York Jets",
-        "points_opp": "24"
-    },
-    {
-        "stage": "Pre Season",
-        "week_num": "4",
-        "game_day_of_week": "Fri",
-        "game_date": "August 22",
-        "visitor_team": "Oakland Raiders",
-        "points": "21",
-        "game_location": "@",
-        "home_team": "Green Bay Packers",
-        "points_opp": "31"
-    },
-    {
-        "stage": "Pre Season",
-        "week_num": "4",
-        "game_day_of_week": "Fri",
-        "game_date": "August 22",
-        "visitor_team": "Chicago Bears",
-        "points": "6",
-        "game_location": "@",
-        "home_team": "Seattle Seahawks",
-        "points_opp": "34"
-    },
-    {
-        "stage": "Pre Season",
-        "week_num": "4",
-        "game_day_of_week": "Sat",
-        "game_date": "August 23",
-        "visitor_team": "Minnesota Vikings",
-        "points": "30",
-        "game_location": "@",
-        "home_team": "Kansas City Chiefs",
-        "points_opp": "12"
-    },
-    {
-        "stage": "Pre Season",
-        "week_num": "4",
-        "game_day_of_week": "Sat",
-        "game_date": "August 23",
-        "visitor_team": "Houston Texans",
-        "points": "18",
-        "game_location": "@",
-        "home_team": "Denver Broncos",
-        "points_opp": "17"
-    },
-    {
-        "stage": "Pre Season",
-        "week_num": "4",
-        "game_day_of_week": "Sat",
-        "game_date": "August 23",
-        "visitor_team": "New Orleans Saints",
-        "points": "23",
-        "game_location": "@",
-        "home_team": "Indianapolis Colts",
-        "points_opp": "17"
-    },
-    {
-        "stage": "Pre Season",
-        "week_num": "4",
-        "game_day_of_week": "Sat",
-        "game_date": "August 23",
-        "visitor_team": "St. Louis Rams",
-        "points": "33",
-        "game_location": "@",
-        "home_team": "Cleveland Browns",
-        "points_opp": "14"
-    },
-    {
-        "stage": "Pre Season",
-        "week_num": "4",
-        "game_day_of_week": "Sat",
-        "game_date": "August 23",
-        "visitor_team": "Washington Redskins",
-        "points": "17",
-        "game_location": "@",
-        "home_team": "Baltimore Ravens",
-        "points_opp": "23"
-    },
-    {
-        "stage": "Pre Season",
-        "week_num": "4",
-        "game_day_of_week": "Sat",
-        "game_date": "August 23",
-        "visitor_team": "Dallas Cowboys",
-        "points": "20",
-        "game_location": "@",
-        "home_team": "Miami Dolphins",
-        "points_opp": "25"
-    },
-    {
-        "stage": "Pre Season",
-        "week_num": "4",
-        "game_day_of_week": "Sat",
-        "game_date": "August 23",
-        "visitor_team": "Tennessee Titans",
-        "points": "24",
-        "game_location": "@",
-        "home_team": "Atlanta Falcons",
-        "points_opp": "17"
-    },
-    {
-        "stage": "Pre Season",
-        "week_num": "4",
-        "game_day_of_week": "Sat",
-        "game_date": "August 23",
-        "visitor_team": "Tampa Bay Buccaneers",
-        "points": "27",
-        "game_location": "@",
-        "home_team": "Buffalo Bills",
-        "points_opp": "14"
-    },
-    {
-        "stage": "Pre Season",
-        "week_num": "4",
-        "game_day_of_week": "Sun",
-        "game_date": "August 24",
-        "visitor_team": "San Diego Chargers",
-        "points": "7",
-        "game_location": "@",
-        "home_team": "San Francisco 49ers",
-        "points_opp": "21"
-    },
-    {
-        "stage": "Pre Season",
-        "week_num": "4",
-        "game_day_of_week": "Sun",
-        "game_date": "August 24",
-        "visitor_team": "Cincinnati Bengals",
-        "points": "19",
-        "game_location": "@",
-        "home_team": "Arizona Cardinals",
-        "points_opp": "13"
-    },
-    {
-        "stage": "Pre Season",
-        "week_num": "5",
-        "game_day_of_week": "Thu",
-        "game_date": "August 28",
-        "visitor_team": "Arizona Cardinals",
-        "points": "9",
-        "game_location": "@",
-        "home_team": "San Diego Chargers",
-        "points_opp": "12"
-    },
-    {
-        "stage": "Pre Season",
-        "week_num": "5",
-        "game_day_of_week": "Thu",
-        "game_date": "August 28",
-        "visitor_team": "Seattle Seahawks",
-        "points": "31",
-        "game_location": "@",
-        "home_team": "Oakland Raiders",
-        "points_opp": "41"
-    },
-    {
-        "stage": "Pre Season",
-        "week_num": "5",
-        "game_day_of_week": "Thu",
-        "game_date": "August 28",
-        "visitor_team": "Minnesota Vikings",
-        "points": "19",
-        "game_location": "@",
-        "home_team": "Tennessee Titans",
-        "points_opp": "3"
-    },
-    {
-        "stage": "Pre Season",
-        "week_num": "5",
-        "game_day_of_week": "Thu",
-        "game_date": "August 28",
-        "visitor_team": "Baltimore Ravens",
-        "points": "22",
-        "game_location": "@",
-        "home_team": "New Orleans Saints",
-        "points_opp": "13"
-    },
-    {
-        "stage": "Pre Season",
-        "week_num": "5",
-        "game_day_of_week": "Thu",
-        "game_date": "August 28",
-        "visitor_team": "San Francisco 49ers",
-        "points": "40",
-        "game_location": "@",
-        "home_team": "Houston Texans",
-        "points_opp": "13"
-    },
-    {
-        "stage": "Pre Season",
-        "week_num": "5",
-        "game_day_of_week": "Thu",
-        "game_date": "August 28",
-        "visitor_team": "Denver Broncos",
-        "points": "27",
-        "game_location": "@",
-        "home_team": "Dallas Cowboys",
-        "points_opp": "3"
-    },
-    {
-        "stage": "Pre Season",
-        "week_num": "5",
-        "game_day_of_week": "Thu",
-        "game_date": "August 28",
-        "visitor_team": "Chicago Bears",
-        "points": "13",
-        "game_location": "@",
-        "home_team": "Cleveland Browns",
-        "points_opp": "33"
-    },
-    {
-        "stage": "Pre Season",
-        "week_num": "5",
-        "game_day_of_week": "Thu",
-        "game_date": "August 28",
-        "visitor_team": "Washington Redskins",
-        "points": "24",
-        "game_location": "@",
-        "home_team": "Tampa Bay Buccaneers",
-        "points_opp": "10"
-    },
-    {
-        "stage": "Pre Season",
-        "week_num": "5",
-        "game_day_of_week": "Thu",
-        "game_date": "August 28",
-        "visitor_team": "Carolina Panthers",
-        "points": "10",
-        "game_location": "@",
-        "home_team": "Pittsburgh Steelers",
-        "points_opp": "0"
-    },
-    {
-        "stage": "Pre Season",
-        "week_num": "5",
-        "game_day_of_week": "Thu",
-        "game_date": "August 28",
-        "visitor_team": "New England Patriots",
-        "points": "13",
-        "game_location": "@",
-        "home_team": "New York Giants",
-        "points_opp": "16"
-    },
-    {
-        "stage": "Pre Season",
-        "week_num": "5",
-        "game_day_of_week": "Thu",
-        "game_date": "August 28",
-        "visitor_team": "New York Jets",
-        "points": "7",
-        "game_location": "@",
-        "home_team": "Philadelphia Eagles",
-        "points_opp": "37"
-    },
-    {
-        "stage": "Pre Season",
-        "week_num": "5",
-        "game_day_of_week": "Thu",
-        "game_date": "August 28",
-        "visitor_team": "St. Louis Rams",
-        "points": "13",
-        "game_location": "@",
-        "home_team": "Miami Dolphins",
-        "points_opp": "14"
-    },
-    {
-        "stage": "Pre Season",
-        "week_num": "5",
-        "game_day_of_week": "Thu",
-        "game_date": "August 28",
-        "visitor_team": "Kansas City Chiefs",
-        "points": "14",
-        "game_location": "@",
-        "home_team": "Green Bay Packers",
-        "points_opp": "34"
-    },
-    {
-        "stage": "Pre Season",
-        "week_num": "5",
-        "game_day_of_week": "Thu",
-        "game_date": "August 28",
-        "visitor_team": "Indianapolis Colts",
-        "points": "7",
-        "game_location": "@",
-        "home_team": "Cincinnati Bengals",
-        "points_opp": "35"
-    },
-    {
-        "stage": "Pre Season",
-        "week_num": "5",
-        "game_day_of_week": "Thu",
-        "game_date": "August 28",
-        "visitor_team": "Detroit Lions",
-        "points": "23",
-        "game_location": "@",
-        "home_team": "Buffalo Bills",
-        "points_opp": "0"
-    },
-    {
-        "stage": "Pre Season",
-        "week_num": "5",
-        "game_day_of_week": "Thu",
-        "game_date": "August 28",
-        "visitor_team": "Atlanta Falcons",
-        "points": "24",
-        "game_location": "@",
-        "home_team": "Jacksonville Jaguars",
-        "points_opp": "14"
     }
 ]
