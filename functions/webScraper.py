@@ -1,8 +1,11 @@
+# functions/webScraper.py
+
 import os
 import json
 import time
 from bs4 import BeautifulSoup
 from modules import setup_driver
+from .game_utils import is_duplicate, correct_date_format
 
 MIN_EXECUTION_TIME = 6.5  # Minimum execution time in seconds per year
 
@@ -27,6 +30,7 @@ def parse_regular_season_data(soup):
         yards_lose = row.find('td', {'data-stat': 'yards_lose'}).text.strip() if row.find('td', {'data-stat': 'yards_lose'}) else None
 
         game_data = {
+            "stage": "Regular Season",
             "week_num": week_num,
             "game_day_of_week": game_day_of_week,
             "game_date": game_date,
@@ -60,6 +64,7 @@ def parse_preseason_data(soup):
         points_opp = row.find('td', {'data-stat': 'points_opp'}).text.strip() if row.find('td', {'data-stat': 'points_opp'}) else None
 
         game_data = {
+            "stage": "Pre Season",
             "week_num": week_num,
             "game_day_of_week": game_day_of_week,
             "game_date": game_date,
@@ -68,17 +73,9 @@ def parse_preseason_data(soup):
             "game_location": game_location,
             "home_team": home_team,
             "points_opp": points_opp,
-            "stage": "Preseason"
         }
         data.append(game_data)
     return data
-
-def is_duplicate(existing_data, new_data):
-    """Check if new_data already exists in existing_data list."""
-    for existing in existing_data:
-        if existing == new_data:
-            return True
-    return False
 
 def download_pfc_data(years):
     driver = setup_driver()

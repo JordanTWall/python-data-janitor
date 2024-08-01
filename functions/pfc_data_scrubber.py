@@ -3,6 +3,7 @@
 import os
 import json
 from datetime import datetime
+from .game_utils import correct_date_format, stage_check, rename_week_num, is_duplicate
 
 GAMES_FOLDER = "games_by_year_data"
 
@@ -39,50 +40,23 @@ def scrub_pfc_data():
                     else:
                         game["week_num"] = "Hall of Fame Game"
                         total_changes += 1
-
-                # Ensure "stage" field is present
-                if "stage" not in game:
-                    week_num = game.get("week_num", "")
-                    if week_num == "WildCard":
-                        game["stage"] = "Post Season"
-                    elif week_num == "Division":
-                        game["stage"] = "Post Season"
-                    elif week_num == "ConfChamp":
-                        game["stage"] = "Post Season"
-                    elif week_num == "SuperBowl":
-                        game["stage"] = "Post Season"
-                    elif week_num.isdigit() and int(week_num) <= 4:
-                        game["stage"] = "Pre Season"
-                    else:
-                        game["stage"] = "Regular Season"
-                    total_changes += 1
-                elif game["stage"] == "Preseason":
-                    game["stage"] = "Pre Season"
-                    total_changes += 1
+                
+                # Set the stage field
+                game["stage"] = stage_check(game, game.get("week_num", ""))
+                total_changes += 1
 
                 # Correct `week_num` for specific playoff rounds
-                if game.get("week_num") == "Division":
-                    game["week_num"] = "Divisional Round"
-                    total_changes += 1
-                elif game.get("week_num") == "ConfChamp":
-                    game["week_num"] = "Conference Championships"
-                    total_changes += 1
-                elif game.get("week_num") == "SuperBowl":
-                    game["week_num"] = "Super Bowl"
+                new_week_num = rename_week_num(game.get("week_num", ""))
+                if new_week_num != game["week_num"]:
+                    game["week_num"] = new_week_num
                     total_changes += 1
 
                 # Correct date format for Pre Season games
                 if game.get("stage") == "Pre Season":
-                    game_date = game.get("game_date", "")
-                    if game_date:
-                        try:
-                            game_date_parsed = datetime.strptime(game_date, "%B %d")
-                            corrected_date = game_date_parsed.replace(year=int(year))
-                            if game["game_date"] != corrected_date.strftime("%Y-%m-%d"):
-                                game["game_date"] = corrected_date.strftime("%Y-%m-%d")
-                                total_changes += 1
-                        except ValueError:
-                            continue
+                    corrected_date = correct_date_format(game.get("game_date", ""), year)
+                    if corrected_date and game["game_date"] != corrected_date:
+                        game["game_date"] = corrected_date
+                        total_changes += 1
 
                 cleaned_games.append(game)
 
