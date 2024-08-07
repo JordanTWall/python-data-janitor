@@ -38,8 +38,6 @@ def stage_check(game, week_num):
         return "Post Season"
     elif week_num == "SuperBowl":
         return "Post Season"
-    elif week_num.isdigit() and int(week_num) <= 4:
-        return "Pre Season"
     else:
         return "Regular Season"
 

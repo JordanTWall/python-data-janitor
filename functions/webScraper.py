@@ -45,7 +45,7 @@ def parse_regular_season_data(soup):
         data.append(game_data)
     return data
 
-def parse_preseason_data(soup):
+def parse_preseason_data(soup, year):
     data = []
     table = soup.find('table', {'id': 'preseason'})
     if not table:
@@ -63,6 +63,13 @@ def parse_preseason_data(soup):
         home_team = row.find('td', {'data-stat': 'home_team'}).text.strip() if row.find('td', {'data-stat': 'home_team'}) else None
         points_opp = row.find('td', {'data-stat': 'points_opp'}).text.strip() if row.find('td', {'data-stat': 'points_opp'}) else None
 
+        if year in range(2010, 2016) and year not in [2011, 2016, 2020] and week_num == "1":
+            week_num = "Hall of Fame Game"
+        elif year in range(2010, 2016) and year not in [2011, 2016, 2020] and week_num:
+            week_num = str(int(week_num) - 1)
+        elif year in range(2017, 2024) and week_num == "":
+            week_num = "Hall of Fame Game"
+
         game_data = {
             "stage": "Pre Season",
             "week_num": week_num,
@@ -76,7 +83,6 @@ def parse_preseason_data(soup):
         }
         data.append(game_data)
     return data
-
 def download_pfc_data(years):
     driver = setup_driver()
     regular_season_base_url = "https://www.pro-football-reference.com/years/{}/games.htm"

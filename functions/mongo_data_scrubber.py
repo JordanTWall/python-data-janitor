@@ -25,16 +25,20 @@ def mongo_data_scrubber(db, years="all", teams="all"):
             games_to_update = []
 
             for doc in missing_games:
-                game = doc["game"]
-                date_str = game["date"]["date"]
-                home_team = doc["teams"]["home"]["name"]
-                away_team = doc["teams"]["away"]["name"]
-                season = int(doc["league"]["season"])
+                game = doc.get("game", {})
+                date_str = game.get("date", {}).get("date", "")
+                home_team = doc.get("teams", {}).get("home", {}).get("name", "")
+                away_team = doc.get("teams", {}).get("away", {}).get("name", "")
+                season = int(doc.get("league", {}).get("season", ""))
+
+                if not date_str or not home_team or not away_team or not season:
+                    print(f"Skipping due to missing data: {doc}")
+                    continue
 
                 # Correct for Super Bowl in the following calendar year
                 if season != int(date_str.split("-")[0]):
                     if season + 1 == int(date_str.split("-")[0]):
-                        season += 1
+                        pass  # Continue as this is a Super Bowl game
                     else:
                         continue
 
@@ -44,7 +48,9 @@ def mongo_data_scrubber(db, years="all", teams="all"):
                         games_data = json.load(f)
                     
                     for g in games_data:
-                        if g["game_date"] == date_str and g["home_team"] == home_team and g["visitor_team"] == away_team:
+                        if (g["game_date"] == date_str and 
+                            g["home_team"] == home_team and 
+                            g["visitor_team"] == away_team):
                             stage = g.get("stage")
                             week = g.get("week_num")
                             if stage and week:
@@ -65,4 +71,3 @@ def mongo_data_scrubber(db, years="all", teams="all"):
             print(f"{year} season: {len(games_to_update)} games data scrubbed.")
 
     print(f"Total changes made: {total_changes}")
-

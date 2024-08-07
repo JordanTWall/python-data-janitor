@@ -82,5 +82,12 @@ elif args.action == "scrub":
         scrub_pfc_data(progress_bar=pbar)
 
 elif args.action == "mongo_scrub":
-    # Call the new mongo_data_scrubber function
-    mongo_data_scrubber()
+    # Connect to MongoDB
+    client = get_mongo_client()
+    db = get_database(client)
+
+    if years == "all":
+        years = list(range(2010, 2023))  # or set a specific range if known
+    # Call the mongo_data_scrubber function with the proper arguments
+    mongo_data_scrubber(db, years, args.team)
+    client.close()
