@@ -4,7 +4,6 @@ import subprocess
 import time
 import traceback
 from dotenv import load_dotenv
-from tqdm import tqdm
 from modules import get_mongo_client, get_database
 from functions.data_check import check_missing_data_by_year
 from functions.webScraper import download_pfc_data, download_preseason_data
@@ -81,8 +80,7 @@ elif args.action == "download_preseason":
 
 elif args.action == "scrub":
     total_files = len([name for name in os.listdir("games_by_year_data") if name.startswith("games_in_") and name.endswith(".json")])
-    with tqdm(total=total_files, desc="Scrubbing data", unit="file") as pbar:
-        scrub_pfc_data(progress_bar=pbar)
+    scrub_pfc_data()
 
 elif args.action == "mongo_scrub":
     # Connect to MongoDB

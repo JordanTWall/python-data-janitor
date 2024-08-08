@@ -1,7 +1,7 @@
 import os
 import json
 from datetime import datetime
-from .game_utils import stage_check, rename_week_num, convert_preseason_date
+from .game_utils import rename_week_num, convert_preseason_date
 
 GAMES_FOLDER = "games_by_year_data"
 
@@ -24,12 +24,6 @@ def scrub_pfc_data():
                     continue  # Duplicate game, skip without incrementing change counter
                 seen_games.add(game_tuple)
 
-                # Set the stage field
-                stage = stage_check(game, game.get("week_num", ""))
-                if game.get("stage") != stage:
-                    game["stage"] = stage
-                    total_changes += 1
-
                 # Correct `week_num` for specific playoff rounds
                 new_week_num = rename_week_num(game.get("week_num", ""))
                 if new_week_num != game["week_num"]:
@@ -38,21 +32,28 @@ def scrub_pfc_data():
 
                 # Process game_date
                 game_date = game.get("game_date", "")
-                try:
-                    # If already in YYYY-MM-DD format, skip correction
-                    if len(game_date) == 10 and game_date[4] == '-' and game_date[7] == '-':
-                        # Check if the date can be parsed as it is
-                        datetime.strptime(game_date, "%Y-%m-%d")
-                    else:
-                        # Handle Pre Season games or dates in Month day format
-                        if game.get("stage") == "Pre Season" or not game_date.startswith(year):
-                            corrected_date = convert_preseason_date(game_date, year)
-                            if corrected_date and game_date != corrected_date:
-                                game["game_date"] = corrected_date
-                                total_changes += 1
-                except ValueError:
-                    print(f"Error: Cannot parse date '{game_date}' with year {year}")
-                    continue  # Skip adding to cleaned_games if the date is invalid
+                if not game_date:
+                    del game["game_date"]
+                    total_changes += 1
+                elif game_date == "Playoffs":
+                    total_changes += 1
+                    continue  # Skip this game, don't add to cleaned_games
+                else:
+                    try:
+                        # If already in YYYY-MM-DD format, skip correction
+                        if len(game_date) == 10 and game_date[4] == '-' and game_date[7] == '-':
+                            # Check if the date can be parsed as it is
+                            datetime.strptime(game_date, "%Y-%m-%d")
+                        else:
+                            # Handle Pre Season games or dates in Month day format
+                            if game.get("stage") == "Pre Season" or not game_date.startswith(year):
+                                corrected_date = convert_preseason_date(game_date, year)
+                                if corrected_date and game_date != corrected_date:
+                                    game["game_date"] = corrected_date
+                                    total_changes += 1
+                    except ValueError:
+                        print(f"Error: Cannot parse date '{game_date}' with year {year}")
+                        continue  # Skip adding to cleaned_games if the date is invalid
 
                 cleaned_games.append(game)
 
