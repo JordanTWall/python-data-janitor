@@ -1,5 +1,3 @@
-# functions/game_utils.py
-
 from datetime import datetime
 
 def is_duplicate(existing_data, new_data):
@@ -12,6 +10,8 @@ def is_duplicate(existing_data, new_data):
 def correct_date_format(date_str, year):
     """Convert a date in 'Month Day' format to 'YYYY-MM-DD' format."""
     try:
+        if not isinstance(date_str, str):
+            return None
         date_parsed = datetime.strptime(date_str, "%B %d")
         corrected_date = date_parsed.replace(year=int(year))
         return corrected_date.strftime("%Y-%m-%d")
@@ -21,6 +21,8 @@ def correct_date_format(date_str, year):
 def convert_preseason_date(date_str, year):
     """Convert a 'Month Day' format to 'YYYY-MM-DD' using the provided year."""
     try:
+        if not isinstance(date_str, str):
+            return None
         date_parsed = datetime.strptime(date_str, "%B %d")
         corrected_date = date_parsed.replace(year=int(year))
         return corrected_date.strftime("%Y-%m-%d")

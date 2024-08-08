@@ -1,5 +1,3 @@
-# functions/pfc_data_scrubber.py
-
 import os
 import json
 from datetime import datetime
@@ -25,19 +23,6 @@ def scrub_pfc_data():
                 if game_tuple in seen_games:
                     continue  # Duplicate game, skip without incrementing change counter
                 seen_games.add(game_tuple)
-
-                # Remove games with "week_num": "Week"
-                if game.get("week_num") == "Week":
-                    total_changes += 1
-                    continue  # Invalid week_num, count as a change
-
-                # Handle "week_num" empty or specific cases
-                if not game.get("week_num") or game.get("week_num").strip() == "":
-                    if not game.get("visitor_team") or not game.get("home_team"):
-                        continue  # Invalid game data, skip without incrementing change counter
-                    else:
-                        game["week_num"] = "Hall of Fame Game"
-                        total_changes += 1
 
                 # Set the stage field
                 stage = stage_check(game, game.get("week_num", ""))
