@@ -35,3 +35,6 @@ last step is to save the csv file in the folder games_by_year_data as it's own c
 next is preseason. at https://www.pro-football-reference.com/years/{year}/preseason.htm
 
 
+problems - dates don't match. team names dont match. make array logic for teams based on id / year/ what name city that team would have based on year. 
+
+destructure team_name into city and name. 

@@ -10,13 +10,15 @@ from functions.webScraper import download_pfc_data, download_preseason_data
 from functions.pfc_data_scrubber import scrub_pfc_data
 from functions.mongo_data_scrubber import mongo_data_scrubber
 from functions.mongo_test import mongo_test  # Import the new function
+from functions.mongo_scrub2 import assign_team_ids_and_update_json
+from functions.fetch_game_ids import fetch_game_ids_and_update_json
 
 # Load environment variables from .env file
 load_dotenv()
 
 # Initialize the argument parser
 parser = argparse.ArgumentParser(description="Check for missing data in the NFL games database or download game data.")
-parser.add_argument("action", choices=["check", "download", "download_preseason", "scrub", "mongo_scrub", "download_all", "mongo_test"], help="The action to perform.")
+parser.add_argument("action", choices=["check", "download", "download_preseason", "scrub", "mongo_scrub", "download_all", "mongo_test","mongo_scrub2", "fetch_ids"], help="The action to perform.")
 parser.add_argument("--team", help="The specific team to check or search for. Use 'all' to check all teams.")
 parser.add_argument("--years", help="Comma-separated list of specific years or year ranges to check or download (e.g., '2011,2013,2011-2013'). Use 'all' to check/download all years.")
 parser.add_argument("--date", help="The specific date to search for in YYYY-MM-DD format.")
@@ -126,3 +128,10 @@ elif args.action == "download_all":
 
 elif args.action == "mongo_test":
     mongo_test()
+    
+elif args.action == "mongo_scrub2":
+    assign_team_ids_and_update_json()
+
+elif args.action == "fetch_ids": 
+    fetch_game_ids_and_update_json()
+    

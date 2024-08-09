@@ -2,72 +2,57 @@ import os
 import json
 from pymongo import MongoClient
 from datetime import datetime
-from .game_utils import stage_check, rename_week_num, convert_preseason_date
+from modules import get_mongo_client, get_database
+from functions.game_utils import find_game_by_date, update_game_stage_and_week
 
-GAMES_FOLDER = "games_by_year_data"
+def mongo_data_scrubber(db, years=None, team=None):
+    total_scrubbed = 0
 
-def mongo_data_scrubber(db, years="all", teams="all"):
-    total_changes = 0
-    teams_data = json.load(open('data/teams.json'))["response"]
-    team_map = {team["name"]: team["id"] for team in teams_data}
-
-    # Determine which teams to process
-    if teams == "all":
-        team_names = list(team_map.keys())
+    # Determine the teams to process
+    if team == "all":
+        collections = db.list_collection_names()
     else:
-        team_names = [team for team in teams if team in team_map]
+        collections = [team.replace(" ", "_")]
 
-    for team_name in team_names:
-        print(f"Data scrubbing {team_name}")
-        collection = db[f"nfl_games_by_year.{team_name.replace(' ', '_')}"]
-        for year in (range(2010, 2023) if years == "all" else years):
-            missing_games = collection.find({"$and": [{"game.stage": None}, {"game.week": None}]})
-            games_to_update = []
+    for collection_name in collections:
+        print(f"Processing team: {collection_name.replace('_', ' ')}")
+        collection = db[collection_name]
+        
+        query = {
+            "$and": [
+                {"$or": [{"games.game.stage": None}, {"games.game.week": None}]}
+            ]
+        }
+        if years:
+            query["$and"].append({"parameters.season": {"$in": [str(year) for year in years]}})
+        
+        # Query all games that have missing stage or week
+        documents = collection.find(query)
 
-            for doc in missing_games:
-                game = doc.get("game", {})
-                date_str = game.get("date", {}).get("date", "")
-                home_team = doc.get("teams", {}).get("home", {}).get("name", "")
-                away_team = doc.get("teams", {}).get("away", {}).get("name", "")
-                season = int(doc.get("league", {}).get("season", ""))
+        scrubbed_count = 0
 
-                if not date_str or not home_team or not away_team or not season:
-                    print(f"Skipping due to missing data: {doc}")
-                    continue
+        for document in documents:
+            season = document["parameters"]["season"]
+            for game in document["games"]:
+                if game["game"].get("stage") is None or game["game"].get("week") is None:
+                    game_date = game["game"]["date"]["date"]
+                    print(f"Scrubbing game on {game_date} for {collection_name.replace('_', ' ')}")
 
-                # Correct for Super Bowl in the following calendar year
-                if season != int(date_str.split("-")[0]):
-                    if season + 1 == int(date_str.split("-")[0]):
-                        pass  # Continue as this is a Super Bowl game
-                    else:
-                        continue
-
-                # Match game with local JSON data
-                try:
-                    with open(os.path.join(GAMES_FOLDER, f"games_in_{season}.json"), 'r', encoding='utf-8') as f:
-                        games_data = json.load(f)
+                    # Use the find_game_by_date function to locate the game
+                    game_data, season = find_game_by_date(db, collection_name, game_date)
                     
-                    for g in games_data:
-                        if (g["game_date"] == date_str and 
-                            g["home_team"] == home_team and 
-                            g["visitor_team"] == away_team):
-                            stage = g.get("stage")
-                            week = g.get("week_num")
-                            if stage and week:
-                                games_to_update.append({"_id": doc["_id"], "stage": stage, "week": week})
-                            break
-                except FileNotFoundError:
-                    print(f"Data file for season {season} not found.")
-                except json.JSONDecodeError:
-                    print(f"Error decoding JSON for season {season}.")
+                    if game_data:
+                        # Update the game data in MongoDB if found
+                        update_game_stage_and_week(db, collection_name, game, game_date, season)
+                        scrubbed_count += 1
 
-            # Update games in the database
-            for game in games_to_update:
-                collection.update_one(
-                    {"_id": game["_id"]},
-                    {"$set": {"game.stage": game["stage"], "game.week": game["week"]}}
-                )
-                total_changes += 1
-            print(f"{year} season: {len(games_to_update)} games data scrubbed.")
+        total_scrubbed += scrubbed_count
+        print(f"Data points scrubbed for {collection_name.replace('_', ' ')}: {scrubbed_count}")
 
-    print(f"Total changes made: {total_changes}")
+    print(f"Total data points scrubbed: {total_scrubbed}")
+
+if __name__ == "__main__":
+    client = get_mongo_client()
+    db = get_database(client)
+    mongo_data_scrubber(db, years=[2010, 2011], team="all")
+    client.close()

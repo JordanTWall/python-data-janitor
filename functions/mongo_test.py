@@ -11,7 +11,7 @@ def mongo_test():
     db = get_database(client)
     
     team = "Pittsburgh Steelers"  # Hardcoded for now, change as needed
-    game_date = "2011-02-06"  # Hardcoded for now, change as needed
+    game_date = "2011-08-19"  # Hardcoded for now, change as needed
 
     team_name = team.replace(" ", "_")
 
