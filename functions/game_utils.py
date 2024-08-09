@@ -1,4 +1,6 @@
 from datetime import datetime
+import os
+import json
 
 def is_duplicate(existing_data, new_data):
     """Check if new_data already exists in existing_data list."""
@@ -52,3 +54,72 @@ def rename_week_num(week_num):
     elif week_num == "SuperBowl":
         return "Super Bowl"
     return week_num
+
+def find_game_by_date(db, team_name, game_date):
+    year = int(game_date.split("-")[0])
+    collection = db[team_name]
+
+    # Find the document for the given year
+    document = collection.find_one({"parameters.season": str(year)})
+    print(f"Looking for year {year} in team {team_name} collection")
+
+    if document:
+        # Find the game for the given date
+        game = next((g for g in document["games"] if g["game"]["date"]["date"] == game_date), None)
+        if game:
+            print(f"Game found for date {game_date} in year {year}")
+            return game, year
+
+    # If not found, try the previous year
+    document = collection.find_one({"parameters.season": str(year - 1)})
+    print(f"Looking for year {year - 1} in team {team_name} collection")
+
+    if document:
+        game = next((g for g in document["games"] if g["game"]["date"]["date"] == game_date), None)
+        if game:
+            print(f"Game found for date {game_date} in year {year - 1}")
+            return game, year - 1
+
+    print(f"No game found for team {team_name} on date {game_date} in year {year} or {year - 1}")
+    return None, None
+
+def update_game_stage_and_week(db, team_name, game, game_date, season):
+    if game["game"]["stage"] is None and game["game"]["week"] is None:
+        json_file_path = os.path.join("games_by_year_data", f"games_in_{season}.json")
+
+        print(f"Initial JSON file path: {json_file_path}")
+
+        if not os.path.exists(json_file_path):
+            json_file_path = os.path.join("games_by_year_data", f"games_in_{season - 1}.json")
+            print(f"Updated JSON file path to previous year: {json_file_path}")
+
+        if os.path.exists(json_file_path):
+            with open(json_file_path, 'r', encoding='utf-8') as f:
+                games_data = json.load(f)
+            print(f"Loaded JSON file: {json_file_path}")
+
+            matching_game = next((g for g in games_data if g["game_date"] == game_date and (
+                g.get("home_team") == team_name.replace("_", " ") or 
+                g.get("visitor_team") == team_name.replace("_", " ") or
+                g.get("winner") == team_name.replace("_", " ") or
+                g.get("loser") == team_name.replace("_", " ")
+            )), None)
+
+            if matching_game:
+                print(f"Found matching game in JSON file: {matching_game}")
+                game["game"]["stage"] = matching_game["stage"]
+                game["game"]["week"] = matching_game["week_num"]
+
+                # Update the game object in MongoDB
+                collection = db[team_name]
+                result = collection.update_one(
+                    {"games.game.id": game["game"]["id"]},
+                    {"$set": {"games.$.game.stage": matching_game["stage"], "games.$.game.week": matching_game["week_num"]}}
+                )
+                print(f"Update result: {result.modified_count} documents modified.")
+                if result.modified_count > 0:
+                    print(f"Updated game in MongoDB with stage: {matching_game['stage']} and week: {matching_game['week_num']}")
+                else:
+                    print("Failed to update the game in MongoDB.")
+        else:
+            print(f"JSON file not found: {json_file_path}")

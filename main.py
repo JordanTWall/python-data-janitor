@@ -9,15 +9,17 @@ from functions.data_check import check_missing_data_by_year
 from functions.webScraper import download_pfc_data, download_preseason_data
 from functions.pfc_data_scrubber import scrub_pfc_data
 from functions.mongo_data_scrubber import mongo_data_scrubber
+from functions.mongo_test import mongo_test  # Import the new function
 
 # Load environment variables from .env file
 load_dotenv()
 
 # Initialize the argument parser
 parser = argparse.ArgumentParser(description="Check for missing data in the NFL games database or download game data.")
-parser.add_argument("action", choices=["check", "download", "download_preseason", "scrub", "mongo_scrub", "download_all"], help="The action to perform.")
-parser.add_argument("--team", help="The specific team to check. Use 'all' to check all teams.")
+parser.add_argument("action", choices=["check", "download", "download_preseason", "scrub", "mongo_scrub", "download_all", "mongo_test"], help="The action to perform.")
+parser.add_argument("--team", help="The specific team to check or search for. Use 'all' to check all teams.")
 parser.add_argument("--years", help="Comma-separated list of specific years or year ranges to check or download (e.g., '2011,2013,2011-2013'). Use 'all' to check/download all years.")
+parser.add_argument("--date", help="The specific date to search for in YYYY-MM-DD format.")
 
 args = parser.parse_args()
 
@@ -121,3 +123,6 @@ elif args.action == "download_all":
                 print(f"Failed to download data for {year} after multiple attempts.")
     
     download_all()
+
+elif args.action == "mongo_test":
+    mongo_test()
