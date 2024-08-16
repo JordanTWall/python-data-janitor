@@ -1,7 +1,7 @@
 import os
 import json
-from modules.connection_module import get_mongo_client, get_database
 from datetime import datetime, timedelta
+from modules.connection_module import get_mongo_client, get_database
 
 def fetch_game_ids_and_update_json():
     # Load team names and IDs from teams.json
@@ -26,6 +26,9 @@ def fetch_game_ids_and_update_json():
     db = get_database(client)
 
     games_dir = "games_by_year_data"
+    error_log = []
+    timestamp = datetime.now().strftime("%Y%m%d%H%M%S")
+
     for filename in os.listdir(games_dir):
         if filename.startswith("games_in_") and filename.endswith(".json"):
             file_path = os.path.join(games_dir, filename)
@@ -37,6 +40,11 @@ def fetch_game_ids_and_update_json():
                     print(f"Loaded {filename}: {len(games_data)} games found.")
 
                 for game in games_data:
+                    # Skip the game if it already has a game ID
+                    if "game_id" in game:
+                        print(f"Skipping game on {game['game_date']} as it already has a game ID.")
+                        continue
+
                     winner_id = game.get("winner_id")
                     loser_id = game.get("loser_id")
                     game_date = game.get("game_date")
@@ -59,6 +67,7 @@ def fetch_game_ids_and_update_json():
                     game_date_obj = datetime.strptime(game_date, "%Y-%m-%d")
 
                     # Check the game on the day before, the actual date, and the day after
+                    found_game_id = False
                     for offset in [-1, 0, 1]:
                         check_date = (game_date_obj + timedelta(days=offset)).strftime("%Y-%m-%d")
                         document = collection.find_one({"parameters.season": str(season)})
@@ -68,6 +77,7 @@ def fetch_game_ids_and_update_json():
                                 game_id = matched_game["game"]["id"]
                                 game["game_id"] = game_id
                                 print(f"Assigned game_id {game_id} for game on {check_date} (Original date: {game_date})")
+                                found_game_id = True
                                 break
                     else:
                         # If no match found by date, try to match by team IDs and score
@@ -79,7 +89,19 @@ def fetch_game_ids_and_update_json():
                                 game_id = db_game["game"]["id"]
                                 game["game_id"] = game_id
                                 print(f"Assigned game_id {game_id} based on winner and loser ID match.")
+                                found_game_id = True
                                 break
+
+                    if not found_game_id:
+                        error_message = f"Unable to find ID for {game['winner']} vs {game['loser']} on {game_date}"
+                        print(error_message)
+                        error_log.append({
+                            "winner": game["winner"],
+                            "loser": game["loser"],
+                            "game_date": game_date,
+                            "season": season,
+                            "error": error_message
+                        })
 
                 # Save the updated game data back to the JSON file
                 with open(file_path, 'w', encoding='utf-8') as f:
@@ -93,6 +115,13 @@ def fetch_game_ids_and_update_json():
             except Exception as e:
                 print(f"An error occurred: {e}")
 
+    # Log any errors to a JSON file in test_responses directory
+    if error_log:
+        os.makedirs("test_responses", exist_ok=True)
+        error_log_path = os.path.join("test_responses", f"id_errors_{timestamp}.json")
+        with open(error_log_path, 'w', encoding='utf-8') as error_file:
+            json.dump(error_log, error_file, indent=4)
+        print(f"Logged errors to {error_log_path}")
+
     # Close the MongoDB client after processing all files
     client.close()
-
