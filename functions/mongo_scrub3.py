@@ -1,11 +1,11 @@
 import os
 import json
-from datetime import datetime, timedelta
+from datetime import datetime
 from modules.connection_module import get_mongo_client, get_database
 
 def normalize_team_name(name):
     """Normalize team names to match MongoDB collection names."""
-    name = name.title()  # Convert to title case
+    name = name.title()
     name = name.replace("49Ers", "49ers")
     return name.replace(" ", "_")
 
@@ -17,7 +17,7 @@ def update_stage_week_and_date():
 
             # Create a mapping from team ID to properly formatted collection names
             team_id_to_collection_name = {team["id"]: normalize_team_name(team["name"]) for team in teams_data["response"]}
-            print(f"Team ID to collection name mapping: {team_id_to_collection_name}")
+            team_id_to_logo = {team["id"]: team["logo"] for team in teams_data["response"]}
 
     except FileNotFoundError:
         print("Error: teams.json file not found.")
@@ -35,6 +35,8 @@ def update_stage_week_and_date():
 
     games_dir = "games_by_year_data"
     error_log = []
+    scrubbed_games_count = 0
+    updated_games_count = 0
     timestamp = datetime.now().strftime("%Y%m%d%H%M%S")
 
     for filename in os.listdir(games_dir):
@@ -47,22 +49,17 @@ def update_stage_week_and_date():
                     print(f"Loaded {filename}: {len(games_data)} games found.")
 
                 for game in games_data:
-                    # Skip the game if it doesn't have a game ID
                     if "game_id" not in game:
                         print(f"Skipping game without game_id on {game['game_date']}.")
-                        continue
+                        continue  # Skip to the next game if no game_id is found
 
+                    game_id = game["game_id"]
                     winner_id = game.get("winner_id")
                     loser_id = game.get("loser_id")
-                    game_date = game.get("game_date")
-                    stage = game.get("stage")
-                    week_num = game.get("week_num")
-                    season = game.get("season")
-                    game_id = game.get("game_id")
 
-                    if not (winner_id and loser_id and game_date and stage and week_num and season):
-                        print(f"Skipping game due to missing essential data: {game}")
-                        continue
+                    if not winner_id or not loser_id:
+                        print(f"Missing winner_id or loser_id for game on {game['game_date']}. Skipping.")
+                        continue  # Skip to the next game if either winner_id or loser_id is missing
 
                     # Determine the collection name from the winner's team ID
                     collection_name = team_id_to_collection_name.get(winner_id)
@@ -78,31 +75,48 @@ def update_stage_week_and_date():
                         for db_game in document["games"]:
                             if db_game["game"]["id"] == game_id:
                                 # Update stage, week, and date in MongoDB
-                                db_game["game"]["stage"] = stage
-                                db_game["game"]["week"] = week_num
-                                db_game["game"]["date"]["date"] = game_date
+                                db_game["game"]["stage"] = game.get("stage", db_game["game"]["stage"])
+                                db_game["game"]["week"] = game.get("week_num", db_game["game"]["week"])
+                                db_game["game"]["date"]["date"] = game.get("game_date", db_game["game"]["date"]["date"])
 
-                                # Update home and away teams and logos if they don't exist
-                                if not game.get("home_team"):
-                                    game["home_team"] = db_game["teams"]["home"]["name"]
-                                    game["home_team_id"] = db_game["teams"]["home"]["id"]
-                                    game["home_team_logo"] = db_game["teams"]["home"]["logo"]
-                                
-                                if not game.get("visitor_team"):
-                                    game["visitor_team"] = db_game["teams"]["away"]["name"]
-                                    game["visitor_team_id"] = db_game["teams"]["away"]["id"]
-                                    game["visitor_team_logo"] = db_game["teams"]["away"]["logo"]
+                                # Update home and away teams and logos based on winner and loser IDs
+                                for team_type, team_id in {"home": db_game["teams"]["home"]["id"], "away": db_game["teams"]["away"]["id"]}.items():
+                                    if team_id == winner_id:
+                                        correct_team_name = game["winner"]
+                                        correct_team_logo = team_id_to_logo.get(winner_id)
+                                    elif team_id == loser_id:
+                                        correct_team_name = game["loser"]
+                                        correct_team_logo = team_id_to_logo.get(loser_id)
+                                    else:
+                                        continue  # Skip if the team ID doesn't match
 
-                                print(f"Updated game_id {game_id} with stage, week, date, and teams.")
+                                    # Special case for Washington Redskins logo
+                                    if correct_team_name == "Washington Redskins":
+                                        correct_team_logo = "https://content.sportslogos.net/logos/7/168/full/im5xz2q9bjbg44xep08bf5czq.png"
+
+                                    # Update MongoDB with corrected values
+                                    db_game["teams"][team_type]["name"] = correct_team_name
+                                    db_game["teams"][team_type]["logo"] = correct_team_logo
+
+                                # Save the updated game back to MongoDB
+                                collection.update_one(
+                                    {"games.game.id": game_id},
+                                    {"$set": {"games.$": db_game}}
+                                )
+                                print(f"Updated Game ID {game_id} for The {correct_team_name}")
+
+                                scrubbed_games_count += 1
+                                updated_games_count += 1
+                                break
                     else:
                         error_message = f"Game with ID {game_id} not found in collection {collection_name}."
                         print(error_message)
                         error_log.append({
                             "game_id": game_id,
-                            "winner": game["winner"],
-                            "loser": game["loser"],
-                            "game_date": game_date,
-                            "season": season,
+                            "winner": game.get("winner"),
+                            "loser": game.get("loser"),
+                            "game_date": game.get("game_date"),
+                            "season": game.get("season"),
                             "collection": collection_name,
                             "error": error_message
                         })
@@ -121,6 +135,8 @@ def update_stage_week_and_date():
         with open(error_log_path, 'w', encoding='utf-8') as error_file:
             json.dump(error_log, error_file, indent=4)
         print(f"Logged errors to {error_log_path}")
+
+    print(f"Total games updated in MongoDB: {updated_games_count}")
 
     # Close the MongoDB client after processing all files
     client.close()
