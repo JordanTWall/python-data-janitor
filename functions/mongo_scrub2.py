@@ -4,9 +4,9 @@ import json
 def assign_team_ids_and_update_json():
     # Load the teams JSON file
     try:
-        with open("data/teams.json", "r") as f:
+        with open("data/teams.json", "r", encoding="utf-8") as f:
             teams = json.load(f)
-            print(f"Successfully loaded teams.json: {len(teams)} teams found.")  # Debug statement
+            print(f"Successfully loaded teams.json.")  # Debug statement
     except FileNotFoundError:
         print("Error: teams.json file not found.")
         return
@@ -14,9 +14,18 @@ def assign_team_ids_and_update_json():
         print(f"Error decoding JSON: {e}")
         return
 
+    # Handle possible structures of teams.json
+    if isinstance(teams, dict) and "response" in teams:
+        teams_list = teams["response"]  # Correct format
+    elif isinstance(teams, list):
+        teams_list = teams  # Handle the incorrect format where response key is missing
+    else:
+        print("Error: teams.json is not in the expected format.")
+        return
+
     # Create a mapping from team names to their IDs
     try:
-        team_name_to_id = {team["name"]: team["id"] for team in teams}
+        team_name_to_id = {team["name"]: team["id"] for team in teams_list}
         print(f"Team to ID mapping created: {team_name_to_id}")  # Debug statement
     except TypeError as e:
         print(f"Error processing teams data: {e}")
@@ -46,8 +55,13 @@ def assign_team_ids_and_update_json():
 
                     # Determine the winner and loser for Pre Season games
                     if game["stage"] == "Pre Season":
-                        home_points = int(game["points_opp"])
-                        visitor_points = int(game["points"])
+                        try:
+                            home_points = int(game["points_opp"])
+                            visitor_points = int(game["points"])
+                        except ValueError:
+                            print(f"Skipping game due to invalid points format: {game}")
+                            continue
+
                         if home_points > visitor_points:
                             game["winner"] = home_team
                             game["winner_id"] = team_name_to_id.get(home_team)

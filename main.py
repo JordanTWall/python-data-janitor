@@ -12,14 +12,14 @@ from functions.mongo_data_scrubber import mongo_data_scrubber
 from functions.mongo_test import mongo_test  
 from functions.mongo_scrub2 import assign_team_ids_and_update_json
 from functions.mongo_scrub3 import update_stage_week_and_date
+from functions.mongo_bleach import mongo_bleach
 from functions.fetch_game_ids import fetch_game_ids_and_update_json
 
-# Load environment variables from .env file
 load_dotenv()
 
 # Initialize the argument parser
 parser = argparse.ArgumentParser(description="Check for missing data in the NFL games database or download game data.")
-parser.add_argument("action", choices=["check", "download", "download_preseason", "scrub", "mongo_scrub", "download_all", "mongo_test","mongo_scrub2", "fetch_ids", "mongo_scrub3"], help="The action to perform.")
+parser.add_argument("action", choices=["check", "download", "mongo_bleach", "download_preseason", "scrub", "mongo_scrub", "download_all", "mongo_test","mongo_scrub2", "fetch_ids", "mongo_scrub3"], help="The action to perform.")
 parser.add_argument("--team", help="The specific team to check or search for. Use 'all' to check all teams.")
 parser.add_argument("--years", help="Comma-separated list of specific years or year ranges to check or download (e.g., '2011,2013,2011-2013'). Use 'all' to check/download all years.")
 parser.add_argument("--date", help="The specific date to search for in YYYY-MM-DD format.")
@@ -75,12 +75,12 @@ if args.action == "check":
 
 elif args.action == "download":
     if years == "all":
-        years = list(range(2010, 2023))  
+        years = list(range(2010, 2024))  
     download_pfc_data(years)
 
 elif args.action == "download_preseason":
     if years == "all":
-        years = list(range(2010, 2023))  
+        years = list(range(2010, 2024))  
     download_preseason_data(years)
 
 elif args.action == "scrub":
@@ -93,7 +93,7 @@ elif args.action == "mongo_scrub":
     db = get_database(client)
 
     if years == "all":
-        years = list(range(2010, 2023))  # or set a specific range if known
+        years = list(range(2010, 2024))  # or set a specific range if known
     # Call the mongo_data_scrubber function with the proper arguments
     mongo_data_scrubber(db, years, args.team)
     client.close()
@@ -115,7 +115,7 @@ elif args.action == "download_all":
         return False
 
     def download_all():
-        years = list(range(2010, 2023))
+        years = list(range(2010, 2024))
         for year in years:
             print(f"Starting download for year {year}...")
             preseason_command = f"python main.py download_preseason --years {year}"
@@ -138,6 +138,9 @@ elif args.action == "fetch_ids":
     
 elif args.action == "mongo_scrub3": 
     update_stage_week_and_date()
+    
+elif args.action == "mongo_bleach": 
+    mongo_bleach()
     
 
     

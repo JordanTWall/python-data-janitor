@@ -8,6 +8,7 @@ from .mongo_data_scrubber import mongo_data_scrubber   # Add the import
 from .mongo_scrub2 import assign_team_ids_and_update_json
 from .fetch_game_ids import fetch_game_ids_and_update_json
 from .mongo_scrub3 import update_stage_week_and_date
+from .mongo_bleach import mongo_bleach
 
 __all__ = [
     'check_missing_data_by_year',
@@ -24,5 +25,6 @@ __all__ = [
     'update_game_stage_and_week',
     'assign_team_ids_and_update_json',
     'update_stage_week_and_date',
-    'fetch_game_ids_and_update_json'
+    'fetch_game_ids_and_update_json',
+    'mongo_bleach'
 ]
