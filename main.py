@@ -6,7 +6,7 @@ import traceback
 from dotenv import load_dotenv
 from modules import get_mongo_client, get_database
 from functions.data_check import check_missing_data_by_year
-from functions.webScraper import download_pfc_data, download_preseason_data
+from functions.web_scraper import download_pfc_data, download_preseason_data
 from functions.pfc_data_scrubber import scrub_pfc_data
 from functions.mongo_data_scrubber import mongo_data_scrubber
 from functions.mongo_test import mongo_test  
