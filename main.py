@@ -1,146 +1,103 @@
+# main.py
 import os
 import argparse
 import subprocess
 import time
-import traceback
 from dotenv import load_dotenv
 from modules import get_mongo_client, get_database
+
 from functions.data_check import check_missing_data_by_year
 from functions.web_scraper import download_pfc_data, download_preseason_data
-from functions.pfc_data_scrubber import scrub_pfc_data
-from functions.mongo_data_scrubber import mongo_data_scrubber
-from functions.mongo_test import mongo_test  
-from functions.mongo_scrub2 import assign_team_ids_and_update_json
-from functions.mongo_scrub3 import update_stage_week_and_date
+from functions.assign_team_ids_and_update_json import assign_team_ids_and_update_json
+from functions.update_stage_week_and_date import update_stage_week_and_date
 from functions.mongo_bleach import mongo_bleach
 from functions.fetch_game_ids import fetch_game_ids_and_update_json
 
 load_dotenv()
 
-# Initialize the argument parser
-parser = argparse.ArgumentParser(description="Check for missing data in the NFL games database or download game data.")
-parser.add_argument("action", choices=["check", "download", "mongo_bleach", "download_preseason", "scrub", "mongo_scrub", "download_all", "mongo_test","mongo_scrub2", "fetch_ids", "mongo_scrub3"], help="The action to perform.")
-parser.add_argument("--team", help="The specific team to check or search for. Use 'all' to check all teams.")
-parser.add_argument("--years", help="Comma-separated list of specific years or year ranges to check or download (e.g., '2011,2013,2011-2013'). Use 'all' to check/download all years.")
-parser.add_argument("--date", help="The specific date to search for in YYYY-MM-DD format.")
+parser = argparse.ArgumentParser(description="NFL Game Data CLI")
+parser.add_argument("action", choices=[
+    "check", "download", "download_preseason", "scrub", 
+    "mongo_scrub", "full_mongo_scrub", "download_all", 
+    "mongo_test", "fetch_ids"
+], help="The action to perform.")
+
+parser.add_argument("--team", help="Team to target (or 'all')")
+parser.add_argument("--years", help="Years to target (e.g. '2011,2013,2015-2017')")
+parser.add_argument("--date", help="Specific date (YYYY-MM-DD)")
 
 args = parser.parse_args()
 
-# Helper function to parse years argument
 def parse_years(years_arg):
     if years_arg == "all":
         return "all"
     years = set()
-    try:
-        for part in years_arg.split(','):
-            if '-' in part:
-                start, end = map(int, part.split('-'))
-                years.update(range(start, end + 1))
-            else:
-                years.add(int(part))
-        return sorted(years)
-    except ValueError:
-        raise argparse.ArgumentTypeError("Years must be a comma-separated list of integers or ranges in 'YYYY-YYYY' format.")
+    for part in years_arg.split(','):
+        if '-' in part:
+            start, end = map(int, part.split('-'))
+            years.update(range(start, end + 1))
+        else:
+            years.add(int(part))
+    return sorted(years)
 
-# Parse the years argument only if it is not None
-years = None
-if args.years:
-    years = parse_years(args.years)
+years = parse_years(args.years) if args.years else None
 
 if args.action == "check":
-    # Connect to MongoDB
     client = get_mongo_client()
     db = get_database(client)
 
+    collections = db.list_collection_names() if args.team == "all" else [args.team]
     total_missing = 0
-    if args.team == "all":
-        collections = db.list_collection_names()
-    else:
-        collections = [args.team]
 
-    for collection_name in collections:
-        missing_data = check_missing_data_by_year(db, collection_name)
-        if missing_data:
-            print(f"\n{collection_name.replace('_', ' ')} missing data:")
-            for year, count in sorted(missing_data.items()):
-                if years == "all" or year in years:
-                    print(f"  {year}: missing data for {count} games")
-                    total_missing += count
+    for collection in collections:
+        missing = check_missing_data_by_year(db, collection)
+        for year, count in sorted(missing.items()):
+            if years == "all" or year in years:
+                print(f"{collection.replace('_', ' ')} {year}: {count} games missing")
+                total_missing += count
 
-    # Print the total number of missing data points
-    print(f"\nTotal missing data points: {total_missing}")
-
-    # Close the MongoDB client
+    print(f"\nTotal missing games: {total_missing}")
     client.close()
 
 elif args.action == "download":
-    if years == "all":
-        years = list(range(2010, 2024))  
-    download_pfc_data(years)
+    download_pfc_data(list(range(2010, 2024)) if years == "all" else years)
 
 elif args.action == "download_preseason":
-    if years == "all":
-        years = list(range(2010, 2024))  
-    download_preseason_data(years)
-
-elif args.action == "scrub":
-    total_files = len([name for name in os.listdir("games_by_year_data") if name.startswith("games_in_") and name.endswith(".json")])
-    scrub_pfc_data()
-
-elif args.action == "mongo_scrub":
-    # Connect to MongoDB
-    client = get_mongo_client()
-    db = get_database(client)
-
-    if years == "all":
-        years = list(range(2010, 2024))  # or set a specific range if known
-    # Call the mongo_data_scrubber function with the proper arguments
-    mongo_data_scrubber(db, years, args.team)
-    client.close()
+    download_preseason_data(list(range(2010, 2024)) if years == "all" else years)
 
 elif args.action == "download_all":
-    def run_command(command, max_retries=5, timeout=120):
+    def run(command):
         retries = 0
-        while retries < max_retries:
+        while retries < 5:
             try:
-                result = subprocess.run(command, shell=True, timeout=timeout, check=True)
-                if result.returncode == 0:
+                if subprocess.run(command, shell=True, timeout=120, check=True).returncode == 0:
                     return True
             except subprocess.TimeoutExpired:
-                print(f"Command '{command}' timed out. Retrying...")
+                print("Timeout. Retrying...")
             except subprocess.CalledProcessError as e:
-                print(f"Command '{command}' failed with error: {e}. Retrying...")
+                print(f"Error: {e}. Retrying...")
             retries += 1
             time.sleep(10)
         return False
 
-    def download_all():
-        years = list(range(2010, 2024))
-        for year in years:
-            print(f"Starting download for year {year}...")
-            preseason_command = f"python main.py download_preseason --years {year}"
-            regular_season_command = f"python main.py download --years {year}"
-            if run_command(preseason_command) and run_command(regular_season_command):
-                print(f"{year} download complete.")
-            else:
-                print(f"Failed to download data for {year} after multiple attempts.")
-    
-    download_all()
+    for year in range(2010, 2024):
+        print(f"Downloading year {year}...")
+        run(f"python main.py download_preseason --years {year}")
+        run(f"python main.py download --years {year}")
 
-elif args.action == "mongo_test":
-    mongo_test()
-    
-elif args.action == "mongo_scrub2":
+
+elif args.action == "fetch_ids":
+    fetch_game_ids_and_update_json()
+
+elif args.action == "full_mongo_scrub":
+    print("✅ Assigning team IDs to JSON...")
     assign_team_ids_and_update_json()
-
-elif args.action == "fetch_ids": 
+    
+    print("✅ Fetching game IDs from MongoDB...")
     fetch_game_ids_and_update_json()
     
-elif args.action == "mongo_scrub3": 
+    print("✅ Updating stage/week/date fields...")
     update_stage_week_and_date()
     
-elif args.action == "mongo_bleach": 
+    print("✅ Final bleach pass...")
     mongo_bleach()
-    
-
-    
