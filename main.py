@@ -12,6 +12,7 @@ from functions.assign_team_ids_and_update_json import assign_team_ids_and_update
 from functions.update_stage_week_and_date import update_stage_week_and_date
 from functions.mongo_bleach import mongo_bleach
 from functions.fetch_game_ids import fetch_game_ids_and_update_json
+from functions.normalize_week_fields import normalize_week_fields
 
 load_dotenv()
 
@@ -19,7 +20,7 @@ parser = argparse.ArgumentParser(description="NFL Game Data CLI")
 parser.add_argument("action", choices=[
     "check", "download", "download_preseason", "scrub", 
     "mongo_scrub", "full_mongo_scrub", "download_all", 
-    "mongo_test", "fetch_ids"
+    "mongo_test", "fetch_ids", "normalize_weeks"
 ], help="The action to perform.")
 
 parser.add_argument("--team", help="Team to target (or 'all')")
@@ -85,9 +86,13 @@ elif args.action == "download_all":
         run(f"python main.py download_preseason --years {year}")
         run(f"python main.py download --years {year}")
 
-
 elif args.action == "fetch_ids":
     fetch_game_ids_and_update_json()
+    
+elif args.action == "normalize_weeks":
+    
+    print("🔧 Normalizing game.week values (adding 'Week ' prefix where needed)...")
+    normalize_week_fields()
 
 elif args.action == "full_mongo_scrub":
     print("✅ Assigning team IDs to JSON...")
@@ -101,3 +106,8 @@ elif args.action == "full_mongo_scrub":
     
     print("✅ Final bleach pass...")
     mongo_bleach()
+    
+    print("🔧 Normalizing game.week values (adding 'Week ' prefix where needed)...")
+    normalize_week_fields()
+
+
